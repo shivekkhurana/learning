@@ -1,0 +1,171 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      6009,        162]
+NotebookOptionsPosition[      5566,        143]
+NotebookOutlinePosition[      5907,        158]
+CellTagsIndexPosition[      5864,        155]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"h", " ", "=", " ", "5"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"\[Theta]", " ", "=", " ", 
+   RowBox[{"Pi", "/", "4"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"v", " ", "=", " ", "20"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"g", " ", "=", " ", "9.8"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"p", " ", "=", " ", 
+  RowBox[{"Manipulate", "[", 
+   RowBox[{
+    RowBox[{"ParametricPlot", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"v", " ", 
+         RowBox[{"Cos", "[", "\[Theta]", "]"}], " ", "t"}], ",", " ", 
+        RowBox[{
+         RowBox[{"v", " ", 
+          RowBox[{"Sin", "[", "\[Theta]", "]"}], " ", "t"}], " ", "-", " ", 
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{"1", "/", "2"}], ")"}], " ", "g", " ", 
+          RowBox[{"t", "^", "2"}]}]}]}], "}"}], ",", " ", 
+      RowBox[{"{", 
+       RowBox[{"t", ",", " ", "0", ",", " ", "a"}], "}"}]}], "]"}], ",", " ", 
+    RowBox[{"{", 
+     RowBox[{"a", ",", " ", "0", ",", " ", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"v", " ", 
+          RowBox[{"Sin", "[", "\[Theta]", "]"}]}], " ", "+", " ", 
+         RowBox[{"Sqrt", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"v", "^", "2"}], " ", 
+            RowBox[{
+             RowBox[{"Sin", "[", "\[Theta]", "]"}], "^", "2"}]}], " ", "+", 
+           " ", 
+           RowBox[{"g", " ", "h"}]}], "]"}]}], ")"}], "/", " ", "g"}], ",", 
+      " ", "0.2"}], "}"}]}], "]"}]}]}], "Input",
+ CellChangeTimes->{{3.5678351127023454`*^9, 3.56783511575152*^9}, {
+  3.567835256509571*^9, 3.56783530213418*^9}, {3.567836162013363*^9, 
+  3.567836286701494*^9}, {3.5678363648319635`*^9, 3.5678363650479755`*^9}, {
+  3.5678366360634766`*^9, 3.5678366966839437`*^9}, {3.56783672860977*^9, 
+  3.567836785378017*^9}}],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`a$$ = 2.6, Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{
+      Hold[$CellContext`a$$], 0, 3.0532519858969844`, 0.2}}, 
+    Typeset`size$$ = {360., {49., 54.}}, Typeset`update$$ = 0, 
+    Typeset`initDone$$, Typeset`skipInitDone$$ = 
+    True, $CellContext`a$11223$$ = 0}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, "Variables" :> {$CellContext`a$$ = 0}, 
+      "ControllerVariables" :> {
+        Hold[$CellContext`a$$, $CellContext`a$11223$$, 0]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> 
+      ParametricPlot[{$CellContext`v 
+         Cos[$CellContext`\[Theta]] $CellContext`t, $CellContext`h + \
+$CellContext`v Sin[$CellContext`\[Theta]] $CellContext`t - (1/
+          2) $CellContext`g $CellContext`t^2}, {$CellContext`t, 
+         0, $CellContext`a$$}], 
+      "Specifications" :> {{$CellContext`a$$, 0, 3.0532519858969844`, 0.2}}, 
+      "Options" :> {}, "DefaultOptions" :> {}],
+     ImageSizeCache->{409., {108., 113.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{
+  3.5678362578368435`*^9, 3.5678362884845963`*^9, 3.5678366999951334`*^9, {
+   3.5678367341090846`*^9, 3.56783677022515*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"ParametricPlot", "::", "plld"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Endpoints for \[NoBreak]\\!\\(t\\)\[NoBreak] in \[NoBreak]\
+\\!\\({t, 0, FE`a$$34}\\)\[NoBreak] must have distinct machine-precision \
+numerical values. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/ParametricPlot/plld\\\", ButtonNote -> \
+\\\"ParametricPlot::plld\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.567836772199263*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"ParametricPlot", "::", "plld"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Endpoints for \[NoBreak]\\!\\(t\\)\[NoBreak] in \[NoBreak]\
+\\!\\({t, 0, FE`a$$34}\\)\[NoBreak] must have distinct machine-precision \
+numerical values. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/ParametricPlot/plld\\\", ButtonNote -> \
+\\\"ParametricPlot::plld\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.567836772214264*^9}]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.567835294422739*^9, 3.5678352946227508`*^9}}]
+},
+WindowSize->{707, 505},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"8.0 for Microsoft Windows (64-bit) (October 6, 2011)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 1877, 48, 132, "Input"],
+Cell[2459, 72, 1882, 39, 238, "Output"],
+Cell[4344, 113, 553, 11, 21, "Message"],
+Cell[4900, 126, 553, 11, 21, "Message"]
+}, Open  ]],
+Cell[5468, 140, 94, 1, 31, InheritFromParent]
+}
+]
+*)
+
+(* End of internal cache information *)

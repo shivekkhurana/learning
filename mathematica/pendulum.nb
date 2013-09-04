@@ -1,0 +1,275 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[     10575,        266]
+NotebookOptionsPosition[      9958,        241]
+NotebookOutlinePosition[     10299,        256]
+CellTagsIndexPosition[     10256,        253]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"ParametricPlot", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"l", " ", 
+        RowBox[{"Cos", "[", "\[Theta]", "]"}]}], ",", " ", 
+       RowBox[{"l", " ", 
+        RowBox[{"Sin", "[", "\[Theta]", "]"}]}]}], "}"}], ",", " ", 
+     RowBox[{"{", 
+      RowBox[{"\[Theta]", ",", " ", 
+       RowBox[{
+        RowBox[{"-", "Pi"}], "/", "4"}], ",", " ", "a"}], "}"}], ",", " ", 
+     RowBox[{"PlotRange", "\[Rule]", " ", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "2"}], ",", "2"}], "}"}], ",", " ", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "2"}], ",", "2"}], "}"}]}], "}"}]}], ",", " ", 
+     RowBox[{"Mesh", "\[Rule]", "1"}], ",", 
+     RowBox[{"MeshStyle", "\[Rule]", 
+      RowBox[{"Directive", "[", 
+       RowBox[{
+        RowBox[{"PointSize", "[", "0.04", "]"}], ",", " ", "Red"}], "]"}]}], 
+     ",", " ", 
+     RowBox[{"PlotStyle", "\[Rule]", "Blue"}]}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"a", ",", " ", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"-", "Pi"}], "/", "4"}], "+", "0.01", "+", "0.01"}], ",", " ", 
+     RowBox[{
+      RowBox[{"-", " ", "Pi"}], "-", 
+      RowBox[{"Pi", "/", "4"}]}], ",", "  ", 
+     RowBox[{"Pi", "/", "100"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"l", ",", " ", "0", ",", " ", "2"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.5686868317464867`*^9, 3.5686868488944674`*^9}, {
+  3.568686885911585*^9, 3.568687079967684*^9}, {3.5686873649239826`*^9, 
+  3.5686875462303076`*^9}, {3.5686876156612787`*^9, 3.568687639962669*^9}, {
+  3.568687717151084*^9, 3.5686877206972866`*^9}, {3.5686877954415617`*^9, 
+  3.568687799311783*^9}, {3.5686878397670965`*^9, 3.5686879138183327`*^9}, {
+  3.5686879467212143`*^9, 3.5686879814261994`*^9}, {3.568688173958212*^9, 
+  3.568688195943469*^9}, {3.5686882437152014`*^9, 3.568688271107768*^9}, {
+  3.5686883249388475`*^9, 3.568688358368759*^9}, {3.5686885772722797`*^9, 
+  3.5686887102808876`*^9}, {3.5686887411086507`*^9, 3.5686887489520993`*^9}, {
+  3.568689751829461*^9, 3.568689758357834*^9}, {3.568690377778263*^9, 
+  3.5686903819124994`*^9}, {3.5686929628361197`*^9, 3.5686929655192733`*^9}, {
+  3.568693049677087*^9, 3.568693070347269*^9}}],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`a$$ = -2.179114857512855, $CellContext`l$$ =
+     1.035, Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
+    Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
+    1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{
+      Hold[$CellContext`a$$], -0.7653981633974483, Rational[-5, 4] Pi, 
+      Rational[1, 100] Pi}, {
+      Hold[$CellContext`l$$], 0, 2}}, Typeset`size$$ = {360., {180., 184.}}, 
+    Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
+    True, $CellContext`a$82700$$ = 0, $CellContext`l$82701$$ = 0}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`a$$ = -0.7653981633974483, \
+$CellContext`l$$ = 0}, "ControllerVariables" :> {
+        Hold[$CellContext`a$$, $CellContext`a$82700$$, 0], 
+        Hold[$CellContext`l$$, $CellContext`l$82701$$, 0]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> 
+      ParametricPlot[{$CellContext`l$$ 
+         Cos[$CellContext`\[Theta]], $CellContext`l$$ 
+         Sin[$CellContext`\[Theta]]}, {$CellContext`\[Theta], (-Pi)/
+         4, $CellContext`a$$}, PlotRange -> {{-2, 2}, {-2, 2}}, Mesh -> 2, 
+        MeshStyle -> Directive[
+          PointSize[0.04], Red], PlotStyle -> Blue], 
+      "Specifications" :> {{$CellContext`a$$, -0.7653981633974483, 
+         Rational[-5, 4] Pi, Rational[1, 100] Pi}, {$CellContext`l$$, 0, 2}}, 
+      "Options" :> {}, "DefaultOptions" :> {}],
+     ImageSizeCache->{409., {252., 257.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{
+  3.5686896748850594`*^9, {3.5686897529975276`*^9, 3.56868975863785*^9}, 
+   3.568692380588817*^9, 3.568692966233314*^9, 3.5686930510031624`*^9}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  TagBox[
+   StyleBox[
+    DynamicModuleBox[{$CellContext`a$$ = -2.838849314766712, $CellContext`l$$ \
+= 0.78, Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
+     Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
+     1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{
+       Hold[$CellContext`a$$], -0.7653981633974483, Rational[-5, 4] Pi, 
+       Rational[1, 100] Pi}, {
+       Hold[$CellContext`l$$], 0, 10}}, Typeset`size$$ = {360., {180., 184.}},
+      Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
+     True, $CellContext`a$73508$$ = 0, $CellContext`l$73509$$ = 0}, 
+     DynamicBox[Manipulate`ManipulateBoxes[
+      1, StandardForm, 
+       "Variables" :> {$CellContext`a$$ = -0.7653981633974483, \
+$CellContext`l$$ = 0}, "ControllerVariables" :> {
+         Hold[$CellContext`a$$, $CellContext`a$73508$$, 0], 
+         Hold[$CellContext`l$$, $CellContext`l$73509$$, 0]}, 
+       "OtherVariables" :> {
+        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+         Typeset`specs$$, Typeset`size$$, Typeset`update$$, 
+         Typeset`initDone$$, Typeset`skipInitDone$$}, "Body" :> 
+       ParametricPlot[{$CellContext`l$$ 
+          Cos[$CellContext`\[Theta]], $CellContext`l$$ 
+          Sin[$CellContext`\[Theta]]}, {$CellContext`\[Theta], (-Pi)/
+          4, $CellContext`a$$}, PlotRange -> {{-2, 2}, {-2, 2}}, Mesh -> 1, 
+         MeshStyle -> Directive[
+           PointSize[0.04], Red], PlotStyle -> White], 
+       "Specifications" :> {{$CellContext`a$$, -0.7653981633974483, 
+          Rational[-5, 4] Pi, Rational[1, 100] Pi}, {$CellContext`l$$, 0, 
+          10}}, "Options" :> {}, "DefaultOptions" :> {}],
+      ImageSizeCache->{409., {240., 245.}},
+      SingleEvaluation->True],
+     Deinitialization:>None,
+     DynamicModuleValues:>{},
+     SynchronousInitialization->True,
+     UnsavedVariables:>{Typeset`initDone$$},
+     UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+    Deployed->True,
+    StripOnInput->False],
+   Manipulate`InterpretManipulate[1]], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.568689358210947*^9, 3.568689358576968*^9}}],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{
+  3.5686884023222733`*^9, {3.568688640578901*^9, 3.568688641686964*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"AnimationDirection", "\[Rule]", "ForwardBackward"}]], "Input",
+ CellChangeTimes->{{3.5686888489168167`*^9, 3.5686889124764524`*^9}, {
+  3.5686891078686285`*^9, 3.5686891087916813`*^9}, {3.5686893703256397`*^9, 
+  3.5686893706236567`*^9}, {3.5686896611532745`*^9, 3.5686896705138097`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"AnimationDirection", "\[Rule]", "ForwardBackward"}]], "Output",
+ CellChangeTimes->{
+  3.5686888910822287`*^9, 3.568689109284709*^9, {3.568689371565711*^9, 
+   3.5686893768020105`*^9}, {3.5686896636954193`*^9, 3.568689671229851*^9}}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Manipulate", "[", 
+   RowBox[{"ParametricPlot", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"l", " ", 
+        RowBox[{"Cos", "[", "\[Theta]", "]"}]}], ",", " ", 
+       RowBox[{"l", " ", 
+        RowBox[{"Sin", "[", "\[Theta]", "]"}]}]}], "}"}], ",", " ", 
+     RowBox[{"{", 
+      RowBox[{"\[Theta]", ",", " ", 
+       RowBox[{
+        RowBox[{"-", "Pi"}], "/", "4"}], ",", " ", "a"}], "}"}], ",", " ", 
+     RowBox[{"PlotRange", "\[Rule]", " ", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "2"}], ",", "2"}], "}"}], ",", " ", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "2"}], ",", "2"}], "}"}]}], "}"}]}], ",", " ", 
+     RowBox[{"Mesh", "\[Rule]", "1"}], ",", 
+     RowBox[{"MeshStyle", "\[Rule]", 
+      RowBox[{"Directive", "[", 
+       RowBox[{
+        RowBox[{"PointSize", "[", "0.04", "]"}], ",", " ", "Red"}], "]"}]}], 
+     ",", " ", 
+     RowBox[{"PlotStyle", "\[Rule]", "White"}]}], "]"}], "]"}], ",", 
+  RowBox[{"{", 
+   RowBox[{"a", ",", " ", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"-", "Pi"}], "/", "4"}], "+", "0.01", "+", "0.01"}], ",", " ", 
+    RowBox[{
+     RowBox[{"-", " ", "Pi"}], "-", 
+     RowBox[{"Pi", "/", "4"}]}], ",", "  ", 
+    RowBox[{"Pi", "/", "100"}]}], "}"}], ",", 
+  RowBox[{"{", 
+   RowBox[{"l", ",", " ", "0", ",", " ", "2"}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.56869039329615*^9, 3.5686904596129436`*^9}, {
+  3.5686905173122435`*^9, 3.568690547427966*^9}},
+ EmphasizeSyntaxErrors->True],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.5686930285738797`*^9, 3.5686930313980412`*^9}}],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.5686930168702106`*^9, 3.568693026030734*^9}}]
+},
+WindowSize->{707, 505},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"8.0 for Microsoft Windows (64-bit) (October 6, 2011)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 2308, 53, 92, "Input"],
+Cell[2890, 77, 2274, 44, 526, "Output"]
+}, Open  ]],
+Cell[5179, 124, 2275, 44, 556, "Input"],
+Cell[7457, 170, 119, 2, 31, "Input"],
+Cell[CellGroupData[{
+Cell[7601, 176, 312, 4, 31, "Input"],
+Cell[7916, 182, 256, 4, 30, "Output"]
+}, Open  ]],
+Cell[8187, 189, 1571, 44, 112, "Input"],
+Cell[9761, 235, 96, 1, 31, "Input"],
+Cell[9860, 238, 94, 1, 31, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)

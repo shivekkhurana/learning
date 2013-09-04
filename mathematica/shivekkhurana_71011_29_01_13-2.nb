@@ -1,0 +1,220 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      7706,        211]
+NotebookOptionsPosition[      7094,        185]
+NotebookOutlinePosition[      7435,        200]
+CellTagsIndexPosition[      7392,        197]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"DSolve", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        SuperscriptBox["t", "\[Prime]",
+         MultilineFunction->None], "[", "c", "]"}], "\[Equal]", 
+       RowBox[{
+        RowBox[{"-", "250000"}], " ", 
+        RowBox[{"Exp", "[", 
+         RowBox[{
+          RowBox[{"10", "^", 
+           RowBox[{"-", "6"}]}], " ", 
+          RowBox[{"t", "[", "c", "]"}]}], "]"}]}]}], ",", " ", 
+      RowBox[{
+       RowBox[{"t", "[", "5", "]"}], " ", "\[Equal]", " ", "0"}]}], "}"}], 
+    ",", " ", 
+    RowBox[{"t", "[", "c", "]"}], ",", " ", "c"}], "]"}], 
+  "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.568429172280696*^9, 3.568429174140699*^9}, {
+   3.5684293422299366`*^9, 3.5684295144161787`*^9}, {3.568429554801235*^9, 
+   3.568429558961241*^9}, {3.5684296017363014`*^9, 3.5684296130973167`*^9}, {
+   3.5684296556123767`*^9, 3.568429692856429*^9}, {3.56842975043251*^9, 
+   3.5684297940265713`*^9}, {3.568429877795689*^9, 3.568429919869748*^9}, {
+   3.5684299516327925`*^9, 3.568429962333808*^9}, 3.5684300489239297`*^9, {
+   3.5684302142721624`*^9, 3.568430223353175*^9}, {3.5684305243536053`*^9, 
+   3.5684305452566347`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Solve", "::", "ifun"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Inverse functions are being used by \
+\[NoBreak]\\!\\(Solve\\)\[NoBreak], so some solutions may not be found; use \
+Reduce for complete solution information. \\!\\(\\*ButtonBox[\\\"\
+\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/Solve/ifun\\\", ButtonNote -> \
+\\\"Solve::ifun\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{
+  3.56842992106975*^9, {3.5684299550037975`*^9, 3.5684299586838026`*^9}, 
+   3.5684300498239307`*^9, {3.5684302160321646`*^9, 3.5684302255331783`*^9}, 
+   3.568430517623596*^9, 3.5684305486376395`*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"t", "[", "c", "]"}], "\[Rule]", 
+    RowBox[{
+     RowBox[{"-", "1000000"}], " ", 
+     RowBox[{"Log", "[", 
+      FractionBox[
+       RowBox[{
+        RowBox[{"-", "250000"}], "+", 
+        RowBox[{"250000", " ", "c"}]}], "1000000"], "]"}]}]}], "}"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{{3.5684294665121107`*^9, 3.56842951544718*^9}, 
+   3.568429559891242*^9, {3.5684296028963027`*^9, 3.568429640050355*^9}, 
+   3.56842969327643*^9, 3.568429751702512*^9, 3.56842992106975*^9, {
+   3.5684299550037975`*^9, 3.5684299586838026`*^9}, 3.568430049833931*^9, {
+   3.5684302160321646`*^9, 3.5684302255331783`*^9}, 3.568430517673596*^9, 
+   3.5684305486476393`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"t", "[", "c_", "]"}], "=", 
+  RowBox[{
+   RowBox[{"-", "1000000"}], " ", 
+   RowBox[{"Log", "[", 
+    FractionBox[
+     RowBox[{
+      RowBox[{"-", "250000"}], "+", 
+      RowBox[{"250000", " ", "c"}]}], "1000000"], 
+    "]"}]}]}], "\[IndentingNewLine]", 
+ RowBox[{"Plot", "[", 
+  RowBox[{
+   RowBox[{"t", "[", "x", "]"}], ",", " ", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", " ", 
+     RowBox[{"-", "10"}], ",", " ", "10"}], "}"}]}], "]"}]}], "Input",
+ CellChangeTimes->{{3.568430054534938*^9, 3.5684300929499917`*^9}, {
+  3.56843056315866*^9, 3.5684305742396755`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"-", "1000000"}], " ", 
+  RowBox[{"Log", "[", 
+   FractionBox[
+    RowBox[{
+     RowBox[{"-", "250000"}], "+", 
+     RowBox[{"250000", " ", "c"}]}], "1000000"], "]"}]}]], "Output",
+ CellChangeTimes->{3.5684305749696765`*^9}],
+
+Cell[BoxData[
+ GraphicsBox[{{}, {}, 
+   {Hue[0.67, 0.6, 0.6], LineBox[CompressedData["
+1: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
+A3yF6r0=
+     "]]}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->True,
+  AxesOrigin->{0, 0},
+  PlotRange->{{-10, 10}, {-810930.1708648539, 3.118191219835541*^6}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{
+    Scaled[0.02], 
+    Scaled[0.02]}]], "Output",
+ CellChangeTimes->{3.568430575049677*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"t", "[", "2.5", "]"}]], "Input",
+ CellChangeTimes->{{3.5684306174247365`*^9, 3.5684306198157396`*^9}}],
+
+Cell[BoxData["980829.2530117262`"], "Output",
+ CellChangeTimes->{3.5684306203457403`*^9}]
+}, Open  ]]
+},
+WindowSize->{707, 505},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"8.0 for Microsoft Windows (64-bit) (October 6, 2011)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 1217, 29, 52, "Input"],
+Cell[1799, 53, 711, 14, 39, "Message"],
+Cell[2513, 69, 732, 18, 47, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3282, 92, 603, 18, 68, "Input"],
+Cell[3888, 112, 258, 8, 47, "Output"],
+Cell[4149, 122, 2674, 50, 237, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6860, 177, 126, 2, 31, "Input"],
+Cell[6989, 181, 89, 1, 30, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

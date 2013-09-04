@@ -1,0 +1,23 @@
+<!doctype html>
+<html ng-app>
+  <head>
+		<title>
+			Angular 1
+		</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js">
+    </script>
+  </head>
+	<body>
+    <div class="container" data-ng-init="names=[{name:'shivek', 'city':'delhi'},{'name':'awesome', city:'banglore'},{'name':'is', 'city':'vizag'}]">
+      <input type="text" ng-model="real_time_name"/>
+      <ul>
+        <li data-ng-repeat="person in names | filter:real_time_name | orderBy:city">{{person.name}} - {{person.city}}</li>
+      </ul>
+    </div>
+
+    <div>
+      {{name}}
+      <input type="text" ng-model="name"/>
+    </div>
+	</body>
+</html>

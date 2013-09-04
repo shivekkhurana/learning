@@ -1,0 +1,390 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[     12054,        381]
+NotebookOptionsPosition[     10342,        319]
+NotebookOutlinePosition[     10684,        334]
+CellTagsIndexPosition[     10641,        331]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"DE", " ", "=", " ", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"P", "'"}], "[", "t", "]"}], " ", "\[Equal]", " ", 
+    RowBox[{"r", " ", 
+     RowBox[{"P", "[", "t", "]"}]}]}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.569029932701124*^9, 3.5690299493160744`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"soln", " ", "=", " ", 
+   RowBox[{"DSolve", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"DE", ",", " ", 
+       RowBox[{
+        RowBox[{"P", "[", "0", "]"}], " ", "\[Equal]", " ", "12000"}]}], 
+      "}"}], ",", " ", "P", ",", " ", "t"}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.5690299532432995`*^9, 3.5690299900324035`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"soln", "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.5690300007910185`*^9, 3.5690300024861155`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{"P", "\[Rule]", 
+    RowBox[{"Function", "[", 
+     RowBox[{
+      RowBox[{"{", "t", "}"}], ",", 
+      RowBox[{"12000", " ", 
+       SuperscriptBox["\[ExponentialE]", 
+        RowBox[{"r", " ", "t"}]]}]}], "]"}]}], "}"}], "}"}]], "Output",
+ CellChangeTimes->{3.569030003575178*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"g", " ", "=", " ", 
+   RowBox[{"soln", "[", 
+    RowBox[{"[", 
+     RowBox[{"1", ",", "1", ",", "2"}], "]"}], "]"}]}], 
+  "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.569030009690528*^9, 3.5690300213121924`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Function", "[", 
+  RowBox[{
+   RowBox[{"{", "t", "}"}], ",", 
+   RowBox[{"12000", " ", 
+    SuperscriptBox["\[ExponentialE]", 
+     RowBox[{"r", " ", "t"}]]}]}], "]"}]], "Output",
+ CellChangeTimes->{3.569030021984231*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"g", "[", "t", "]"}]], "Input",
+ CellChangeTimes->{{3.5690300365600643`*^9, 3.569030037511119*^9}}],
+
+Cell[BoxData[
+ RowBox[{"12000", " ", 
+  SuperscriptBox["\[ExponentialE]", 
+   RowBox[{"r", " ", "t"}]]}]], "Output",
+ CellChangeTimes->{3.5690300380141478`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"soln", "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.569030094492378*^9, 3.569030096246478*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{"P", "\[Rule]", 
+    RowBox[{"Function", "[", 
+     RowBox[{
+      RowBox[{"{", "t", "}"}], ",", 
+      RowBox[{"12000", " ", 
+       SuperscriptBox["\[ExponentialE]", 
+        RowBox[{"r", " ", "t"}]]}]}], "]"}]}], "}"}], "}"}]], "Output",
+ CellChangeTimes->{3.569030096937518*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"soln", "[", 
+  RowBox[{"[", 
+   RowBox[{"1", ",", "1", ",", "2"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.5690300980815835`*^9, 3.569030162783284*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Function", "[", 
+  RowBox[{
+   RowBox[{"{", "t", "}"}], ",", 
+   RowBox[{"12000", " ", 
+    SuperscriptBox["\[ExponentialE]", 
+     RowBox[{"r", " ", "t"}]]}]}], "]"}]], "Output",
+ CellChangeTimes->{{3.569030100955748*^9, 3.5690301336026154`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"g", "[", "t", "]"}]], "Input",
+ CellChangeTimes->{{3.5690301646093884`*^9, 3.569030165480438*^9}}],
+
+Cell[BoxData[
+ RowBox[{"12000", " ", 
+  SuperscriptBox["\[ExponentialE]", 
+   RowBox[{"r", " ", "t"}]]}]], "Output",
+ CellChangeTimes->{3.569030166430493*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"Solve", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"g", "[", 
+       RowBox[{"60", "/", "365"}], "]"}], " ", "\[Equal]", " ", "12130"}], 
+     ",", " ", "r"}], "]"}], "//", "N"}], "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.569030172087816*^9, 3.5690302539694996`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Solve", "::", "ifun"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Inverse functions are being used by \
+\[NoBreak]\\!\\(Solve\\)\[NoBreak], so some solutions may not be found; use \
+Reduce for complete solution information. \\!\\(\\*ButtonBox[\\\"\
+\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/Solve/ifun\\\", ButtonNote -> \
+\\\"Solve::ifun\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{{3.5690302161463366`*^9, 3.569030254687541*^9}}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{"r", "\[Rule]", "0.06554836177174675`"}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.5690353356448812`*^9, 3.569035337562991*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"g", "[", "t", "]"}]], "Input",
+ CellChangeTimes->{{3.5690306853521733`*^9, 3.5690306862292233`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"12000", " ", 
+  SuperscriptBox["\[ExponentialE]", 
+   RowBox[{"r", " ", "t"}]]}]], "Output",
+ CellChangeTimes->{3.5690306867902555`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"g2", "[", " ", "t_", "]"}], " ", "=", " ", 
+   RowBox[{"12000", " ", 
+    RowBox[{"Exp", "[", 
+     RowBox[{"0.06554836177174675", "*", "t"}], "]"}]}]}], 
+  "\[IndentingNewLine]", "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.569030693441636*^9, 3.5690307417563996`*^9}, 
+   3.56903195704591*^9, {3.5690353416542253`*^9, 3.5690353419762435`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"12000", " ", 
+  SuperscriptBox["\[ExponentialE]", 
+   RowBox[{"0.06554836177174675`", " ", "t"}]]}]], "Output",
+ CellChangeTimes->{{3.5690307131767645`*^9, 3.569030742945468*^9}, 
+   3.56903195808597*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Animate", "[", 
+  RowBox[{
+   RowBox[{"Plot", "[", 
+    RowBox[{
+     RowBox[{"g2", "[", "t", "]"}], ",", " ", 
+     RowBox[{"{", 
+      RowBox[{"t", ",", "0", ",", "a"}], "}"}], ",", " ", 
+     RowBox[{"AspectRatio", "\[Rule]", "1"}], ",", " ", 
+     RowBox[{"PlotRange", "\[Rule]", 
+      RowBox[{"{", " ", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"0", ",", " ", "120"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"0", ",", 
+          RowBox[{"8", "*", 
+           RowBox[{"10", "^", "6"}]}]}], "}"}]}], " ", "}"}]}]}], "]"}], ",", 
+   " ", 
+   RowBox[{"{", 
+    RowBox[{"a", ",", " ", "0", ",", " ", "100", ",", " ", "0.01"}], "}"}], 
+   ",", " ", 
+   RowBox[{"AnimationRate", "\[Rule]", "20"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.569030665847058*^9, 3.569030674713565*^9}, 
+   3.569030719127105*^9, {3.5690307899791574`*^9, 3.569030797274575*^9}, {
+   3.5690327115040627`*^9, 3.569032717445402*^9}, {3.569032759398802*^9, 
+   3.5690327680952997`*^9}, {3.569035851371379*^9, 3.5690359470858536`*^9}, {
+   3.5690360351748924`*^9, 3.569036083239641*^9}, {3.569036183482375*^9, 
+   3.5690362667201357`*^9}}],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`a$$ = 7.33, Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{
+      Hold[$CellContext`a$$], 0, 100, 0.01}}, Typeset`size$$ = {
+    360., {168., 173.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+    Typeset`skipInitDone$$ = True, $CellContext`a$92846$$ = 0}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, "Variables" :> {$CellContext`a$$ = 0}, 
+      "ControllerVariables" :> {
+        Hold[$CellContext`a$$, $CellContext`a$92846$$, 0]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> Plot[
+        $CellContext`g2[$CellContext`t], {$CellContext`t, 
+         0, $CellContext`a$$}, AspectRatio -> 1, 
+        PlotRange -> {{0, 120}, {0, 8 10^6}}], 
+      "Specifications" :> {{$CellContext`a$$, 0, 100, 0.01, AnimationRate -> 
+         20, AppearanceElements -> {
+          "ProgressSlider", "PlayPauseButton", "FasterSlowerButtons", 
+           "DirectionButton"}}}, 
+      "Options" :> {
+       ControlType -> Animator, AppearanceElements -> None, DefaultBaseStyle -> 
+        "Animate", DefaultLabelStyle -> "AnimateLabel", SynchronousUpdating -> 
+        True, ShrinkingDelay -> 10.}, "DefaultOptions" :> {}],
+     ImageSizeCache->{409., {206., 211.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Animate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{{3.569036241718706*^9, 3.5690362673611727`*^9}}]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.5690318997986355`*^9, 3.5690319006556845`*^9}, 
+   3.5690327818890886`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"g2", "[", 
+    RowBox[{"85", "/", "73"}], "]"}], "//", "N"}], ";"}]], "Input",
+ CellChangeTimes->{{3.5690319031718287`*^9, 3.5690319376378*^9}, 
+   3.5690332056553264`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Clear", "[", "r", "]"}], ";"}]], "Input",
+ CellChangeTimes->{{3.569032609325218*^9, 3.569032621264901*^9}, 
+   3.5690332185200624`*^9}],
+
+Cell[BoxData["\[IndentingNewLine]"], "Input",
+ CellChangeTimes->{{3.569033810257908*^9, 3.5690338412396803`*^9}, {
+  3.5690340828354983`*^9, 3.56903411730447*^9}}],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.569034035637799*^9, 3.569034055342926*^9}}],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.569032646663354*^9, 3.569032663692328*^9}, {
+  3.5690331852771606`*^9, 3.569033196429799*^9}}],
+
+Cell[BoxData["                                               "], "Input",
+ CellChangeTimes->{{3.5690326435921783`*^9, 3.5690326458833094`*^9}}]
+},
+WindowSize->{1350, 633},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"8.0 for Microsoft Windows (64-bit) (October 6, 2011)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[557, 20, 294, 8, 31, "Input"],
+Cell[854, 30, 378, 10, 31, "Input"],
+Cell[CellGroupData[{
+Cell[1257, 44, 135, 2, 52, "Input"],
+Cell[1395, 48, 338, 10, 33, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1770, 63, 259, 7, 52, "Input"],
+Cell[2032, 72, 245, 7, 33, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2314, 84, 122, 2, 31, "Input"],
+Cell[2439, 88, 160, 4, 30, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2636, 97, 131, 2, 52, "Input"],
+Cell[2770, 101, 338, 10, 33, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3145, 116, 182, 4, 31, "Input"],
+Cell[3330, 122, 271, 7, 33, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3638, 134, 122, 2, 31, "Input"],
+Cell[3763, 138, 158, 4, 30, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3958, 147, 333, 9, 52, "Input"],
+Cell[4294, 158, 557, 11, 21, "Message"]
+}, Open  ]],
+Cell[4866, 172, 184, 4, 31, InheritFromParent],
+Cell[CellGroupData[{
+Cell[5075, 180, 124, 2, 31, "Input"],
+Cell[5202, 184, 160, 4, 30, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5399, 193, 404, 9, 72, "Input"],
+Cell[5806, 204, 228, 5, 30, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6071, 214, 1162, 28, 31, "Input"],
+Cell[7236, 244, 2015, 40, 434, "Output"]
+}, Open  ]],
+Cell[9266, 287, 124, 2, 31, InheritFromParent],
+Cell[9393, 291, 219, 6, 31, "Input"],
+Cell[9615, 299, 170, 4, 31, "Input"],
+Cell[9788, 305, 163, 2, 52, "Input"],
+Cell[9954, 309, 92, 1, 31, InheritFromParent],
+Cell[10049, 312, 143, 2, 31, "Input"],
+Cell[10195, 316, 143, 1, 31, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)

@@ -1,0 +1,66 @@
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+
+	/*make content overlay maps, and setting z-index:1; allows modals to overlay maps*/
+div.row, div.columns{
+	z-index: 1;
+	background:rgba(255,255,255,0.5)/*set transparency so maps are always visible*/;
+}
+/**/
+html {
+	height: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background:transparent;
+}
+
+/*mobile 100% height hack*/
+.landscape, .landscape .ui-page, .portrait, .portrait .ui-page {
+	min-height: 100%;
+}
+
+input[type="checkbox"]{
+	display:none;
+}
+
+#wish_list .button{
+	width:100%;
+}
+
+input[type="submit"]{
+	-webkit-border-radius:0px;
+}
+
+#order_of_visiting{
+	position:relative;
+	background:none;
+	
+}
+
+/* -----------------------------------------
+   Page Name 1
+----------------------------------------- */
+
+
+
+
+/* -----------------------------------------
+   Page Name 2
+----------------------------------------- */
+
+

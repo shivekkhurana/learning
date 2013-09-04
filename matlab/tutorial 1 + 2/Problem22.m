@@ -1,0 +1,12 @@
+x = -10:10;
+y1 = x.^2;
+y2 = x.^0.5;
+y3 = -y2;
+title('my graph');
+hold;
+grid;
+plot(x, y1);
+plot(x, y2);
+plot(x, y3);
+xlabel('x');
+ylabel('y');
