@@ -1,5 +1,5 @@
 #include "stdio.h"
-#include "problem_info.h"
+#include "common/problem_info.h"
 
 int main(){
 	info("Even Fibonacci numbers",2);
