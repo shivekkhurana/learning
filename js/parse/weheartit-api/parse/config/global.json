@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "_default": {
+            "link": "weheartit-api"
+        }, 
+        "weheartit-api": {
+            "applicationId": "i9FlIcuAn5M33isINOHIgFUlPZrBFBOoM5RXas55", 
+            "masterKey": "w2LeqYVzNkKzp8HcJzbDbf78TxAGSXOGVsJFJZPX"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.2.12"
+    }
+}
