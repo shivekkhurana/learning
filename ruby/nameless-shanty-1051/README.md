@@ -13,8 +13,5 @@ This is a prototype of a ruby-sinatra web application that let's any tourist vis
 
 The schedule is pinned onto google maps and the user has option to decline locations which don't seem to be interesting.
 
-<pre>
-[Demo on Heroku][1]
-
-[1] : http://nameless-shanty-1051.herokuapp.com/ "Click to see live demo on heroku"
-</pre>
+The app runs on a free heroku dyno (thanks to heroku team) :  [http://nameless-shanty-1051.herokuapp.com/] [1].
+  [1]: http://nameless-shanty-1051.herokuapp.com/ "Click to see live demo on heroku"
