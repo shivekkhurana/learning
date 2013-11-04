@@ -1,15 +1,15 @@
 #include <linux/init.h>
 #include <linux/module.h>
 
-MODULE_LICENCE("Dual BSD/GPL");
-
 static int hello_init(void){
-	printk(KERN_ALERT "hello world\n");
+	//ins module into kernel
+	printk(KERN_ALERT "Hello World :)\n");
 	return 0;
 }
 
 static void hello_exit(void){
-	print(KERN_ALERT "Bye\n");
+	//deallocate resources
+	printk(KERN_ALERT "Bye\n");
 }
 
 module_init(hello_init);
