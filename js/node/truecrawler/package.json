@@ -1,13 +1,27 @@
 {
-  "name": "application-name",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "start": "node app.js"
-  },
-  "dependencies": {
-    "express": "3.4.4",
-    "jade": "*",
-    "cheerio": "~0.12.3"
+    "author": "YOU <YOU@example.com>",
+    "name": "my_actionHero_project",
+    "description": "",
+    "version": "0.0.1",
+    "homepage": "",
+    "repository": {
+      "type": "",
+      "url": ""
+    },
+    "main": "app.js",
+    "keywords": "",
+    "engines": {
+      "node": ">=0.8.0"
+    },
+    "dependencies": {
+      "actionHero": "6.4.3"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "start": "node ./node_modules/.bin/actionHero start",
+      "startCluster": "node ./node_modules/.bin/actionHero startCluster",
+      "actionHero": "node ./node_modules/.bin/actionHero",
+      "help": "node ./node_modules/.bin/actionHero help"
+    }
   }
-}
+  
