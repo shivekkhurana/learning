@@ -96,3 +96,9 @@ doc/
 
 #*nix
 *~
+
+#node_modules
+node_modules
+
+#sublime projects
+*.sublime*
