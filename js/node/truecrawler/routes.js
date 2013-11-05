@@ -41,4 +41,8 @@ example:
 // ROUTES //
 ////////////
 
-exports.routes = {};
+exports.routes = {
+  get:[],
+  post:[],
+  all:[]
+};
