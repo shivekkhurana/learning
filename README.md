@@ -1,4 +1,2 @@
-My Code Practice Arena
-=======================
-
 :)
+==
