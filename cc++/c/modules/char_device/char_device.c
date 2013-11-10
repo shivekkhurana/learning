@@ -19,12 +19,12 @@ dev_t dev_num; //hold major number provided by kernel
 
 #define DEVICE_NAME "char_device"
 
-int device_open(struct inode* inode, struct* filp){
+int device_open(struct inode* inode, struct file* filp){
 	//inode is reference to physical file on disk and contains info about it
 	//file is an abstract open file
 
 	//only allow one process to open this device by using semaphore as a mutual exclusive lock - mutex
-	if (down_interrupt(&virtual_device.sem) != 0)
+	if (down_interruptible(&virtual_device.sem) != 0)
 	{
 		printk(KERN_ALERT "%s:Could not lock device during open", DEVICE_NAME);
 		return -1;
@@ -63,7 +63,7 @@ struct file_operations fops = {
 	.release = device_close,
 	.write = device_write, 
 	.read = device_read
-}
+};
 
 static int driver_entry(void){
 	//here we register the device to the kernel.
@@ -92,7 +92,7 @@ static int driver_entry(void){
 	}
 
 	//create a semaphore
-	sema_init(&virtual_device, sem, 1);
+	sema_init(&virtual_device.sem, 1);
 	return 0;
 }
 
