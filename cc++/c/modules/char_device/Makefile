@@ -1,4 +1,4 @@
-obj-m += hello.o
+obj-m += char_device.o
 
 KDIR = /usr/src/linux-headers-3.11.0-12-generic
 
