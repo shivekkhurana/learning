@@ -12,9 +12,71 @@ struct fake_device{
 	struct semaphore sem; //semaphore is used to prevent corruption due to multiple processors acting on the same device
 } virtual_device;
 
-struct cdev *mycdev
+struct cdev *mycdev;
 int major_number;
-int ret; //hold return value of functions because the kernel stack is small
+int return_value; //hold return value of functions because the kernel stack is small
 dev_t dev_num; //hold major number provided by kernel
 
 #define DEVICE_NAME "char_device"
+
+int device_open(struct inode *inode, struct *filp){
+	//inode is reference to physical file on disk and contains info about it
+	//file is an abstract open file
+
+	//only allow one process to open this device by using semaphore as a mutual exclusive lock - mutex
+	if (down_interrupt(&virtual_device.sem) != 0)
+	{
+		printk(KERN_ALERT "%s:Could not lock device during open", DEVICE_NAME);
+		return -1;
+	}
+
+	printk(KERN_INFO "%s:device opened", DEVICE_NAME);
+	return 0;
+}
+
+struct file_operations fops = {
+	.owner = THIS_MODULE, 
+	.open = device_open,
+	.release = device_close,
+	.write = device_write, 
+	.read = device_read
+}
+
+static int driver_entry(void){
+	//here we register the device to the kernel.
+	//step 1 : Allocate device, get major, minor number
+	return_value = alloc_chrdev_region(&dev_num,0,1,DEVICE_NAME); 
+	if (return_value < 0)
+	{
+		printk(KERN_ALERT "Failed to allocate major number");
+		return return_value; //propogate error
+	}
+	major_number = MAJOR(dev_num);
+	printk(KERN_INFO "major number is : %d", major_number);
+	printk(KERN_INFO "\tuse \"mknod /dev/%s c %d 0\" for device file", DEVICE_NAME, major_number);
+	
+	//step 2 : Allocate device structure
+	mycdev = cdev_alloc();
+	mycdev->ops = &fops; //struct file_operations
+	mycdev->owner = THIS_MODULE;
+
+	//now we need to add cdev to the kernel
+	return_value = cdev_add(mycdev, dev_num, 1);
+	if (return_value < 0)
+	{
+		printk(KERN_ALERT "Failed to add cdev to kernel");
+		return return_value;
+	}
+
+	//create a semaphore
+	sema_init(&virtual_device, sem, 1);
+	return 0;
+}
+
+static void driver_exit(void){
+	//undo stuff in reverse order
+
+	cdev_del(mycdev);
+	unregister_chrdev_region(dev_num, 1);
+	printk(KERN_INFO "Unloaded module");
+}
