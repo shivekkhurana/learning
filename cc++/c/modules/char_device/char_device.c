@@ -19,7 +19,7 @@ dev_t dev_num; //hold major number provided by kernel
 
 #define DEVICE_NAME "char_device"
 
-int device_open(struct inode *inode, struct *filp){
+int device_open(struct inode* inode, struct* filp){
 	//inode is reference to physical file on disk and contains info about it
 	//file is an abstract open file
 
@@ -31,6 +31,29 @@ int device_open(struct inode *inode, struct *filp){
 	}
 
 	printk(KERN_INFO "%s:device opened", DEVICE_NAME);
+	return 0;
+}
+
+ssize_t device_read(struct file* filp, char* bufStoreData, size_t bufCount, loff_t* curOffset){
+	//take data from kernel space to user space
+	//copy_to_user(destination, source, size_to_transfer)
+	printk(KERN_INFO "%s : Reading from device", DEVICE_NAME);
+	return_value = copy_to_user(bufStoreData, virtual_device.data, bufCount);
+	return return_value;
+}
+
+ssize_t device_write(struct file* filp, const char* bufStoreData, size_t bufCount, loff_t* curOffset){
+	//take data from kernel space to user space
+	//copy_to_user(destination, source, size_to_transfer)
+	printk(KERN_INFO "%s : Writing to device", DEVICE_NAME);
+	return_value = copy_from_user(virtual_device.data, bufStoreData, bufCount);
+	return return_value;//signifies total amount of bytes actually written
+}
+
+int device_close(struct inode* inode, struct file* filp){
+	//after invoking this method, other processes can take control of the device
+	up(&virtual_device.sem);
+	printk(KERN_INFO "%s : device closed", DEVICE_NAME);
 	return 0;
 }
 
@@ -80,3 +103,6 @@ static void driver_exit(void){
 	unregister_chrdev_region(dev_num, 1);
 	printk(KERN_INFO "Unloaded module");
 }
+
+module_init(driver_entry);
+module_exit(driver_exit);
