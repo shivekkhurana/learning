@@ -105,18 +105,22 @@ def main():
 	s0 	= Pattern() #init state of mind
 	xi 	= Knowledge()
 
-	w 	= Synapsis(xi)
+	w 	= Synapsis(xi).get()
 	xi 	= xi.get()
 
 	for i in range(p):
 		print "Trying pattern %s"%(i)
-		stemp = s0 #get init state
+		stemp = s0.get() #get init state
 
 		convergence = float("inf")#infinity
 		for j in range(tmax):
 			#try tmax time for max convergence
-			ldistance = levenshtein(xi[i], stemp.get())
-			#todo apply the update formula here
+			ldistance = levenshtein(xi[i], stemp)
+			for k in range(N):
+				h = w[i][k]*stemp[k]
+				if h >= 0 : h = 1 
+				else : h = -1
+				stemp[k] = h
 			if ldistance < convergence:
 				convergence = ldistance
 		print "Max convergence : %s"%(convergence)
