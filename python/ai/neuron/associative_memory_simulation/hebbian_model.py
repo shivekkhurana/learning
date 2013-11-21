@@ -111,19 +111,19 @@ def main():
 	for i in range(p):
 		print "Trying pattern %s"%(i)
 		stemp = s0.get() #get init state
-
-		convergence = float("inf")#infinity
 		for j in range(tmax):
-			#try tmax time for max convergence
-			ldistance = levenshtein(xi[i], stemp)
+			convergence = float("inf")#infinity
 			for k in range(N):
 				h = w[i][k]*stemp[k]
 				if h >= 0 : h = 1 
 				else : h = -1
 				stemp[k] = h
-			if ldistance < convergence:
-				convergence = ldistance
-		print "Max convergence : %s"%(convergence)
+				#try tmax time for max convergence
+				ldistance = levenshtein(xi[i], stemp)
+				if k == 0 : print "Attempt[%s] Distance : %s"%(j,ldistance)
+				if ldistance < convergence:
+					convergence = ldistance
+		print "Convergence : %s\n\n"%(convergence)
 
 if __name__ == "__main__":
 	main()	
