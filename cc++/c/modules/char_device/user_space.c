@@ -9,7 +9,7 @@
 
 int main(void){
 	int fd;
-	char buf[4]="abc";
+	char buf[100]="abc";
 
 	fd = open(CHAR_DEVICE, O_RDWR);
 	if (fd < 0) {
