@@ -7,18 +7,7 @@ import time
 import numpy as np
 import matplotlib.pyplot as plt
 
-m = pymouse.PyMouse()
-
-fig=plt.figure(num=None, figsize=(16, 9), dpi=75, facecolor='w', edgecolor='k')
-plt.axis([0,10,-0.006, 0.006])
-
-
 def main():
-	(x,y) = m.position()
-
-	factor_x = 50000
-	factor_y = 30000
-	
 	if len(sys.argv) != 3:
 		print "\nusage : python tcp_client.py #host #port\n"
 	else:
@@ -32,14 +21,36 @@ def main():
 			plt.show()
 		
 			s.connect((host, port))
+
+			fig=plt.figure(num=None, figsize=(16, 9), dpi=75, facecolor='w', edgecolor='k')
+
+			x_min = 0
+			x_max = 0.5
+			y_min = -30
+			y_max = 30
+
+			t_step = 0.003
+
+			plt.axis([x_min,x_max,y_min,y_max])
+			
+			t_list = []
+			ax_list = []
 			t = 0
+			ax_factor = 10.0
+			
 			while True:
 				#poll
 				data = s.recv(1024).split(',')
 				if len(data) > 0:
-					ax=data[3]
-					plt.scatter(t,ax)
-					t+=0.003
+					ax_list.append(float(data[3])*ax_factor)
+					t_list.append(t)
+					plt.plot(t_list, ax_list, color="blue", linewidth=1.0, linestyle="-")
+					t+=t_step
+
+					if t > x_max:
+						x_min = x_max
+						x_max = 2*x_max
+						plt.axis([x_min,x_max,y_min,y_max])			
 					plt.draw()
 					print t,data[3]
 
