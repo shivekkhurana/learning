@@ -38,19 +38,20 @@ def main():
 			y_max = 2
 			plt.axis([x_min,x_max,y_min,y_max])
 
-			
-			
 			while True: #poll
 				data = s.recv(1024).split(',')
 				if len(data) > 0:
-					(ax, ay) = (float(data[3])*ax_factor, float(data[4])*ay_factor)
+					try:
+						(ax, ay) = (float(data[3])*ax_factor, float(data[4])*ay_factor)
+					except ValueError:
+						(ax,ay) = (0,0) #fix headings transfer
 					ax_list.append(ax)
-					ay_list.append(ay)
+					#ay_list.append(ay)
 					#az_list.append(float(data[5])*az_factor)
 					t_list.append(t)
 
 					plt.plot(t_list, ax_list, color="red", linewidth=1.0, linestyle="-", label="Ax")
-					plt.plot(t_list, ay_list, color="green", linewidth=1.0, linestyle="-",  label="Ay")
+					#plt.plot(t_list, ay_list, color="green", linewidth=1.0, linestyle="-",  label="Ay")
 					#plt.plot(t_list, az_list, color="blue", linewidth=1.0, linestyle="-", label="Az")
 
 					t+=t_step
@@ -64,7 +65,7 @@ def main():
 					if ax < thresh_lower:
 						plt.axhline(y=thresh_lower, c='w', ls='-')
 						thresh_lower = ax
-						t_lower = plt.axhline(y=thresh_lower, c='k', ls='--')		
+						plt.axhline(y=thresh_lower, c='k', ls='--')		
 
 					if ax > thresh_upper:
 						plt.axhline(y=thresh_upper, c='w', ls='-')
@@ -79,10 +80,5 @@ def main():
 			print data
 			raise
 			
-		
-
 if __name__ == "__main__":
 	main()
-
-
-					
