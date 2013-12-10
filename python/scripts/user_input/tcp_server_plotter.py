@@ -75,7 +75,7 @@ class handler(SocketServer.DatagramRequestHandler):
 				plt.axhline(y=self.thresh_upper, c='k', ls='--')		
 
 			plt.draw()
-			print self.t,data[1] #dump on terminal
+			print self.t,data #dump on terminal
 
 
 
