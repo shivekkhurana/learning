@@ -7,33 +7,36 @@ function [X_norm, mu, sigma] = featureNormalize(X)
 
 % You need to set these values correctly
 X_norm = X;
-mu = zeros(1, size(X, 2));
-sigma = zeros(1, size(X, 2));
 
-% ====================== YOUR CODE HERE ======================
-% Instructions: First, for each feature dimension, compute the mean
-%               of the feature and subtract it from the dataset,
-%               storing the mean value in mu. Next, compute the 
-%               standard deviation of each feature and divide
-%               each feature by it's standard deviation, storing
-%               the standard deviation in sigma. 
-%
-%               Note that X is a matrix where each column is a 
-%               feature and each row is an example. You need 
-%               to perform the normalization separately for 
-%               each feature. 
-%
-% Hint: You might find the 'mean' and 'std' functions useful.
-%       
+	for feature=1:size(X,2)
+		mu = zeros(1, size(X, 2));
+		sigma = zeros(1, size(X, 2));
+		X_instant = X(:,feature);
+		mean_X_instant = mean(X_instant);
+		range_X_instant = max(X_instant) - min(X_instant);
 
+		for i=1:length(mu)
+			mu(i) = (mu(i) - mean_X_instant)/range_X_instant;
+		end
 
+		% ====================== YOUR CODE HERE ======================
+		% Instructions: First, for each feature dimension, compute the mean
+		%               of the feature and subtract it from the dataset,
+		%               storing the mean value in mu. Next, compute the 
+		%               standard deviation of each feature and divide
+		%               each feature by it's standard deviation, storing
+		%               the standard deviation in sigma. 
+		%
+		%               Note that X is a matrix where each column is a 
+		%               feature and each row is an example. You need 
+		%               to perform the normalization separately for 
+		%               each feature. 
+		%
+		% Hint: You might find the 'mean' and 'std' functions useful.
+		%       
 
+		X(:,feature) = mu;
 
-
-
-
-
-
-% ============================================================
-
+		% ============================================================
+	end
 end
