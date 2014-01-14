@@ -10,23 +10,7 @@ function [theta, J_history] = gradientDescent(X, y, theta, alpha, num_iters)
 
 
     for iter = 1:num_iters %iter num_iter times
-        temp_theta = theta; %update temp_theta for simultaneous update
-        for i=1:n %iter over all thetas
-            descent = 0;
-            for j=1:m
-                descent = descent + (theta(1)*X(j,1) + theta(2)*X(j,2) - y(j))*X(j,i); 
-            end
-            temp_theta(i) = temp_theta(i) - (alpha/m)*descent;
-
-        end
-        theta = temp_theta;
-        % Save the cost J in every iteration  
-        % cost w.r.t computed theta
-        J_history(iter) = computeCost(X, y, theta); 
-
         
-        disp(sprintf('Iteration = %d\nTheta1 = %f , Theta2 = %f',iter,theta(1), theta(2)))
-        disp(sprintf('Cost J = %f\n\n',J_history(iter)))
     end
 
 end
