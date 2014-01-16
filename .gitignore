@@ -102,3 +102,6 @@ node_modules
 
 #sublime projects
 *.sublime*
+
+#matlab login_data
+*login_data.mat

@@ -17,19 +17,14 @@ function [J, grad] = costFunctionReg(theta, X, y, lambda)
 	%               Compute the partial derivatives and set grad to the partial
 	%               derivatives of the cost w.r.t. each parameter in theta
 
+	temp_theta = theta;
+	temp_theta(1) = 0;
+
 	s = sigmoid(X*theta);
-	J = ( (-y)' *log(s)-(1-y)' * log(1-s))/m + (lambda/(2*m))*sum(theta.^2); 
+	J = ( (-y)' *log(s)-(1-y)' * log(1-s))/m + (lambda/(2*m))*sum(temp_theta.^2); 
 
-	for i=1:m
-		for j=1:length(grad)
-			grad(j) = grad(j) + (sigmoid(theta'*X(i,:)') - y(i))*X(i,j);
-			if j>1
-				grad(j) += lambda*theta(j);
-			end
-		end
-	end
-	grad = grad/m;
-
+	grad = ( ((X')*(s - y)) + (lambda*temp_theta) )./m;
+	
 	% =============================================================
 
 end
