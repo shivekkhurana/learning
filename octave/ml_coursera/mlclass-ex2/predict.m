@@ -5,7 +5,6 @@ function p = predict(theta, X)
 	%   threshold at 0.5 (i.e., if sigmoid(theta'*x) >= 0.5, predict 1)
 
 	m = size(X, 1); % Number of training examples
-
 	% You need to return the following variables correctly
 	p = zeros(m, 1);
 
@@ -15,14 +14,13 @@ function p = predict(theta, X)
 	%               You should set p to a vector of 0's and 1's
 	%
 
-	for i=1:m
-		h = sigmoid(X(i,:) * theta);
-		if h >= 0.5
-			p(i) = 1;
-		elseif h < 0.5
-			p(i) = 0;
-		end
+
+	h = sigmoid(X*theta);
+	activated = find(h >= 0.5);
+	for i=1:size(activated, 1)
+		p(activated(i)) = 1;
 	end
+
 
 	% =============================================================
 end

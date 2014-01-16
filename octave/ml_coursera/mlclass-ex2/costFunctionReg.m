@@ -18,12 +18,7 @@ function [J, grad] = costFunctionReg(theta, X, y, lambda)
 	%               derivatives of the cost w.r.t. each parameter in theta
 
 	s = sigmoid(X*theta);
-	J = ( (-y)' *log(s)-(1-y)' * log(1-s))/m; 
-	reg_cost = 0;
-	for i=2:length(theta)
-		reg_cost += theta(i)^2;
-	end
-	J += (lambda/(2*m))*reg_cost;
+	J = ( (-y)' *log(s)-(1-y)' * log(1-s))/m + (lambda/(2*m))*sum(theta.^2); 
 
 	for i=1:m
 		for j=1:length(grad)
