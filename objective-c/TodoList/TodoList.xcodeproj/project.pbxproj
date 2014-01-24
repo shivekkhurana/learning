@@ -19,6 +19,7 @@
 		06D6962618923C9E0076AA59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06D6960E18923C9E0076AA59 /* UIKit.framework */; };
 		06D6962E18923C9E0076AA59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06D6962C18923C9E0076AA59 /* InfoPlist.strings */; };
 		06D6963018923C9E0076AA59 /* TodoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D6962F18923C9E0076AA59 /* TodoListTests.m */; };
+		06D6963C1892426B0076AA59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06D6963B1892426B0076AA59 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		06D6962B18923C9E0076AA59 /* TodoListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TodoListTests-Info.plist"; sourceTree = "<group>"; };
 		06D6962D18923C9E0076AA59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		06D6962F18923C9E0076AA59 /* TodoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoListTests.m; sourceTree = "<group>"; };
+		06D6963B1892426B0076AA59 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				06D6961918923C9E0076AA59 /* AppDelegate.h */,
 				06D6961A18923C9E0076AA59 /* AppDelegate.m */,
+				06D6963B1892426B0076AA59 /* Main.storyboard */,
 				06D6961C18923C9E0076AA59 /* Images.xcassets */,
 				06D6961118923C9E0076AA59 /* Supporting Files */,
 			);
@@ -219,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06D6963C1892426B0076AA59 /* Main.storyboard in Resources */,
 				06D6961518923C9E0076AA59 /* InfoPlist.strings in Resources */,
 				06D6961D18923C9E0076AA59 /* Images.xcassets in Resources */,
 			);
