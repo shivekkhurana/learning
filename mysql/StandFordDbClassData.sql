@@ -16,7 +16,7 @@ insert into College values("Berkeley", "CA", 36000);
 insert into College values("MIT", "MA", 10000);
 insert into College values("Cornell", "NY", 21000);
 
-select * from College;
+#select * from College;
 
 create table Student(
 	sID int(11) primary key auto_increment,
@@ -41,7 +41,7 @@ insert into Student values(765, "Jay", 2.9, 1500);
 insert into Student values(654, "Amy", 3.9, 1000);
 insert into Student values(543, "Craig", 3.4, 2000);
 
-select * from Student;
+#select * from Student;
 
 create table Apply(
 	sID int,
@@ -73,4 +73,4 @@ insert into Apply values(765, "Cornell", "history", "N");
 insert into Apply values(765, "Cornell", "psychology", "Y");
 insert into Apply values(543, "MIT", "CS", "N");
 
-select * from Apply;
+#select * from Apply;
