@@ -150,3 +150,24 @@ where GPA >= all(select GPA from Student);
 #find all students who are not from the smallest highschool
 select sName, sizeHS from Student
 where sizeHS > any (select distinct sizeHS from Student);
+
+##subqueries in FROM and SELECT
+
+#select all students whose scaled GPA - scaled(GPA) > 1
+select  sName, GPA, GPA*(sizeHS/1000.0) as scaledGPA from Student
+where GPA - GPA*(sizeHS/1000.0) > 1 or GPA*(sizeHS/1000.0) - GPA > 1 ;
+#above is redundant because we had to writed scaledGPA expression thrice
+
+#above query with reduced redundancy
+select * 
+from (select sName, GPA, GPA*(sizeHS/1000.0) as scaledGPA from Student) as S
+where abs(GPA - scaledGPA) > 1;
+
+#pair colleges with highest GPA of their applicants
+select Student.sName, College.cName, Student.GPA from College, Student, Apply
+where Student.sID = Apply.sID and Apply.cName = College.cName
+and Student.GPA >= all(select GPA from Student, Apply 
+						where Student.sID = Apply.sID and Apply.cName = College.cName);
+#above query crosses Student and Apply twice. There should be a better way out
+
+
