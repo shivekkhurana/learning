@@ -170,4 +170,47 @@ and Student.GPA >= all(select GPA from Student, Apply
 						where Student.sID = Apply.sID and Apply.cName = College.cName);
 #above query crosses Student and Apply twice. There should be a better way out
 
+##Aggregation min, max, sum, avg, count
 
+#avg. gpa of all students
+select avg(GPA) from Student;
+
+#min gpa of student applying to CS
+select min(GPA) from Student, Apply 
+where Student.sID = Apply.sID and Apply.major = "CS";
+
+#avg GPA of all students who applied to CS
+select avg(GPA) from Student
+where sID in (select sID from Apply where major="CS");
+
+#students such that number of students with same GPA is equal to number
+#of other student with same sizeHS
+select * from Student S1
+where (
+	(select count(*) from Student S2 
+		where S1.GPA = S2.GPA and S1.sID != S2.sID)  =
+	(select count(*) from Student S2 
+		where S1.sizeHS = S2.sizeHS and S1.sID != S2.sID)
+);
+
+#Amount by which the average GPA of students applying to 
+#computer science exceeds the average GPA of students not applying to CS
+
+select CS.avgGPA - NonCS.avgGPA as CS_minus_NonCS_GPA
+from (
+	(select avg(GPA) as avgGPA from Student 
+		where sID in (select sID from Apply where major="CS")) as CS, 
+	(select avg(GPA) as avgGPA from Student 
+		where sID not in (select sID from Apply where major="CS")) as NonCS
+);
+
+#number of applications to each college
+select cName, count(cName) as "Number of applications"
+from Apply group by cName;
+
+#college enrollments by state
+select state, sum(enrollment) as "Total enrollment"
+from College
+group by state;
+
+#min and max gpas of students who have applied to each college and major 
