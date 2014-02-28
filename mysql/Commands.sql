@@ -224,7 +224,27 @@ where Student.sID = Apply.sID
 group by Apply.sID;
 
 
-#list colleges with fewer than 5 applicants
+#list colleges with fewer than 5 applications
 select cName from Apply
 group by cName
 having  count(*) < 5;
+
+select distinct cName from Apply A1
+where 5 > (select count(*) from Apply A2 where A1.cName=A2.cName);
+
+#colleges with less than 5 applicants
+select cName from Apply
+group by cName
+having count(distinct sID) < 5;
+
+#majors whose applicant's maximum GPA is lower than the average
+select major from Apply, Student
+where Student.sID = Apply.sID
+group by major
+having max(GPA) < (select avg(GPA) from Student);
+
+##NULL values
+insert into Student values(432, "Kevin", NULL, 1500);
+insert into Student values(321, "Lori", NULL, 2500);
+
+#nothing to do here
