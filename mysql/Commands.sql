@@ -247,4 +247,7 @@ having max(GPA) < (select avg(GPA) from Student);
 insert into Student values(432, "Kevin", NULL, 1500);
 insert into Student values(321, "Lori", NULL, 2500);
 
-#nothing to do here
+select count(distinct GPA) from Student; #gives 7
+select distinct GPA from Student; #gives 8
+
+#> count doesn't counts distinct values
