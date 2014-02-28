@@ -214,3 +214,17 @@ from College
 group by state;
 
 #min and max gpas of students who have applied to each college and major 
+select cName, major, min(GPA), max(GPA) from Student, Apply
+where Student.sID = Apply.sID
+group by cName, major;
+
+#number of colleges that have been applied to by each student
+select distinct  Student.sName, count(distinct Apply.cName), Apply.cName from Student, Apply 
+where Student.sID = Apply.sID
+group by Apply.sID;
+
+
+#list colleges with fewer than 5 applicants
+select cName from Apply
+group by cName
+having  count(*) < 5;
