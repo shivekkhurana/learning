@@ -1,16 +1,15 @@
-create database DbClass;
+create database if not exists DbClass;
 
 use DbClass;
 
-create table College(
+create table if not exists  College(
 	cName varchar(255), 
 	state varchar(255), 
 	enrollment int
 );
 
 #desc College;
-#truncate College;
-
+truncate College;
 insert into College values("Standford", "CA", 15000);
 insert into College values("Berkeley", "CA", 36000);
 insert into College values("MIT", "MA", 10000);
@@ -18,7 +17,7 @@ insert into College values("Cornell", "NY", 21000);
 
 #select * from College;
 
-create table Student(
+create table if not exists  Student(
 	sID int(11) primary key auto_increment,
 	sName varchar(255),
 	GPA float,
@@ -26,8 +25,7 @@ create table Student(
 );
 
 #desc Student;
-#truncate Student;
-
+truncate Student;
 insert into Student values(123, "Amy", 3.9, 1000);
 insert into Student values(234, "Bob", 3.6, 1500);
 insert into Student values(345, "Craig", 3.5, 500);
@@ -43,7 +41,7 @@ insert into Student values(543, "Craig", 3.4, 2000);
 
 #select * from Student;
 
-create table Apply(
+create table if not exists  Apply(
 	sID int,
 	cName varchar(255),
 	major varchar(255),
@@ -51,8 +49,7 @@ create table Apply(
 );
 
 #desc Apply;
-#truncate Apply;
-
+truncate Apply;
 insert into Apply values(123, "Standford", "CS", "Y");
 insert into Apply values(123, "Standford", "EE", "N");
 insert into Apply values(123, "Berkeley", "CS", "Y");

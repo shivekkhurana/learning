@@ -251,3 +251,39 @@ select count(distinct GPA) from Student; #gives 7
 select distinct GPA from Student; #gives 8
 
 #> count doesn't counts distinct values
+
+##DATA modification statements
+
+insert into College values("Carnegie Mellon", "PA", 11500);
+
+#have all students who haven't applied anywhere yet to apply to carnegie mellon CS
+insert into Apply (select sID, "Carnegie Mellon", "CS", null from Student 
+where sID not in (select sID from Apply));
+
+#admit to carnegie mellon EE all students who applied for 
+#EE somewhere and were turned down
+insert into Apply select sID, "Carnegie Mellon", "EE", "Y" from Apply 
+where major="CS" and decision="N";
+
+SET SQL_SAFE_UPDATES=0;
+
+#delete all students who have applied to two different majors
+delete from Student where sID in 
+(select sID from Apply
+group by sID
+having count(distinct major) > 2);
+
+#find applicants to carnegie mellon with GPA<3.6 but turn them into economics major
+#> not working on workbench
+update Apply
+set decision="Y" and major="economics"
+where cName like "Car%"
+and sID in (select sID from Student where GPA < 3.6);
+
+#give all students a max possible GPA
+update Student
+set GPA = (select max(GPA) from Student);
+
+#accept all students to all
+update Apply 
+set decision="Y";
