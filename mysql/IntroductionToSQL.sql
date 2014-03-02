@@ -287,3 +287,39 @@ set GPA = (select max(GPA) from Student);
 #accept all students to all
 update Apply 
 set decision="Y";
+
+##Joins
+#> inner join is equivalent to ra's theta join
+#> natural join is equivalent to ra's natural join
+#> inner join using(attrs)
+#> outer join (left, right and full) similar to theta join, except that when tuples
+# >don't match the condition, they are still added to results and padded with null values
+
+#select student name and majors to which they have applied
+select distinct sName, major from Student join Apply
+on Student.sID = Apply.sID;
+
+#find names and GPAs of all students who came from HS size < 1000 and have applied
+#to standford CS major
+select sName, GPA from Student join Apply 
+on Student.sID = Apply.sID 
+where Student.sizeHS < 1000
+and Apply.major = "CS"
+and Apply.cName = "Standford"; 
+
+#basic info after joining all three realtions
+
+select Student.sID, GPA, Apply.major, College.cName, College.enrollment
+from (Student join Apply on Student.sID = Apply.sID) join College
+on College.cName = Apply.cName;
+
+select sName, major from Student inner join Apply
+on Student.sID = Apply.sID;
+#> above : is a natural join, below is the same but explicit
+select sName, major from Student natural join Apply;
+
+select sName, major from Student join Apply using(sID); #explicit natural join
+
+#find all students with same gpa
+select * from Student S1 join Student S2 using(GPA)
+where S1.sID < S2.sID;
