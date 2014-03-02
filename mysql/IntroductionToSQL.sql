@@ -1,99 +1,47 @@
 use DbClass;
 
-select 
-    *
-from
-    Student
-where
-    GPA > 3.6;
+select * from Student
+where GPA > 3.6;
 
-select 
-    *
-from
-    Student;
+select * from Student;
 
 
-use DbClass;
+select Student.sName, Apply.cName, Apply.major from Student, Apply
+where Student.sID = Apply.sID;
 
-select 
-    Student.sName, Apply.cName, Apply.major
-from
-    Student,
-    Apply
-where
-    Student.sID = Apply.sID;
+select sName, GPA, decision from Student, Apply
+where Student.sId = Apply.sID
+and sizeHS < 1000
+and cName = 'Standford'
+and major = 'CS';
 
-select 
-    sName, GPA, decision
-from
-    Student,
-    Apply
-where
-    Student.sId = Apply.sID
-        and sizeHS < 1000
-        and cName = 'Standford'
-        and major = 'CS';
+select distinct College.cName from College, Apply
+where College.enrollment > 20000
+and Apply.cName = College.cName
+and Apply.major = 'CS';
 
-select distinct
-    College.cName
-from
-    College,
-    Apply
-where
-    College.enrollment > 20000
-        and Apply.cName = College.cName
-        and Apply.major = 'CS';
-
-select 
-    Student.sID, sName, GPA, College.cName, enrollment
-from
-    Student,
-    Apply,
-    College
-where
-    Apply.sID = Student.sID
-        and Apply.cName = College.cName
+select Student.sID, sName, GPA, College.cName, enrollment from Student,Apply, College
+where Apply.sID = Student.sID
+and Apply.cName = College.cName
 order by GPA desc , enrollment;
 
-select 
-    Apply.sID, sName, cName, major
-from
-    Student,
-    Apply
-where
-    Apply.sID = Student.sID
-        and major like '%bio%';
+select Apply.sID, sName, cName, major from Student, Apply
+where Apply.sID = Student.sID
+and major like '%bio%';
 
-select 
-    *
-from
-    Student,
-    Apply
-where
-    Apply.sID = Student.sID;
-select 
-    A.sID, sName, cName, major
-from
-    Student S,
-    Apply A
-where
-    A.sID = S.sID and major like '%bio%';
+select * from Student,Apply
+where Apply.sID = Student.sID;
 
-select 
-    S1.sID, S1.sName, S2.sID, S2.sName, S1.GPA
-from
-    Student S1,
-    Student S2
-where
-    S1.GPA = S2.GPA and S1.sID < S2.sID;select 
-    sName
-from
-    Student 
-union select 
-    cName
-from
-    College;
+select A.sID, sName, cName, major from Student S, Apply A
+where A.sID = S.sID and major like '%bio%';
 
+select S1.sID, S1.sName, S2.sID, S2.sName, S1.GPA
+from Student S1, Student S2
+where S1.GPA = S2.GPA and S1.sID < S2.sID;
+
+select sName from Student 
+union 
+select cName from College;
 
 #intersect : get ids of all students who have applied to cs and ee major
 #> mysql doesn't have intersect. 
@@ -323,3 +271,25 @@ select sName, major from Student join Apply using(sID); #explicit natural join
 #find all students with same gpa
 select * from Student S1 join Student S2 using(GPA)
 where S1.sID < S2.sID;
+
+#find sName, id, collge they are applyng to and the major
+select sName, Student.sID, cName, major from Student inner join Apply using(sID);
+
+#find sName, id, collge they are applyng to and the major
+##also include students who haven't applied anywhere
+select sName, Student.sID, cName, major from Student left outer join Apply using(sID);
+#> left outer join takes tuples which do not satisfy the join condition from 
+#left table (Student) and pads them with null values in the result
+# such tuples are also called dangling tuples
+
+#add Apply tuples that don't match any students
+insert into Apply values(321, "MIT", "history", "N");
+insert into Apply values(321, "MIT", "psychology", "Y");
+
+select sName, Student.sID, cName, major from Student right outer join Apply using(sID); 
+
+#full outer join
+
+select sName, Student.sID, cName, major from Student left outer join Apply using(sID)
+union
+select sName, Student.sID, cName, major from Student right outer join Apply using(sID);
