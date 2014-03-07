@@ -34,14 +34,38 @@ select name, title from Movie, Reviewer, (
 ) X 
 where X.rID = Reviewer.rID and X.mID = Movie.mID;
 
-#For each movie that has at least one rating, find the highest number of stars that movie received. Return the movie title and number of stars. Sort by movie title.
+#For each movie that has at least one rating, find the highest number of stars 
+#that movie received. Return the movie title and number of stars. Sort by movie title.
 select title, stars from Movie join (select mID, max(stars) as stars from Rating
 group by mID) R using(mID) order by title;
 
-#List movie titles and average ratings, from highest-rated to lowest-rated. If two or more movies have the same average rating, list them in alphabetical order. 
+#List movie titles and average ratings, from highest-rated to lowest-rated. 
+#If two or more movies have the same average rating, list them in alphabetical order. 
 select title, stars from Movie join (select mID, avg(stars) as stars from Rating
 group by mID) R using(mID) order by stars desc, title;
 
-#Find the names of all reviewers who have contributed three or more ratings. (As an extra challenge, try writing the query without HAVING or without COUNT.) 
+#Find the names of all reviewers who have contributed three or more ratings. 
+#(As an extra challenge, try writing the query without HAVING or without COUNT.) 
 select name from Reviewer 
 where rID in (select rID from Rating group by rID having count(*) >= 3);
+
+##Data Modification Commands
+
+#Add the reviewer Roger Ebert to your database, with an rID of 209. 
+insert into Reviewer values(209, "Roger Ebert");
+
+#Insert 5-star ratings by James Cameron for all movies in the database. 
+#Leave the review date as NULL
+insert into Rating select rID, mID, 5, null from 
+(select rID from Reviewer where name = "James Cameron") RV , 
+(select mID from Movie) MV;
+
+#For all movies that have an average rating of 4 stars or higher, add 25 
+#to the release year. (Update the existing tuples; don't insert new tuples.) 
+update Movie set year = year+25 where mID in (select mID from (select mID, avg(stars) as avg_stars from Rating group by mID) M
+where avg_stars >= 4);
+
+#Remove all ratings where the movie's year is before 1970 or after 2000, 
+#and the rating is fewer than 4 stars. 
+delete from Rating where (rID, mID) in (select R1.rID, R1.mID from Rating R1 join Movie using(mID)
+where stars < 4 and year>1970 and year<2000);
