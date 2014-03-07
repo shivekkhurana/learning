@@ -24,14 +24,19 @@ and L1.ID2 in (select ID1 from Likes);
 
 #Find names and grades of students who only have friends in the same grade. 
 #Return the result sorted by grade, then by name within each grade. 
-select distinct H1.name, H1.grade from (Friend join Highschooler H1 on Friend.ID1 = H1.ID)
-join Highschooler H2 on Friend.ID2 = H2.ID
-where H1.name < H2.name
-and H1.grade = H2.grade
-and H1.ID not in (
-	select H1.ID from (Friend join Highschooler H1 on ID1 = H1.ID)
-	join Highschooler H2 on ID2 = H2.ID
-	where H1.name < H2.name
-	and H1.grade != H2.grade
-);
 
+#>query runs on mysql systems but not on sqlite due to multiple columns in not in subquery
+select distinct H1.name, H1.grade from 
+(Friend F1 join Highschooler H1 on F1.ID1 = H1.ID) join Highschooler H2 on F1.ID2 = H2.ID
+	where H1.grade = H2.grade
+	and (H1.name, H1.grade) not in (
+		select distinct H1.name, H1.grade from (Friend F1 join Highschooler H1 
+		on F1.ID1 = H1.ID) join Highschooler H2 on F1.ID2 = H2.ID
+		where H1.grade != H2.grade
+)
+order by grade;
+
+
+#name and grade of all students liked by more than one student
+select name, grade from Highschooler where ID in 
+(select ID2 as ID from Likes group by ID2 having count(*)>1)
