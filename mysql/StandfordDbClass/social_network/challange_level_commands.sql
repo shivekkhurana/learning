@@ -27,3 +27,30 @@ select H1.name, H1.grade, H2.name, H2.grade, H3.name, H3.grade from
 	on LFLL.likers_friend = Friend.ID1 and LFLL.liked = Friend.ID2
 ) M, Highschooler H1, Highschooler H2, Highschooler H3
 where H1.ID = liker and H2.ID = liked and H3.ID = likers_friend;
+
+#Find the difference between the number of students in the school 
+#and the number of different first names. 
+select count(ID)-count(distinct name) from Highschooler;
+
+#What is the average number of friends per student?
+#(Your result should be just one number.) 
+select avg(num_friends) from (select count(*) as num_friends from Friend
+group by ID1) N;
+
+#Find the number of students who are either friends with Cassandra 
+#or are friends of friends of Cassandra. Do not count Cassandra, 
+#even though technically she is a friend of a friend. 
+select count(distinct F1.ID2) + count(F2.ID2)
+from (Highschooler join Friend F1 on F1.ID1 = ID) 
+join Friend F2 on F2.ID1 = F1.ID2 
+and F2.ID2 != (select ID from Highschooler where name="Cassandra")
+where name="Cassandra";
+
+#Find the name and grade of the student(s) with the greatest number of friends. 
+select name, grade from (select ID1, count(*) as num_friends from Friend group by ID1) C 
+join Highschooler on ID1=ID
+where num_friends = (
+	select max(num_friends) from (
+		select ID1, count(*) as num_friends from Friend group by ID1
+	) A
+);
