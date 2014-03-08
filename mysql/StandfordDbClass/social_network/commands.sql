@@ -39,4 +39,20 @@ order by grade;
 
 #name and grade of all students liked by more than one student
 select name, grade from Highschooler where ID in 
-(select ID2 as ID from Likes group by ID2 having count(*)>1)
+(select ID2 as ID from Likes group by ID2 having count(*)>1);
+
+##data modification commands
+
+#It's time for the seniors to graduate. Remove all 12th graders from Highschooler. 
+delete from Highschooler where grade=12;
+
+#If two students A and B are friends, and A likes B but not vice-versa, 
+#remove the Likes tuple. 
+delete from Likes where (ID1, ID2) in (select L1.ID1, L1.ID2 from Likes L1 left outer join (select ID2 as ID1, ID1 as ID2 from Likes) L2
+on L1.ID1 = L2.ID1
+where L2.ID2 is null); 
+
+#if a->b and b->c add a->c
+insert into Friend select distinct F1.ID1, F2.ID2 from Friend F1 join Friend F2 
+on F1.ID2 = F2.ID1 
+where F1.ID1 != F2.ID2 and (F1.ID1, F2.ID2) not in (select * from Friend);
