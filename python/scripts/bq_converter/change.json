@@ -1,0 +1,2513 @@
+{
+  "name": "change",
+  "lastrunstatus": "success",
+  "version": 2,
+  "count": 250,
+  "frequency": "realtime",
+  "newdata": true,
+  "lastsuccess": "Wed Mar 12 2014 09:36:40 GMT+0000 (UTC)",
+  "results": {
+    "collection1": [
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/mayaangelo101310.html",
+          "text": "If you don't like something, change it. If you can't change it, change your attitude."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/maya_angelou.html",
+          "text": "Maya Angelou"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/martinluth121065.html",
+          "text": "Change does not roll in on the wheels of inevitability, but comes through continuous struggle. And so we must straighten our backs and work for our freedom. A man can't ride you unless your back is bent."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/martin_luther_king_jr.html",
+          "text": "Martin Luther King, Jr."
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/r/reinholdni100884.html",
+          "text": "God grant me the serenity to accept the things I cannot change, the courage to change the things I can, and the wisdom to know the difference."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/r/reinhold_niebuhr.html",
+          "text": "Reinhold Niebuhr"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/b/barackobam409128.html",
+          "text": "Change will not come if we wait for some other person or some other time. We are the ones we've been waiting for. We are the change that we seek."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/b/barack_obama.html",
+          "text": "Barack Obama"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/mahatmagan109075.html",
+          "text": "You must be the change you wish to see in the world."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/mahatma_gandhi.html",
+          "text": "Mahatma Gandhi"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/s/stevejobs416877.html",
+          "text": "For the past 33 years, I have looked in the mirror every morning and asked myself: 'If today were the last day of my life, would I want to do what I am about to do today?' And whenever the answer has been 'No' for too many days in a row, I know I need to change something."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/s/steve_jobs.html",
+          "text": "Steve Jobs"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/margaretme101283.html",
+          "text": "Never believe that a few caring people can't change the world. For, indeed, that's all who ever have."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/margaret_mead.html",
+          "text": "Margaret Mead"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/v/viktorefr121087.html",
+          "text": "When we are no longer able to change a situation - we are challenged to change ourselves."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/v/viktor_e_frankl.html",
+          "text": "Viktor E. Frankl"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/c/cslewis131286.html",
+          "text": "It may be hard for an egg to turn into a bird: it would be a jolly sight harder for it to learn to fly while remaining an egg. We are like eggs at present. And you cannot go on indefinitely being just an ordinary, decent egg. We must be hatched or go bad."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/c/c_s_lewis.html",
+          "text": "C. S. Lewis"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/johnlennon167350.html",
+          "text": "I'm not going to change the way I look or the way I feel to conform to anything. I've always been a freak. So I've been a freak all my life and I have to live with that, you know. I'm one of those people."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/john_lennon.html",
+          "text": "John Lennon"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/anatolefra104501.html",
+          "text": "All changes, even the most longed for, have their melancholy; for what we leave behind us is a part of ourselves; we must die to one life before we can enter another."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/anatole_france.html",
+          "text": "Anatole France"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/w/winstonchu138235.html",
+          "text": "To improve is to change; to be perfect is to change often."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/w/winston_churchill.html",
+          "text": "Winston Churchill"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/l/laotzu121075.html",
+          "text": "If you do not change direction, you may end up where you are heading."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/l/lao_tzu.html",
+          "text": "Lao Tzu"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/w/winstonchu100446.html",
+          "text": "A fanatic is one who can't change his mind and won't change the subject."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/w/winston_churchill.html",
+          "text": "Winston Churchill"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/l/leotolstoy105644.html",
+          "text": "Everyone thinks of changing the world, but no one thinks of changing himself."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/l/leo_tolstoy.html",
+          "text": "Leo Tolstoy"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/alanwatts386511.html",
+          "text": "The only way to make sense out of change is to plunge into it, move with it, and join the dance."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/alan_watts.html",
+          "text": "Alan Watts"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/w/waynedyer384143.html",
+          "text": "If you change the way you look at things, the things you look at change."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/w/wayne_dyer.html",
+          "text": "Wayne Dyer"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/g/gailsheehy161346.html",
+          "text": "If we don't change, we don't grow. If we don't grow, we aren't really living."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/g/gail_sheehy.html",
+          "text": "Gail Sheehy"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/f/frederickd377775.html",
+          "text": "If there is no struggle, there is no progress."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/f/frederick_douglass.html",
+          "text": "Frederick Douglass"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/g/georgebern386923.html",
+          "text": "Progress is impossible without change, and those who cannot change their minds cannot change anything."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/g/george_bernard_shaw.html",
+          "text": "George Bernard Shaw"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/r/ronaldreag183750.html",
+          "text": "All great change in America begins at the dinner table."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/r/ronald_reagan.html",
+          "text": "Ronald Reagan"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/arnoldbenn101311.html",
+          "text": "Any change, even a change for the better, is always accompanied by drawbacks and discomforts."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/arnold_bennett.html",
+          "text": "Arnold Bennett"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/jimrohn133626.html",
+          "text": "You must take personal responsibility. You cannot change the circumstances, the seasons, or the wind, but you can change yourself. That is something you have charge of."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/jim_rohn.html",
+          "text": "Jim Rohn"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/c/confucius101312.html",
+          "text": "Only the wisest and stupidest of men never change."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/c/confucius.html",
+          "text": "Confucius"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/s/stephenhaw393342.html",
+          "text": "I have noticed even people who claim everything is predestined, and that we can do nothing to change it, look before they cross the road."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/s/stephen_hawking.html",
+          "text": "Stephen Hawking"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/h/henrydavid104516.html",
+          "text": "Things do not change; we change."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/h/henry_david_thoreau.html",
+          "text": "Henry David Thoreau"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/g/gillianand401718.html",
+          "text": "I hope everyone that is reading this is having a really good day. And if you are not, just know that in every new minute that passes you have an opportunity to change that."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/g/gillian_anderson.html",
+          "text": "Gillian Anderson"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/r/robertkenn138515.html",
+          "text": "Progress is a nice word. But change is its motivator. And change has its enemies."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/r/robert_kennedy.html",
+          "text": "Robert Kennedy"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/margaretme130543.html",
+          "text": "A small group of thoughtful people could change the world. Indeed, it's the only thing that ever has."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/margaret_mead.html",
+          "text": "Margaret Mead"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/b/brucebarto173550.html",
+          "text": "Action and reaction, ebb and flow, trial and error, change - this is the rhythm of living. Out of our over-confidence, fear; out of our fear, clearer vision, fresh hope. And out of hope, progress."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/b/bruce_barton.html",
+          "text": "Bruce Barton"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/c/confucius104507.html",
+          "text": "They must often change, who would be constant in happiness or wisdom."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/c/confucius.html",
+          "text": "Confucius"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/c/carljung106972.html",
+          "text": "If there is anything that we wish to change in the child, we should first examine it and see whether it is not something that could better be changed in ourselves."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/c/carl_jung.html",
+          "text": "Carl Jung"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/aristotle121066.html",
+          "text": "Change in all things is sweet."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/aristotle.html",
+          "text": "Aristotle"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/w/willsmith167216.html",
+          "text": "Money and success don't change people; they merely amplify what is already there."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/w/will_smith.html",
+          "text": "Will Smith"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/d/deanacheso131266.html",
+          "text": "Always remember that the future comes one day at a time."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/d/dean_acheson.html",
+          "text": "Dean Acheson"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/s/sting365954.html",
+          "text": "I can't really change my life to accommodate people who are jealous. I don't see why I should."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/s/sting.html",
+          "text": "Sting"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/acbenson104192.html",
+          "text": "Very often a change of self is needed more than a change of scene."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/a_c_benson.html",
+          "text": "A. C. Benson"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/t/tupacshaku315806.html",
+          "text": "Don't change on me. Don't extort me unless you intend to do it forever."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/t/tupac_shakur.html",
+          "text": "Tupac Shakur"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/g/gildaradne135101.html",
+          "text": "Life is about not knowing, having to change, taking the moment and making the best of it, without knowing what's going to happen next."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/g/gilda_radner.html",
+          "text": "Gilda Radner"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/d/deniswaitl146906.html",
+          "text": "Change the changeable, accept the unchangeable, and remove yourself from the unacceptable."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/d/denis_waitley.html",
+          "text": "Denis Waitley"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/c/carljung101266.html",
+          "text": "We cannot change anything until we accept it. Condemnation does not liberate, it oppresses."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/c/carl_jung.html",
+          "text": "Carl Jung"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/f/frankherbe101313.html",
+          "text": "Without change, something sleeps inside us, and seldom awakens. The sleeper must awaken."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/f/frank_herbert.html",
+          "text": "Frank Herbert"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/johannwolf131279.html",
+          "text": "Life belongs to the living, and he who lives must be prepared for changes."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/johann_wolfgang_von_goeth.html",
+          "text": "Johann Wolfgang von Goethe"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/f/frankzappa138080.html",
+          "text": "One of my favorite philosophical tenets is that people will agree with you only if they already agree with you. You do not change people's minds."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/f/frank_zappa.html",
+          "text": "Frank Zappa"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/v/victorhugo399104.html",
+          "text": "Change your opinions, keep to your principles; change your leaves, keep intact your roots."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/v/victor_hugo.html",
+          "text": "Victor Hugo"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/b/bertoltbre131165.html",
+          "text": "Because things are the way they are, things will not stay the way they are."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/b/bertolt_brecht.html",
+          "text": "Bertolt Brecht"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/s/sorenkierk384556.html",
+          "text": "Face the facts of being what you are, for that is what changes what you are."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/s/soren_kierkegaard.html",
+          "text": "Soren Kierkegaard"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/andywarhol109768.html",
+          "text": "They always say time changes things, but you actually have to change them yourself."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/andy_warhol.html",
+          "text": "Andy Warhol"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/t/tonyrobbin147777.html",
+          "text": "For changes to be of any true value, they've got to be lasting and consistent."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/t/tony_robbins.html",
+          "text": "Tony Robbins"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/r/robertanth130323.html",
+          "text": "When you blame others, you give up your power to change."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/r/robert_anthony.html",
+          "text": "Robert Anthony"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/jonbonjovi381530.html",
+          "text": "Miracles happen everyday, change your perception of what a miracle is and you'll see them all around you."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/jon_bon_jovi.html",
+          "text": "Jon Bon Jovi"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/jimihendri195410.html",
+          "text": "In order to change the world, you have to get your head together first."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/jimi_hendrix.html",
+          "text": "Jimi Hendrix"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/e/ellenglasg104512.html",
+          "text": "All change is not growth, as all movement is not forward."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/e/ellen_glasgow.html",
+          "text": "Ellen Glasgow"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/c/clinteastw120948.html",
+          "text": "Sometimes if you want to see a change for the better, you have to take things into your own hands."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/c/clint_eastwood.html",
+          "text": "Clint Eastwood"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/c/carlrogers385131.html",
+          "text": "The curious paradox is that when I accept myself just as I am, then I can change."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/c/carl_rogers.html",
+          "text": "Carl Rogers"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/h/heraclitus165537.html",
+          "text": "There is nothing permanent except change."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/h/heraclitus.html",
+          "text": "Heraclitus"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/n/nidoqubein178330.html",
+          "text": "Change brings opportunity."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/n/nido_qubein.html",
+          "text": "Nido Qubein"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/marcusaure148748.html",
+          "text": "Loss is nothing else but change, and change is Nature's delight."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/marcus_aurelius.html",
+          "text": "Marcus Aurelius"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/jacklayton417374.html",
+          "text": "My friends, love is better than anger. Hope is better than fear. Optimism is better than despair. So let us be loving, hopeful and optimistic. And we'll change the world."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/jack_layton.html",
+          "text": "Jack Layton"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/joelosteen282049.html",
+          "text": "Most people already know what they're doing wrong. When I get them to church I want to tell them that you can change."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/joel_osteen.html",
+          "text": "Joel Osteen"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/b/bryanthmc168215.html",
+          "text": "Change will never happen when people lack the ability and courage to see themselves for who they are."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/b/bryant_h_mcgill.html",
+          "text": "Bryant H. McGill"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/w/woodrowwil109722.html",
+          "text": "If you want to make enemies, try to change something."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/w/woodrow_wilson.html",
+          "text": "Woodrow Wilson"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/s/sydneyjha152638.html",
+          "text": "Our dilemma is that we hate change and love it at the same time; what we really want is for things to remain the same but get better."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/s/sydney_j_harris.html",
+          "text": "Sydney J. Harris"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/mignonmcla104513.html",
+          "text": "It's the most unhappy people who most fear change."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/mignon_mclaughlin.html",
+          "text": "Mignon McLaughlin"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/l/leotolstoy153949.html",
+          "text": "The changes in our life must come from the impossibility to live otherwise than according to the demands of our conscience not from our mental resolution to try a new form of life."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/l/leo_tolstoy.html",
+          "text": "Leo Tolstoy"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/g/georgclic100843.html",
+          "text": "I cannot say whether things will get better if we change; what I can say is they must change if they are to get better."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/g/georg_c_lichtenberg.html",
+          "text": "Georg C. Lichtenberg"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/h/harrisonfo104514.html",
+          "text": "We all have big changes in our lives that are more or less a second chance."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/h/harrison_ford.html",
+          "text": "Harrison Ford"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/h/haroldwils104500.html",
+          "text": "He who rejects change is the architect of decay. The only human institution which rejects progress is the cemetery."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/h/harold_wilson.html",
+          "text": "Harold Wilson"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/w/williamart190444.html",
+          "text": "Change, like sunshine, can be a friend or a foe, a blessing or a curse, a dawn or a dusk."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/w/william_arthur_ward.html",
+          "text": "William Arthur Ward"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/b/brucebarto104506.html",
+          "text": "When you are through changing, you are through."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/b/bruce_barton.html",
+          "text": "Bruce Barton"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/n/niccolomac157835.html",
+          "text": "One change always leaves the way open for the establishment of others."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/n/niccolo_machiavelli.html",
+          "text": "Niccolo Machiavelli"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/n/napoleonbo164497.html",
+          "text": "One must change one's tactics every ten years if one wishes to maintain one's superiority."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/n/napoleon_bonaparte.html",
+          "text": "Napoleon Bonaparte"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/t/templegran283467.html",
+          "text": "People are always looking for the single magic bullet that will totally change everything. There is no single magic bullet."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/t/temple_grandin.html",
+          "text": "Temple Grandin"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/annaquindl132262.html",
+          "text": "I read and walked for miles at night along the beach, writing bad blank verse and searching endlessly for someone wonderful who would step out of the darkness and change my life. It never crossed my mind that that person could be me."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/anna_quindlen.html",
+          "text": "Anna Quindlen"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/arthurscho163700.html",
+          "text": "Change alone is eternal, perpetual, immortal."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/arthur_schopenhauer.html",
+          "text": "Arthur Schopenhauer"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/jackwelch110363.html",
+          "text": "Change before you have to."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/jack_welch.html",
+          "text": "Jack Welch"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/r/robertanth163618.html",
+          "text": "When it becomes more difficult to suffer than to change... you will change."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/r/robert_anthony.html",
+          "text": "Robert Anthony"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/b/billcopela105187.html",
+          "text": "Not only is women's work never done, the definition keeps changing."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/b/bill_copeland.html",
+          "text": "Bill Copeland"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/k/kerirussel183404.html",
+          "text": "Sometimes it's the smallest decisions that can change your life forever."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/k/keri_russell.html",
+          "text": "Keri Russell"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/d/deniswaitl165022.html",
+          "text": "Relentless, repetitive self talk is what changes our self-image."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/d/denis_waitley.html",
+          "text": "Denis Waitley"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/p/petermarsh105938.html",
+          "text": "Lord, where we are wrong, make us willing to change; where we are right, make us easy to live with."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/p/peter_marshall.html",
+          "text": "Peter Marshall"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/f/francisbac130602.html",
+          "text": "He that will not apply new remedies must expect new evils; for time is the greatest innovator."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/f/francis_bacon.html",
+          "text": "Francis Bacon"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/e/estherdyso352101.html",
+          "text": "Change means that what was before wasn't perfect. People want things to be better."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/e/esther_dyson.html",
+          "text": "Esther Dyson"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/joshbillin150090.html",
+          "text": "There are two kinds of fools: those who can't change their opinions and those who won't."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/josh_billings.html",
+          "text": "Josh Billings"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/n/nathanielb163773.html",
+          "text": "The first step toward change is awareness. The second step is acceptance."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/n/nathaniel_branden.html",
+          "text": "Nathaniel Branden"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/h/hughprathe107702.html",
+          "text": "Just when I think I have learned the way to live, life changes."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/h/hugh_prather.html",
+          "text": "Hugh Prather"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/l/lordbyron150369.html",
+          "text": "Opinions are made to be changed - or how is truth to be got at?"
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/l/lord_byron.html",
+          "text": "Lord Byron"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/s/shunryusuz104502.html",
+          "text": "Without accepting the fact that everything changes, we cannot find perfect composure. But unfortunately, although it is true, it is difficult for us to accept it. Because we cannot accept the truth of transience, we suffer."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/s/shunryu_suzuki.html",
+          "text": "Shunryu Suzuki"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/b/benjamindi154148.html",
+          "text": "Change is inevitable. Change is constant."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/b/benjamin_disraeli.html",
+          "text": "Benjamin Disraeli"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/w/williamgla345823.html",
+          "text": "If you want to change attitudes, start with a change in behavior."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/w/william_glasser.html",
+          "text": "William Glasser"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/n/nikoskazan176142.html",
+          "text": "Since we cannot change reality, let us change the eyes which see reality."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/n/nikos_kazantzakis.html",
+          "text": "Nikos Kazantzakis"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/alvintoffl114366.html",
+          "text": "Future shock is the shattering stress and disorientation that we induce in individuals by subjecting them to too much change in too short a time."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/alvin_toffler.html",
+          "text": "Alvin Toffler"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/w/wclements193794.html",
+          "text": "All I want to do is change the world."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/w/w_clement_stone.html",
+          "text": "W. Clement Stone"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/f/francisbac104519.html",
+          "text": "Things alter for the worse spontaneously, if they be not altered for the better designedly."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/f/francis_bacon.html",
+          "text": "Francis Bacon"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/f/flanneryo102743.html",
+          "text": "The truth does not change according to our ability to stomach it."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/f/flannery_oconnor.html",
+          "text": "Flannery O'Connor"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/r/rdlaing101314.html",
+          "text": "We live in a moment of history where change is so speeded up that we begin to see the present only when it is already disappearing."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/r/r_d_laing.html",
+          "text": "R. D. Laing"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/b/benjamindi131280.html",
+          "text": "In a progressive country change is constant; change is inevitable."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/b/benjamin_disraeli.html",
+          "text": "Benjamin Disraeli"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/jamesrusse122661.html",
+          "text": "The foolish and the dead alone never change their opinions."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/james_russell_lowell.html",
+          "text": "James Russell Lowell"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/v/vernonhowa175011.html",
+          "text": "To change what you get you must change who you are."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/v/vernon_howard.html",
+          "text": "Vernon Howard"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/t/timothylea103937.html",
+          "text": "You're only as young as the last time you changed your mind."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/t/timothy_leary.html",
+          "text": "Timothy Leary"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/adlaieste155711.html",
+          "text": "Change is inevitable. Change for the better is a full-time job."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/adlai_e_stevenson.html",
+          "text": "Adlai E. Stevenson"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/jpaulgett150859.html",
+          "text": "In times of rapid change, experience could be your worst enemy."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/j_paul_getty.html",
+          "text": "J. Paul Getty"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/f/francoisde151070.html",
+          "text": "Taste may change, but inclination never."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/f/francois_de_la_rochefouca.html",
+          "text": "Francois de La Rochefoucauld"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/h/heraclitus153598.html",
+          "text": "Change alone is unchanging."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/h/heraclitus.html",
+          "text": "Heraclitus"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/d/denisemccl397659.html",
+          "text": "Change is the only constant. Hanging on is the only sin."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/d/denise_mccluggage.html",
+          "text": "Denise McCluggage"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/i/irenepeter161612.html",
+          "text": "Just because everything is different doesn't mean anything has changed."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/i/irene_peter.html",
+          "text": "Irene Peter"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/h/henrywadsw151333.html",
+          "text": "All things must change to something new, to something strange."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/h/henry_wadsworth_longfello.html",
+          "text": "Henry Wadsworth Longfellow"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/h/harryemers131282.html",
+          "text": "Christians are supposed not merely to endure change, nor even to profit by it, but to cause it."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/h/harry_emerson_fosdick.html",
+          "text": "Harry Emerson Fosdick"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/i/irenepeter176277.html",
+          "text": "Anyone who thinks there's safety in numbers hasn't looked at the stock market pages."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/i/irene_peter.html",
+          "text": "Irene Peter"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/l/lechwalesa160617.html",
+          "text": "The thing that lies at the foundation of positive change, the way I see it, is service to a fellow human being."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/l/lech_walesa.html",
+          "text": "Lech Walesa"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/c/charlesket122377.html",
+          "text": "The world hates change, yet it is the only thing that has brought progress."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/c/charles_kettering.html",
+          "text": "Charles Kettering"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/b/billycryst379669.html",
+          "text": "Change is such hard work."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/b/billy_crystal.html",
+          "text": "Billy Crystal"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/alfredlord138517.html",
+          "text": "Let the great world spin for ever down the ringing grooves of change."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/alfred_lord_tennyson.html",
+          "text": "Alfred Lord Tennyson"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/r/rupertmurd173446.html",
+          "text": "The world is changing very fast. Big will not beat small anymore. It will be the fast beating the slow."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/r/rupert_murdoch.html",
+          "text": "Rupert Murdoch"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/jameslevin261934.html",
+          "text": "A lot of people get impatient with the pace of change."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/james_levine.html",
+          "text": "James Levine"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/maxwellmal157451.html",
+          "text": "To change a habit, make a conscious decision, then act out the new behavior."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/maxwell_maltz.html",
+          "text": "Maxwell Maltz"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/h/havelockel104572.html",
+          "text": "What we call progress is the exchange of one nuisance for another nuisance."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/h/havelock_ellis.html",
+          "text": "Havelock Ellis"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/marydougla237176.html",
+          "text": "If you want to change the culture, you will have to start by changing the organization."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/mary_douglas.html",
+          "text": "Mary Douglas"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/andreajung186467.html",
+          "text": "If you feel like it's difficult to change, you will probably have a harder time succeeding."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/andrea_jung.html",
+          "text": "Andrea Jung"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/alphonseka125474.html",
+          "text": "The more things change, the more they are the same."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/alphonse_karr.html",
+          "text": "Alphonse Karr"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/d/douglashor152731.html",
+          "text": "Change occurs in direct proportion to dissatisfaction, but dissatisfaction never changes."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/d/douglas_horton.html",
+          "text": "Douglas Horton"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/juliewalte376785.html",
+          "text": "I don't know if you can change things, but it's a drop in the ocean."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/julie_walters.html",
+          "text": "Julie Walters"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/n/nancyastor131917.html",
+          "text": "The main dangers in this life are the people who want to change everything... or nothing."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/n/nancy_astor.html",
+          "text": "Nancy Astor"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/v/victoriawo312257.html",
+          "text": "I shall not change my course because those who assume to be better than I desire it."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/v/victoria_woodhull.html",
+          "text": "Victoria Woodhull"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/k/katherinem104187.html",
+          "text": "Could we change our attitude, we should not only see life differently, but life itself would come to be different."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/k/katherine_mansfield.html",
+          "text": "Katherine Mansfield"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/o/owenfeltha154689.html",
+          "text": "Perfection is immutable. But for things imperfect, change is the way to perfect them."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/o/owen_feltham.html",
+          "text": "Owen Feltham"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/c/camillepag166196.html",
+          "text": "I believe that history has shape, order, and meaning; that exceptional men, as much as economic forces, produce change; and that passe abstractions like beauty, nobility, and greatness have a shifting but continuing validity."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/c/camille_paglia.html",
+          "text": "Camille Paglia"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/armisteadm190389.html",
+          "text": "The world changes in direct proportion to the number of people willing to be honest about their lives."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/armistead_maupin.html",
+          "text": "Armistead Maupin"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/s/stanislawj104520.html",
+          "text": "When you jump for joy, beware that no one moves the ground from beneath your feet."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/s/stanislaw_jerzy_lec.html",
+          "text": "Stanislaw Jerzy Lec"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/b/barbarashe173965.html",
+          "text": "Change is not only likely, it's inevitable."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/b/barbara_sher.html",
+          "text": "Barbara Sher"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/u/unknown234498.html",
+          "text": "True change takes place in the imagination."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/u/unknown.html",
+          "text": "Unknown"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/r/rupertmurd173445.html",
+          "text": "I'm a catalyst for change. You can't be an outsider and be successful over 30 years without leaving a certain amount of scar tissue around the place."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/r/rupert_murdoch.html",
+          "text": "Rupert Murdoch"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/maysarton134729.html",
+          "text": "The garden is growth and change and that means loss as well as constant new treasures to make up for a few disasters."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/may_sarton.html",
+          "text": "May Sarton"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/e/enya357039.html",
+          "text": "As with anything creative, change is inevitable."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/e/enya.html",
+          "text": "Enya"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/g/georgefore153402.html",
+          "text": "A hero is someone right who doesn't change."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/g/george_foreman.html",
+          "text": "George Foreman"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/c/carltrowa131291.html",
+          "text": "We emphasize that we believe in change because we were born of it, we have lived by it, we prospered and grew great by it. So the status quo has never been our god, and we ask no one else to bow down before it."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/c/carl_t_rowan.html",
+          "text": "Carl T. Rowan"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/g/giannivers338931.html",
+          "text": "I try to contrast; life today is full of contrast... We have to change."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/g/gianni_versace.html",
+          "text": "Gianni Versace"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/i/ianbotham280768.html",
+          "text": "If you can change three lives in 10, three lives in a hundred, that's got to be good, hasn't it?"
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/i/ian_botham.html",
+          "text": "Ian Botham"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/k/katherinem145785.html",
+          "text": "Everything in life that we really accept undergoes a change."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/k/katherine_mansfield.html",
+          "text": "Katherine Mansfield"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/w/williamcb189771.html",
+          "text": "Weep not that the world changes - did it keep a stable, changeless state, it were cause indeed to weep."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/w/william_c_bryant.html",
+          "text": "William C. Bryant"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/marksanfor168506.html",
+          "text": "In not my, but our collective hands, is held the promise of change."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/mark_sanford.html",
+          "text": "Mark Sanford"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/c/christophe167897.html",
+          "text": "Change is tough, people don't like it, but it is necessary. Take two aspirins and call me in the morning."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/c/christopher_bond.html",
+          "text": "Christopher Bond"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/alicemeyne127629.html",
+          "text": "Our fathers valued change for the sake of its results; we value it in the act."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/alice_meynell.html",
+          "text": "Alice Meynell"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/jamesgfra244471.html",
+          "text": "The moral world is as little exempt as the physical world from the law of ceaseless change, of perpetual flux."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/james_g_frazer.html",
+          "text": "James G. Frazer"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/n/nelsonmand157855.html",
+          "text": "Education is the most powerful weapon which you can use to change the world."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/n/nelson_mandela.html",
+          "text": "Nelson Mandela"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/w/williamart110212.html",
+          "text": "The pessimist complains about the wind; the optimist expects it to change; the realist adjusts the sails."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/w/william_arthur_ward.html",
+          "text": "William Arthur Ward"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/johnfkenn121068.html",
+          "text": "Change is the law of life. And those who look only to the past or present are certain to miss the future."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/john_f_kennedy.html",
+          "text": "John F. Kennedy"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/p/plutarch120365.html",
+          "text": "What we achieve inwardly will change outer reality."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/p/plutarch.html",
+          "text": "Plutarch"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/michaeljor167380.html",
+          "text": "If you accept the expectations of others, especially negative ones, then you never will change the outcome."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/michael_jordan.html",
+          "text": "Michael Jordan"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/n/normanvinc130593.html",
+          "text": "Change your thoughts and you change your world."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/n/norman_vincent_peale.html",
+          "text": "Norman Vincent Peale"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/alberteins136887.html",
+          "text": "If the facts don't fit the theory, change the facts."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/albert_einstein.html",
+          "text": "Albert Einstein"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/jimmydean131287.html",
+          "text": "I can't change the direction of the wind, but I can adjust my sails to always reach my destination."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/jimmy_dean.html",
+          "text": "Jimmy Dean"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/s/simonedebe149611.html",
+          "text": "Change your life today. Don't gamble on the future, act now, without delay."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/s/simone_de_beauvoir.html",
+          "text": "Simone de Beauvoir"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/h/harriettub310306.html",
+          "text": "Every great dream begins with a dreamer. Always remember, you have within you the strength, the patience, and the passion to reach for the stars to change the world."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/h/harriet_tubman.html",
+          "text": "Harriet Tubman"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/margaretme100502.html",
+          "text": "Never doubt that a small group of thoughtful, committed citizens can change the world; indeed, it's the only thing that ever has."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/margaret_mead.html",
+          "text": "Margaret Mead"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/b/bernardmel132866.html",
+          "text": "When you forgive, you in no way change the past - but you sure do change the future."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/b/bernard_meltzer.html",
+          "text": "Bernard Meltzer"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/k/katharineh141389.html",
+          "text": "We are taught you must blame your father, your sisters, your brothers, the school, the teachers - but never blame yourself. It's never your fault. But it's always your fault, because if you wanted to change you're the one who has got to change."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/k/katharine_hepburn.html",
+          "text": "Katharine Hepburn"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/joelosteen282081.html",
+          "text": "You can change your world by changing your words... Remember, death and life are in the power of the tongue."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/joel_osteen.html",
+          "text": "Joel Osteen"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/l/lewisbsme132879.html",
+          "text": "Forgiving does not erase the bitter past. A healed memory is not a deleted memory. Instead, forgiving what we cannot forget creates a new way to remember. We change the memory of our past into a hope for our future."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/l/lewis_b_smedes.html",
+          "text": "Lewis B. Smedes"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/p/plutarch105273.html",
+          "text": "I don't need a friend who changes when I change and who nods when I nod; my shadow does that much better."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/p/plutarch.html",
+          "text": "Plutarch"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/c/chuckpalah446627.html",
+          "text": "Find joy in everything you choose to do. Every job, relationship, home... it's your responsibility to love it, or change it."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/c/chuck_palahniuk.html",
+          "text": "Chuck Palahniuk"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/s/stevejobs416855.html",
+          "text": "No one wants to die. Even people who want to go to heaven don't want to die to get there. And yet death is the destination we all share. No one has ever escaped it. And that is as it should be, because Death is very likely the single best invention of Life. It is Life's change agent. It clears out the old to make way for the new."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/s/steve_jobs.html",
+          "text": "Steve Jobs"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/jimrohn147488.html",
+          "text": "If you don't like how things are, change it! You're not a tree."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/jim_rohn.html",
+          "text": "Jim Rohn"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/d/dalailama446765.html",
+          "text": "Chinese people themselves, they really want change."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/d/dalai_lama.html",
+          "text": "Dalai Lama"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/s/stephencov130974.html",
+          "text": "There are three constants in life... change, choice and principles."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/s/stephen_covey.html",
+          "text": "Stephen Covey"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/maxlucado130069.html",
+          "text": "You change your life by changing your heart."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/max_lucado.html",
+          "text": "Max Lucado"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/c/carlrogers130364.html",
+          "text": "The only person who is educated is the one who has learned how to learn and change."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/c/carl_rogers.html",
+          "text": "Carl Rogers"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/r/richardbac129953.html",
+          "text": "You are always free to change your mind and choose a different future, or a different past."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/r/richard_bach.html",
+          "text": "Richard Bach"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/mahatmagan160760.html",
+          "text": "The spirit of democracy is not a mechanical thing to be adjusted by abolition of forms. It requires change of heart."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/mahatma_gandhi.html",
+          "text": "Mahatma Gandhi"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/s/stephenhaw378304.html",
+          "text": "Intelligence is the ability to adapt to change."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/s/stephen_hawking.html",
+          "text": "Stephen Hawking"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/mayaangelo148636.html",
+          "text": "The need for change bulldozed a road down the center of my mind."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/maya_angelou.html",
+          "text": "Maya Angelou"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/d/dalailama446722.html",
+          "text": "The Chinese government wants me to say that for many centuries Tibet has been part of China. Even if I make that statement, many people would just laugh. And my statement will not change past history. History is history."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/d/dalai_lama.html",
+          "text": "Dalai Lama"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/johnfkenn135392.html",
+          "text": "For time and the world do not stand still. Change is the law of life. And those who look only to the past or the present are certain to miss the future."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/john_f_kennedy.html",
+          "text": "John F. Kennedy"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/mayaangelo578815.html",
+          "text": "If you don't like something, change it. If you can't change it, change your attitude. Don't complain."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/maya_angelou.html",
+          "text": "Maya Angelou"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/alancohen188584.html",
+          "text": "It takes a lot of courage to release the familiar and seemingly secure, to embrace the new. But there is no real security in what is no longer meaningful. There is more security in the adventurous and exciting, for in movement there is life, and in change there is power."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/alan_cohen.html",
+          "text": "Alan Cohen"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/w/waynedyer173499.html",
+          "text": "What we think determines what happens to us, so if we want to change our lives, we need to stretch our minds."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/w/wayne_dyer.html",
+          "text": "Wayne Dyer"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/l/laotzu164556.html",
+          "text": "If you realize that all things change, there is nothing you will try to hold on to. If you are not afraid of dying, there is nothing you cannot achieve."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/l/lao_tzu.html",
+          "text": "Lao Tzu"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/s/sorenkierk107355.html",
+          "text": "Prayer does not change God, but it changes him who prays."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/s/soren_kierkegaard.html",
+          "text": "Soren Kierkegaard"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/r/ralphwaldo163016.html",
+          "text": "No change of circumstances can repair a defect of character."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/r/ralph_waldo_emerson.html",
+          "text": "Ralph Waldo Emerson"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/b/briantracy125679.html",
+          "text": "You cannot control what happens to you, but you can control your attitude toward what happens to you, and in that, you will be mastering change rather than allowing it to master you."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/b/brian_tracy.html",
+          "text": "Brian Tracy"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/t/thomasjeff157227.html",
+          "text": "It behooves every man who values liberty of conscience for himself, to resist invasions of it in the case of others: or their case may, by change of circumstances, become his own."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/t/thomas_jefferson.html",
+          "text": "Thomas Jefferson"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/e/eleanorroo164073.html",
+          "text": "You can't move so fast that you try to change the mores faster than people can accept it. That doesn't mean you do nothing, but it means that you do the things that need to be done according to priority."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/e/eleanor_roosevelt.html",
+          "text": "Eleanor Roosevelt"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/r/ralphwaldo120407.html",
+          "text": "Win as if you were used to it, lose as if you enjoyed it for a change."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/r/ralph_waldo_emerson.html",
+          "text": "Ralph Waldo Emerson"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/mahatmagan160697.html",
+          "text": "Are creeds such simple things like the clothes which a man can change at will and put on at will? Creeds are such for which people live for ages and ages."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/mahatma_gandhi.html",
+          "text": "Mahatma Gandhi"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/o/oprahwinfr387162.html",
+          "text": "The greatest discovery of all time is that a person can change his future by merely changing his attitude."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/o/oprah_winfrey.html",
+          "text": "Oprah Winfrey"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/c/confucius398494.html",
+          "text": "The faults of a superior person are like the sun and moon. They have their faults, and everyone sees them; they change and everyone looks up to them."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/c/confucius.html",
+          "text": "Confucius"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/marilynmon402488.html",
+          "text": "I am invariably late for appointments - sometimes as much as two hours. I've tried to change my ways but the things that make me late are too strong, and too pleasing."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/marilyn_monroe.html",
+          "text": "Marilyn Monroe"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/mayaangelo578849.html",
+          "text": "I'm convinced of this: Good done anywhere is good done everywhere. For a change, start by speaking to people rather than walking by them like they're stones that don't matter. As long as you're breathing, it's never too late to do some good."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/maya_angelou.html",
+          "text": "Maya Angelou"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/marilynmon498645.html",
+          "text": "A man has a tendency to accept you the way you are, while most women immediately start to pick flaws and want to change you."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/marilyn_monroe.html",
+          "text": "Marilyn Monroe"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/muhammadal167358.html",
+          "text": "Wars of nations are fought to change maps. But wars of poverty are fought to map change."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/muhammad_ali.html",
+          "text": "Muhammad Ali"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/jamesrusse119811.html",
+          "text": "Usually when people are sad, they don't do anything. They just cry over their condition. But when they get angry, they bring about a change."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/james_russell_lowell.html",
+          "text": "James Russell Lowell"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/t/tonyrobbin147779.html",
+          "text": "We can change our lives. We can do, have, and be exactly what we wish."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/t/tony_robbins.html",
+          "text": "Tony Robbins"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/l/leobuscagl150296.html",
+          "text": "I believe that you control your destiny, that you can be what you want to be. You can also stop and say, 'No, I won't do it, I won't behave his way anymore. I'm lonely and I need people around me, maybe I have to change my methods of behaving,' and then you do it."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/l/leo_buscaglia.html",
+          "text": "Leo Buscaglia"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/c/charlesrs163385.html",
+          "text": "We cannot change our past. We can not change the fact that people act in a certain way. We can not change the inevitable. The only thing we can do is play on the one string we have, and that is our attitude."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/c/charles_r_swindoll.html",
+          "text": "Charles R. Swindoll"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/johnwooden378437.html",
+          "text": "Failure is not fatal, but failure to change might be."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/john_wooden.html",
+          "text": "John Wooden"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/margaretth163368.html",
+          "text": "I usually make up my mind about a man in ten seconds, and I very rarely change it."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/margaret_thatcher.html",
+          "text": "Margaret Thatcher"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/jimrohn147484.html",
+          "text": "Character isn't something you were born with and can't change, like your fingerprints. It's something you weren't born with and must take responsibility for forming."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/jim_rohn.html",
+          "text": "Jim Rohn"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/t/thomashard152302.html",
+          "text": "Time changes everything except something within us which is always surprised by change."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/t/thomas_hardy.html",
+          "text": "Thomas Hardy"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/b/benjaminfr163902.html",
+          "text": "For having lived long, I have experienced many instances of being obliged, by better information or fuller consideration, to change opinions, even on important subjects, which I once thought right but found to be otherwise."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/b/benjamin_franklin.html",
+          "text": "Benjamin Franklin"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/jimrohn385972.html",
+          "text": "You cannot change your destination overnight, but you can change your direction overnight."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/jim_rohn.html",
+          "text": "Jim Rohn"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/ameliaearh120929.html",
+          "text": "The most difficult thing is the decision to act, the rest is merely tenacity. The fears are paper tigers. You can do anything you decide to do. You can act to change and control your life; and the procedure , the process is its own reward."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/amelia_earhart.html",
+          "text": "Amelia Earhart"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/s/stephencov138246.html",
+          "text": "Every human has four endowments - self awareness, conscience, independent will and creative imagination. These give us the ultimate human freedom... The power to choose, to respond, to change."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/s/stephen_covey.html",
+          "text": "Stephen Covey"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/aristotle417381.html",
+          "text": "But if nothing but soul, or in soul mind, is qualified to count, it is impossible for there to be time unless there is soul, but only that of which time is an attribute, i.e. if change can exist without soul."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/aristotle.html",
+          "text": "Aristotle"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/r/robertfros116802.html",
+          "text": "Education doesn't change life much. It just lifts trouble to a higher plane of regard."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/r/robert_frost.html",
+          "text": "Robert Frost"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/e/erichoffer109153.html",
+          "text": "In times of change learners inherit the earth; while the learned find themselves beautifully equipped to deal with a world that no longer exists."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/e/eric_hoffer.html",
+          "text": "Eric Hoffer"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/b/barackobam409502.html",
+          "text": "It's time to fundamentally change the way that we do business in Washington. To help build a new foundation for the 21st century, we need to reform our government so that it is more efficient, more transparent, and more creative. That will demand new thinking and a new sense of responsibility for every dollar that is spent."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/b/barack_obama.html",
+          "text": "Barack Obama"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/s/stevejobs416913.html",
+          "text": "Things don't have to change the world to be important."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/s/steve_jobs.html",
+          "text": "Steve Jobs"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/b/bono141199.html",
+          "text": "Music can change the world because it can change people."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/b/bono.html",
+          "text": "Bono"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/r/robertfros163692.html",
+          "text": "Most of the change we think we see in life is due to truths being in and out of favor."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/r/robert_frost.html",
+          "text": "Robert Frost"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/marlenedie136113.html",
+          "text": "Most women set out to try to change a man, and when they have changed him they do not like him."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/marlene_dietrich.html",
+          "text": "Marlene Dietrich"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/albertcamu395578.html",
+          "text": "There is the good and the bad, the great and the low, the just and the unjust. I swear to you that all that will never change."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/albert_camus.html",
+          "text": "Albert Camus"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/n/niccolomac130595.html",
+          "text": "Whosoever desires constant success must change his conduct with the times."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/n/niccolo_machiavelli.html",
+          "text": "Niccolo Machiavelli"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/l/leobuscagl121067.html",
+          "text": "Change is the end result of all true learning."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/l/leo_buscaglia.html",
+          "text": "Leo Buscaglia"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/e/eminem446848.html",
+          "text": "People can try to reinvent themselves. I don't think you can really change who you are, though, because who you are is pretty much where you came from and what you've done up to now."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/e/eminem.html",
+          "text": "Eminem"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/t/tonyrobbin173241.html",
+          "text": "Using the power of decision gives you the capacity to get past any excuse to change any and every part of your life in an instant."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/t/tony_robbins.html",
+          "text": "Tony Robbins"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/h/henrydavid553935.html",
+          "text": "So thoroughly and sincerely are we compelled to live, reverencing our life, and denying the possibility of change. This is the only way, we say; but there are as many ways as there can be drawn radii from one centre. All change is a miracle to contemplate; but it is a miracle which is taking place every instant."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/h/henry_david_thoreau.html",
+          "text": "Henry David Thoreau"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/w/waltdisney440689.html",
+          "text": "Times and conditions change so rapidly that we must keep our aim constantly focused on the future."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/w/walt_disney.html",
+          "text": "Walt Disney"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/t/tombrokaw108699.html",
+          "text": "You are educated. Your certification is in your degree. You may think of it as the ticket to the good life. Let me ask you to think of an alternative. Think of it as your ticket to change the world."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/t/tom_brokaw.html",
+          "text": "Tom Brokaw"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/b/barbaradea148252.html",
+          "text": "No one is in control of your happiness but you; therefore, you have the power to change anything about yourself or your life that you want to change."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/b/barbara_de_angelis.html",
+          "text": "Barbara de Angelis"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/masoncoole396277.html",
+          "text": "Complainers change their complaints, but they never reduce the amount of time spent in complaining."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/mason_cooley.html",
+          "text": "Mason Cooley"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/s/saibaba184105.html",
+          "text": "Man seeks to change the foods available in nature to suit his tastes, thereby putting an end to the very essence of life contained in them."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/s/sai_baba.html",
+          "text": "Sai Baba"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/marcusaure386141.html",
+          "text": "Be content with what you are, and wish not change; nor dread your last day, nor long for it."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/marcus_aurelius.html",
+          "text": "Marcus Aurelius"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/johnwooden447036.html",
+          "text": "We can have no progress without change, whether it be basketball or anything else."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/john_wooden.html",
+          "text": "John Wooden"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/w/williamjam162992.html",
+          "text": "The world we see that seems so insane is the result of a belief system that is not working. To perceive the world differently, we must be willing to change our belief system, let the past slip away, expand our sense of now, and dissolve the fear in our minds."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/w/william_james.html",
+          "text": "William James"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/y/yogiberra139940.html",
+          "text": "I never blame myself when I'm not hitting. I just blame the bat and if it keeps up, I change bats. After all, if I know it isn't my fault that I'm not hitting, how can I get mad at myself?"
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/y/yogi_berra.html",
+          "text": "Yogi Berra"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/s/sorenkierk152229.html",
+          "text": "The function of prayer is not to influence God, but rather to change the nature of the one who prays."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/s/soren_kierkegaard.html",
+          "text": "Soren Kierkegaard"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/w/williamsb132654.html",
+          "text": "Desperation is the raw material of drastic change. Only those who can leave behind everything they have ever believed in can hope to escape."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/w/william_s_burroughs.html",
+          "text": "William S. Burroughs"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/aleistercr408698.html",
+          "text": "The joy of life consists in the exercise of one's energies, continual growth, constant change, the enjoyment of every new experience. To stop means simply to die. The eternal mistake of mankind is to set up an attainable ideal."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/aleister_crowley.html",
+          "text": "Aleister Crowley"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/aldoushuxl387223.html",
+          "text": "I wanted to change the world. But I have found that the only thing one can be sure of changing is oneself."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/aldous_huxley.html",
+          "text": "Aldous Huxley"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/marcusaure383109.html",
+          "text": "The universe is change; our life is what our thoughts make it."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/marcus_aurelius.html",
+          "text": "Marcus Aurelius"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/b/bobdylan164595.html",
+          "text": "I don't think the human mind can comprehend the past and the future. They are both just illusions that can manipulate you into thinking theres some kind of change."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/b/bob_dylan.html",
+          "text": "Bob Dylan"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/b/billgates404193.html",
+          "text": "We always overestimate the change that will occur in the next two years and underestimate the change that will occur in the next ten. Don't let yourself be lulled into inaction."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/b/bill_gates.html",
+          "text": "Bill Gates"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/h/harrystru130667.html",
+          "text": "Men make history and not the other way around. In periods where there is no leadership, society stands still. Progress occurs when courageous, skillful leaders seize the opportunity to change things for the better."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/h/harry_s_truman.html",
+          "text": "Harry S. Truman"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/r/robertkenn135396.html",
+          "text": "Few will have the greatness to bend history itself; but each of us can work to change a small portion of events, and in the total; of all those acts will be written the history of this generation."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/r/robert_kennedy.html",
+          "text": "Robert Kennedy"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/annielenno390787.html",
+          "text": "Ask yourself: Have you been kind today? Make kindness your daily modus operandi and change your world."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/annie_lennox.html",
+          "text": "Annie Lennox"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/w/williamjam122330.html",
+          "text": "If you believe that feeling bad or worrying long enough will change a past or future event, then you are residing on another planet with a different reality system."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/w/william_james.html",
+          "text": "William James"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/n/normanvinc378378.html",
+          "text": "Change yourself and your work will seem different."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/n/norman_vincent_peale.html",
+          "text": "Norman Vincent Peale"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/b/billgates191270.html",
+          "text": "People always fear change. People feared electricity when it was invented, didn't they? People feared coal, they feared gas-powered engines... There will always be ignorance, and ignorance leads to fear. But with time, people will come to accept their silicon masters."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/b/bill_gates.html",
+          "text": "Bill Gates"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/w/williamjam129966.html",
+          "text": "To change ones life: Start immediately. Do it flamboyantly."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/w/william_james.html",
+          "text": "William James"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/t/tonyrobbin147799.html",
+          "text": "The truth is that we can learn to condition our minds, bodies, and emotions to link pain or pleasure to whatever we choose. By changing what we link pain and pleasure to, we will instantly change our behaviors."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/t/tony_robbins.html",
+          "text": "Tony Robbins"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/p/plato134883.html",
+          "text": "Excess generally causes reaction, and produces a change in the opposite direction, whether it be in the seasons, or in individuals, or in governments."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/p/plato.html",
+          "text": "Plato"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/johnmilton400414.html",
+          "text": "Gratitude bestows reverence, allowing us to encounter everyday epiphanies, those transcendent moments of awe that change forever how we experience life and the world."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/john_milton.html",
+          "text": "John Milton"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/t/tupacshaku315881.html",
+          "text": "What I learned in jail is that I can't change. I can't live a different lifestyle - this is it. This is the life that they gave and this is the life that I made."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/t/tupac_shakur.html",
+          "text": "Tupac Shakur"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/w/williamsb149735.html",
+          "text": "Artists to my mind are the real architects of change, and not the political legislators who implement change after the fact."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/w/william_s_burroughs.html",
+          "text": "William S. Burroughs"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/johnhenryn159078.html",
+          "text": "To live is to change, and to be perfect is to have changed often."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/john_henry_newman.html",
+          "text": "John Henry Newman"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/joelosteen579085.html",
+          "text": "Just because something didn't work out your way, or somebody disappointed you, that does not change who you are."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/joel_osteen.html",
+          "text": "Joel Osteen"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/abrahammas132272.html",
+          "text": "What is necessary to change a person is to change his awareness of himself."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/abraham_maslow.html",
+          "text": "Abraham Maslow"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/k/kinhubbard101320.html",
+          "text": "Don't knock the weather; nine-tenths of the people couldn't start a conversation if it didn't change once in a while."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/k/kin_hubbard.html",
+          "text": "Kin Hubbard"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/r/reinholdni116904.html",
+          "text": "God, give us grace to accept with serenity the things that cannot be changed, courage to change the things which should be changed and the wisdom to distinguish the one from the other."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/r/reinhold_niebuhr.html",
+          "text": "Reinhold Niebuhr"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/marcusaure148730.html",
+          "text": "Observe constantly that all things take place by change, and accustom thyself to consider that the nature of the Universe loves nothing so much as to change the things which are, and to make new things like them."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/marcus_aurelius.html",
+          "text": "Marcus Aurelius"
+        }
+      }
+    ]
+  }
+}

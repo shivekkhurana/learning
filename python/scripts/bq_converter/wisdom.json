@@ -1,0 +1,1763 @@
+{
+  "name": "wisdom",
+  "lastrunstatus": "success",
+  "version": 2,
+  "count": 175,
+  "frequency": "realtime",
+  "newdata": true,
+  "lastsuccess": "Wed Mar 12 2014 09:36:28 GMT+0000 (UTC)",
+  "results": {
+    "collection1": [
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/r/ralphwaldo101322.html",
+          "text": "Do not go where the path may lead, go instead where there is no path and leave a trail."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/r/ralph_waldo_emerson.html",
+          "text": "Ralph Waldo Emerson"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/aldoushuxl145888.html",
+          "text": "Experience is not what happens to you; it's what you do with what happens to you."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/aldous_huxley.html",
+          "text": "Aldous Huxley"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/audreyhepb394440.html",
+          "text": "For beautiful eyes, look for the good in others; for beautiful lips, speak only words of kindness; and for poise, walk with the knowledge that you are never alone."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/audrey_hepburn.html",
+          "text": "Audrey Hepburn"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/w/williamart110212.html",
+          "text": "The pessimist complains about the wind; the optimist expects it to change; the realist adjusts the sails."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/w/william_arthur_ward.html",
+          "text": "William Arthur Ward"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/michaeljor129404.html",
+          "text": "If you're trying to achieve, there will be roadblocks. I've had them; everybody has had them. But obstacles don't have to stop you. If you run into a wall, don't turn around and give up. Figure out how to climb it, go through it, or work around it."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/michael_jordan.html",
+          "text": "Michael Jordan"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/n/nelsonmand101682.html",
+          "text": "A good head and a good heart are always a formidable combination."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/n/nelson_mandela.html",
+          "text": "Nelson Mandela"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/c/confucius131984.html",
+          "text": "By three methods we may learn wisdom: First, by reflection, which is noblest; Second, by imitation, which is easiest; and third by experience, which is the bitterest."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/c/confucius.html",
+          "text": "Confucius"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/n/nelsonmand121685.html",
+          "text": "If you talk to a man in a language he understands, that goes to his head. If you talk to him in his language, that goes to his heart."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/n/nelson_mandela.html",
+          "text": "Nelson Mandela"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/s/socrates101212.html",
+          "text": "The only true wisdom is in knowing you know nothing."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/s/socrates.html",
+          "text": "Socrates"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/s/swamivivek213399.html",
+          "text": "We are what our thoughts have made us; so take care about what you think. Words are secondary. Thoughts live; they travel far."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/s/swami_vivekananda.html",
+          "text": "Swami Vivekananda"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/johncmaxw391398.html",
+          "text": "A man must be big enough to admit his mistakes, smart enough to profit from them, and strong enough to correct them."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/john_c_maxwell.html",
+          "text": "John C. Maxwell"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/moliere101025.html",
+          "text": "A wise man is superior to any insults which can be put upon him, and the best reply to unseemly behavior is patience and moderation."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/moliere.html",
+          "text": "Moliere"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/alberteins129815.html",
+          "text": "Imagination is more important than knowledge."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/albert_einstein.html",
+          "text": "Albert Einstein"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/s/socrates101211.html",
+          "text": "Wisdom begins in wonder."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/s/socrates.html",
+          "text": "Socrates"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/k/khalilgibr108029.html",
+          "text": "The teacher who is indeed wise does not bid you to enter the house of his wisdom but rather leads you to the threshold of your mind."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/k/khalil_gibran.html",
+          "text": "Khalil Gibran"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/t/thomasjeff101007.html",
+          "text": "Honesty is the first chapter in the book of wisdom."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/t/thomas_jefferson.html",
+          "text": "Thomas Jefferson"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/l/lucillebal384638.html",
+          "text": "I'd rather regret the things I've done than regret the things I haven't done."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/l/lucille_ball.html",
+          "text": "Lucille Ball"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/w/waltdisney385581.html",
+          "text": "The more you like yourself, the less you are like anyone else, which makes you unique."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/w/walt_disney.html",
+          "text": "Walt Disney"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/g/georgebern141483.html",
+          "text": "Beware of false knowledge; it is more dangerous than ignorance."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/g/george_bernard_shaw.html",
+          "text": "George Bernard Shaw"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/h/henrydavid106041.html",
+          "text": "It's not what you look at that matters, it's what you see."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/h/henry_david_thoreau.html",
+          "text": "Henry David Thoreau"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/alberteins100298.html",
+          "text": "Reality is merely an illusion, albeit a very persistent one."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/albert_einstein.html",
+          "text": "Albert Einstein"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/jimrohn109882.html",
+          "text": "Discipline is the bridge between goals and accomplishment."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/jim_rohn.html",
+          "text": "Jim Rohn"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/l/laotzu130682.html",
+          "text": "Silence is a source of great strength."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/l/lao_tzu.html",
+          "text": "Lao Tzu"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/c/confucius140548.html",
+          "text": "When it is obvious that the goals cannot be reached, don't adjust the goals, adjust the action steps."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/c/confucius.html",
+          "text": "Confucius"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/e/edwardgbu150271.html",
+          "text": "A fool flatters himself, a wise man flatters the fool."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/e/edward_g_bulwerlytton.html",
+          "text": "Edward G. Bulwer-Lytton"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/v/vincelomba122285.html",
+          "text": "Winners never quit and quitters never win."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/v/vince_lombardi.html",
+          "text": "Vince Lombardi"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/r/ralphwaldo106883.html",
+          "text": "Adopt the pace of nature: her secret is patience."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/r/ralph_waldo_emerson.html",
+          "text": "Ralph Waldo Emerson"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/k/khalilgibr389457.html",
+          "text": "Wisdom ceases to be wisdom when it becomes too proud to weep, too grave to laugh, and too selfish to seek other than itself."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/k/khalil_gibran.html",
+          "text": "Khalil Gibran"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/johnfkenn103820.html",
+          "text": "When written in Chinese, the word 'crisis' is composed of two characters. One represents danger and the other represents opportunity."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/john_f_kennedy.html",
+          "text": "John F. Kennedy"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/l/laotzu387399.html",
+          "text": "I have just three things to teach: simplicity, patience, compassion. These three are your greatest treasures."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/l/lao_tzu.html",
+          "text": "Lao Tzu"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/s/sigmundfre151780.html",
+          "text": "Being entirely honest with oneself is a good exercise."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/s/sigmund_freud.html",
+          "text": "Sigmund Freud"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/s/sidoniegab161700.html",
+          "text": "Be happy. It's one way of being wise."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/s/sidonie_gabrielle_colette.html",
+          "text": "Sidonie Gabrielle Colette"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/k/khalilgibr403100.html",
+          "text": "A little knowledge that acts is worth infinitely more than much knowledge that is idle."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/k/khalil_gibran.html",
+          "text": "Khalil Gibran"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/l/laotzu110063.html",
+          "text": "Knowing others is wisdom, knowing yourself is Enlightenment."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/l/lao_tzu.html",
+          "text": "Lao Tzu"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/f/friedrichn138614.html",
+          "text": "The man of knowledge must be able not only to love his enemies but also to hate his friends."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/f/friedrich_nietzsche.html",
+          "text": "Friedrich Nietzsche"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/c/confucius386106.html",
+          "text": "Wisdom, compassion, and courage are the three universally recognized moral qualities of men."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/c/confucius.html",
+          "text": "Confucius"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/b/benjaminfr151625.html",
+          "text": "Honesty is the best policy."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/b/benjamin_franklin.html",
+          "text": "Benjamin Franklin"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/g/georgebern161863.html",
+          "text": "We are made wise not by the recollection of our past, but by the responsibility for our future."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/g/george_bernard_shaw.html",
+          "text": "George Bernard Shaw"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/p/publiliuss106799.html",
+          "text": "From the errors of others, a wise man corrects his own."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/p/publilius_syrus.html",
+          "text": "Publilius Syrus"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/h/henryford101486.html",
+          "text": "Obstacles are those frightful things you see when you take your eyes off your goal."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/h/henry_ford.html",
+          "text": "Henry Ford"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/h/henrywardb150014.html",
+          "text": "We should not judge people by their peak of excellence; but by the distance they have traveled from the point where they started."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/h/henry_ward_beecher.html",
+          "text": "Henry Ward Beecher"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/s/socrates382301.html",
+          "text": "True knowledge exists in knowing that you know nothing."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/s/socrates.html",
+          "text": "Socrates"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/p/philjackso176180.html",
+          "text": "Always keep an open mind and a compassionate heart."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/p/phil_jackson.html",
+          "text": "Phil Jackson"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/johnfkenn100269.html",
+          "text": "The greater our knowledge increases the more our ignorance unfolds."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/john_f_kennedy.html",
+          "text": "John F. Kennedy"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/abrahammas126079.html",
+          "text": "If you only have a hammer, you tend to see every problem as a nail."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/abraham_maslow.html",
+          "text": "Abraham Maslow"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/c/cslewis163249.html",
+          "text": "Nothing that you have not given away will ever be really yours."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/c/c_s_lewis.html",
+          "text": "C. S. Lewis"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/johnsteinb103825.html",
+          "text": "It is a common experience that a problem difficult at night is resolved in the morning after the committee of sleep has worked on it."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/john_steinbeck.html",
+          "text": "John Steinbeck"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/e/elberthubb108484.html",
+          "text": "Every man is a damn fool for at least five minutes every day; wisdom consists in not exceeding the limit."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/e/elbert_hubbard.html",
+          "text": "Elbert Hubbard"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/johnwooden446997.html",
+          "text": "Whatever you do in life, surround yourself with smart people who'll argue with you."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/john_wooden.html",
+          "text": "John Wooden"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/arthurcona402419.html",
+          "text": "We can't command our love, but we can our actions."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/arthur_conan_doyle.html",
+          "text": "Arthur Conan Doyle"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/k/katharineg166885.html",
+          "text": "A mistake is simply another way of doing things."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/k/katharine_graham.html",
+          "text": "Katharine Graham"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/johnmuir157646.html",
+          "text": "Climb the mountains and get their good tidings."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/john_muir.html",
+          "text": "John Muir"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/b/benjaminfr163094.html",
+          "text": "The doorstep to the temple of wisdom is a knowledge of our own ignorance."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/b/benjamin_franklin.html",
+          "text": "Benjamin Franklin"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/b/benjaminfr151684.html",
+          "text": "There are three faithful friends - an old wife, an old dog, and ready money."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/b/benjamin_franklin.html",
+          "text": "Benjamin Franklin"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/p/plato400440.html",
+          "text": "A good decision is based on knowledge and not on numbers."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/p/plato.html",
+          "text": "Plato"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/o/oprahwinfr103803.html",
+          "text": "Turn your wounds into wisdom."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/o/oprah_winfrey.html",
+          "text": "Oprah Winfrey"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/r/ralphwaldo136915.html",
+          "text": "Nature and books belong to the eyes that see them."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/r/ralph_waldo_emerson.html",
+          "text": "Ralph Waldo Emerson"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/b/benhogan173528.html",
+          "text": "As you walk down the fairway of life you must smell the roses, for you only get to play one round."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/b/ben_hogan.html",
+          "text": "Ben Hogan"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/w/walterlipp101208.html",
+          "text": "It requires wisdom to understand wisdom: the music is nothing if the audience is deaf."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/w/walter_lippmann.html",
+          "text": "Walter Lippmann"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/b/benjaminfr132718.html",
+          "text": "The doors of wisdom are never shut."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/b/benjamin_franklin.html",
+          "text": "Benjamin Franklin"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/k/khalilgibr101206.html",
+          "text": "Wisdom stands at the turn in the road and calls upon us publicly, but we consider it false and despise its adherents."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/k/khalil_gibran.html",
+          "text": "Khalil Gibran"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/johannwolf378590.html",
+          "text": "The way you see people is the way you treat them, and the way you treat them is what they become."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/johann_wolfgang_von_goeth.html",
+          "text": "Johann Wolfgang von Goethe"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/f/friedrichn162042.html",
+          "text": "Does wisdom perhaps appear on the earth as a raven which is inspired by the smell of carrion?"
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/f/friedrich_nietzsche.html",
+          "text": "Friedrich Nietzsche"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/w/williamjam108497.html",
+          "text": "The art of being wise is the art of knowing what to overlook."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/w/william_james.html",
+          "text": "William James"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/h/henrydavid132661.html",
+          "text": "It is a characteristic of wisdom not to do desperate things."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/h/henry_david_thoreau.html",
+          "text": "Henry David Thoreau"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/g/georgespa106027.html",
+          "text": "Never tell people how to do things. Tell them what to do and they will surprise you with their ingenuity."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/g/george_s_patton.html",
+          "text": "George S. Patton"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/r/robertfros107271.html",
+          "text": "A poem begins in delight and ends in wisdom."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/r/robert_frost.html",
+          "text": "Robert Frost"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/archimedes101761.html",
+          "text": "Give me a lever long enough and a fulcrum on which to place it, and I shall move the world."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/archimedes.html",
+          "text": "Archimedes"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/h/henrydavid133014.html",
+          "text": "All this worldly wisdom was once the unamiable heresy of some wise man."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/h/henry_david_thoreau.html",
+          "text": "Henry David Thoreau"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/e/elizabethk114982.html",
+          "text": "It's better to be a lion for a day than a sheep all your life."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/e/elizabeth_kenny.html",
+          "text": "Elizabeth Kenny"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/h/herbcaen161938.html",
+          "text": "A man begins cutting his wisdom teeth the first time he bites off more than he can chew."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/h/herb_caen.html",
+          "text": "Herb Caen"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/v/vincelomba125503.html",
+          "text": "Winning is not everything, but wanting to win is."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/v/vince_lombardi.html",
+          "text": "Vince Lombardi"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/s/saintbasil395043.html",
+          "text": "A tree is known by its fruit; a man by his deeds. A good deed is never lost; he who sows courtesy reaps friendship, and he who plants kindness gathers love."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/s/saint_basil.html",
+          "text": "Saint Basil"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/johannwolf150620.html",
+          "text": "Ignorant men raise questions that wise men answered a thousand years ago."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/johann_wolfgang_von_goeth.html",
+          "text": "Johann Wolfgang von Goethe"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/joanrivers119877.html",
+          "text": "Don't follow any advice, no matter how good, until you feel as deeply in your spirit as you think in your mind that the counsel is wise."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/joan_rivers.html",
+          "text": "Joan Rivers"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/r/richardmn120433.html",
+          "text": "Never let your head hang down. Never give up and sit down and grieve. Find another way. And don't pray when it rains if you don't pray when the sun shines."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/r/richard_m_nixon.html",
+          "text": "Richard M. Nixon"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/arthurcona154359.html",
+          "text": "It has long been an axiom of mine that the little things are infinitely the most important."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/arthur_conan_doyle.html",
+          "text": "Arthur Conan Doyle"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/aynrand382932.html",
+          "text": "The truth is not for all men, but only for those who seek it."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/ayn_rand.html",
+          "text": "Ayn Rand"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/s/saintaugus108487.html",
+          "text": "Patience is the companion of wisdom."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/s/saint_augustine.html",
+          "text": "Saint Augustine"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/d/douglarson107911.html",
+          "text": "Wisdom is the reward you get for a lifetime of listening when you'd have preferred to talk."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/d/doug_larson.html",
+          "text": "Doug Larson"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/johnmuir108391.html",
+          "text": "In every walk with nature one receives far more than he seeks."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/john_muir.html",
+          "text": "John Muir"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/h/henrywardb150043.html",
+          "text": "Good nature is worth more than knowledge, more than money, more than honor, to the persons who possess it."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/h/henry_ward_beecher.html",
+          "text": "Henry Ward Beecher"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/t/theodorero109482.html",
+          "text": "Nine-tenths of wisdom is being wise in time."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/t/theodore_roosevelt.html",
+          "text": "Theodore Roosevelt"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/e/elisabethk121108.html",
+          "text": "I believe that we are solely responsible for our choices, and we have to accept the consequences of every deed, word, and thought throughout our lifetime."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/e/elisabeth_kublerross.html",
+          "text": "Elisabeth Kubler-Ross"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/jimcarrey411044.html",
+          "text": "It is better to risk starving to death then surrender. If you give up on your dreams, what's left?"
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/jim_carrey.html",
+          "text": "Jim Carrey"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/marcustull161561.html",
+          "text": "Nobody can give you wiser advice than yourself."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/marcus_tullius_cicero.html",
+          "text": "Marcus Tullius Cicero"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/l/lordbyron150380.html",
+          "text": "Sorrow is knowledge, those that know the most must mourn the deepest, the tree of knowledge is not the tree of life."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/l/lord_byron.html",
+          "text": "Lord Byron"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/c/charlesdic108500.html",
+          "text": "There is a wisdom of the head, and a wisdom of the heart."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/c/charles_dickens.html",
+          "text": "Charles Dickens"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/arthurhelp100821.html",
+          "text": "Wise sayings often fall on barren ground, but a kind word is never thrown away."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/arthur_helps.html",
+          "text": "Arthur Helps"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/antonchekh105581.html",
+          "text": "People don't notice whether it's winter or summer when they're happy."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/anton_chekhov.html",
+          "text": "Anton Chekhov"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/s/sophocles165770.html",
+          "text": "Wisdom is the supreme part of happiness."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/s/sophocles.html",
+          "text": "Sophocles"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/l/leobuscagl150301.html",
+          "text": "If I don't have wisdom, I can teach you only ignorance."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/l/leo_buscaglia.html",
+          "text": "Leo Buscaglia"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/johannwolf150610.html",
+          "text": "Wisdom is found only in truth."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/johann_wolfgang_von_goeth.html",
+          "text": "Johann Wolfgang von Goethe"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/e/euripides149006.html",
+          "text": "Cleverness is not wisdom."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/e/euripides.html",
+          "text": "Euripides"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/johannwolf150618.html",
+          "text": "This is the highest wisdom that I own; freedom and life are earned by those alone who conquer them each day anew."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/johann_wolfgang_von_goeth.html",
+          "text": "Johann Wolfgang von Goethe"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/e/epictetus149140.html",
+          "text": "It is the nature of the wise to resist pleasures, but the foolish to be a slave to them."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/e/epictetus.html",
+          "text": "Epictetus"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/d/danrather383242.html",
+          "text": "Don't taunt the alligator until after you've crossed the creek."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/d/dan_rather.html",
+          "text": "Dan Rather"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/w/williamjam157201.html",
+          "text": "Wisdom is learning what to overlook."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/w/william_james.html",
+          "text": "William James"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/o/ogmandino157857.html",
+          "text": "Always seek out the seed of triumph in every adversity."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/o/og_mandino.html",
+          "text": "Og Mandino"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/f/francisbac110048.html",
+          "text": "It is impossible to love and to be wise."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/f/francis_bacon.html",
+          "text": "Francis Bacon"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/o/oliverwend108494.html",
+          "text": "The young man knows the rules, but the old man knows the exceptions."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/o/oliver_wendell_holmes_sr.html",
+          "text": "Oliver Wendell Holmes, Sr."
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/w/williambla108855.html",
+          "text": "The road of excess leads to the palace of wisdom."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/w/william_blake.html",
+          "text": "William Blake"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/b/bertrandru132851.html",
+          "text": "To conquer fear is the beginning of wisdom."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/b/bertrand_russell.html",
+          "text": "Bertrand Russell"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/josephsmit192868.html",
+          "text": "The best way to obtain truth and wisdom is not to ask from books, but to go to God in prayer, and obtain divine teaching."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/joseph_smith_jr.html",
+          "text": "Joseph Smith, Jr."
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/akhenaton163521.html",
+          "text": "To be satisfied with a little, is the greatest wisdom; and he that increaseth his riches, increaseth his cares; but a contented mind is a hidden treasure, and trouble findeth it not."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/akhenaton.html",
+          "text": "Akhenaton"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/r/ronwhite392374.html",
+          "text": "I didn't get where I am today by worryin' about how I'd feel tomorrow."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/r/ron_white.html",
+          "text": "Ron White"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/h/hlmencke116705.html",
+          "text": "The older I grow the more I distrust the familiar doctrine that age brings wisdom."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/h/h_l_mencken.html",
+          "text": "H. L. Mencken"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/b/brendauela388678.html",
+          "text": "This is what I learned: that everybody is talented, original and has something important to say."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/b/brenda_ueland.html",
+          "text": "Brenda Ueland"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/s/samueltayl108501.html",
+          "text": "Common sense in an uncommon degree is what the world calls wisdom."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/s/samuel_taylor_coleridge.html",
+          "text": "Samuel Taylor Coleridge"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/d/deniswaitl146948.html",
+          "text": "You must accept responsibility for your actions, but not the credit for your achievements."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/d/denis_waitley.html",
+          "text": "Denis Waitley"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/b/benjamindi130014.html",
+          "text": "Man is only great when he acts from passion."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/b/benjamin_disraeli.html",
+          "text": "Benjamin Disraeli"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/n/napoleonbo378985.html",
+          "text": "The truest wisdom is a resolute determination."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/n/napoleon_bonaparte.html",
+          "text": "Napoleon Bonaparte"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/alankay100831.html",
+          "text": "The best way to predict the future is to invent it."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/alan_kay.html",
+          "text": "Alan Kay"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/l/luciusanna108502.html",
+          "text": "No man was ever wise by chance."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/l/lucius_annaeus_seneca.html",
+          "text": "Lucius Annaeus Seneca"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/antonchekh119058.html",
+          "text": "Knowledge is of no value unless you put it into practice."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/anton_chekhov.html",
+          "text": "Anton Chekhov"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/p/popepaulvi120370.html",
+          "text": "Never reach out your hand unless you're willing to extend an arm."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/p/pope_paul_vi.html",
+          "text": "Pope Paul VI"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/h/honoredeba385259.html",
+          "text": "The motto of chivalry is also the motto of wisdom; to serve all, but love only one."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/h/honore_de_balzac.html",
+          "text": "Honore de Balzac"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/alfredlord108495.html",
+          "text": "Knowledge comes, but wisdom lingers."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/alfred_lord_tennyson.html",
+          "text": "Alfred Lord Tennyson"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/masoncoole394820.html",
+          "text": "If you call failures experiments, you can put them in your resume and claim them as achievements."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/mason_cooley.html",
+          "text": "Mason Cooley"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/arnoldschw146576.html",
+          "text": "Start wide, expand further, and never look back."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/arnold_schwarzenegger.html",
+          "text": "Arnold Schwarzenegger"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/jeanpaul101210.html",
+          "text": "The more sand that has escaped from the hourglass of our life, the clearer we should see through it."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/jean_paul.html",
+          "text": "Jean Paul"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/d/danieljbo175243.html",
+          "text": "The greatest obstacle to discovery is not ignorance - it is the illusion of knowledge."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/d/daniel_j_boorstin.html",
+          "text": "Daniel J. Boorstin"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/v/victorhugo131145.html",
+          "text": "Wisdom is a sacred communion."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/v/victor_hugo.html",
+          "text": "Victor Hugo"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/f/francisbac122013.html",
+          "text": "A prudent question is one-half of wisdom."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/f/francis_bacon.html",
+          "text": "Francis Bacon"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/joshbillin105821.html",
+          "text": "Honesty is the rarest wealth anyone can possess, and yet all the honesty in the world ain't lawful tender for a loaf of bread."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/josh_billings.html",
+          "text": "Josh Billings"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/r/roberthsc120883.html",
+          "text": "Spectacular achievement is always preceded by unspectacular preparation."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/r/robert_h_schuller.html",
+          "text": "Robert H. Schuller"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/h/horace152506.html",
+          "text": "Wisdom is not wisdom when it is derived from books alone."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/h/horace.html",
+          "text": "Horace"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/aesop138999.html",
+          "text": "Better be wise by the misfortunes of others than by your own."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/aesop.html",
+          "text": "Aesop"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/b/baltasargr150640.html",
+          "text": "Better mad with the rest of the world than wise alone."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/b/baltasar_gracian.html",
+          "text": "Baltasar Gracian"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/arthurscho155433.html",
+          "text": "In action a great heart is the chief qualification. In work, a great head."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/arthur_schopenhauer.html",
+          "text": "Arthur Schopenhauer"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/johnburrou120946.html",
+          "text": "The smallest deed is better than the greatest intention."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/john_burroughs.html",
+          "text": "John Burroughs"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/s/sophocles108496.html",
+          "text": "Wisdom outweighs any wealth."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/s/sophocles.html",
+          "text": "Sophocles"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/t/terigarr289552.html",
+          "text": "You have to find out what's right for you, so it's trial and error. You are going to be all right if you accept realistic goals for yourself."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/t/teri_garr.html",
+          "text": "Teri Garr"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/joshbillin122386.html",
+          "text": "The wheel that squeaks the loudest is the one that gets the grease."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/josh_billings.html",
+          "text": "Josh Billings"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/alfredlord165635.html",
+          "text": "Who is wise in love, love most, say least."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/alfred_lord_tennyson.html",
+          "text": "Alfred Lord Tennyson"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/h/horace152465.html",
+          "text": "A heart well prepared for adversity in bad times hopes, and in good times fears for a change in fortune."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/h/horace.html",
+          "text": "Horace"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/w/wclements155736.html",
+          "text": "Self-suggestion makes you master of yourself."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/w/w_clement_stone.html",
+          "text": "W. Clement Stone"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/g/georgesant107159.html",
+          "text": "Almost every wise saying has an opposite one, no less wise, to balance it."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/g/george_santayana.html",
+          "text": "George Santayana"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/w/williamcow385062.html",
+          "text": "Knowledge is proud that it knows so much; wisdom is humble that it knows no more."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/w/william_cowper.html",
+          "text": "William Cowper"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/b/benjamindi126661.html",
+          "text": "The wisdom of the wise and the experience of the ages are perpetuated by quotations."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/b/benjamin_disraeli.html",
+          "text": "Benjamin Disraeli"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/f/francisbac105311.html",
+          "text": "Wise men make more opportunities than they find."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/f/francis_bacon.html",
+          "text": "Francis Bacon"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/aeschylus148574.html",
+          "text": "Memory is the mother of all wisdom."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/aeschylus.html",
+          "text": "Aeschylus"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/moriheiues183616.html",
+          "text": "When an opponent comes forward, move in and greet him; if he wants to pull back, send him on his way."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/morihei_ueshiba.html",
+          "text": "Morihei Ueshiba"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/o/orisonswet157899.html",
+          "text": "It is like the seed put in the soil - the more one sows, the greater the harvest."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/o/orison_swett_marden.html",
+          "text": "Orison Swett Marden"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/jameshunek108491.html",
+          "text": "He dares to be a fool, and that is the first step in the direction of wisdom."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/james_huneker.html",
+          "text": "James Huneker"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/alexiscarr161287.html",
+          "text": "All of us, at certain moments of our lives, need to take advice and to receive help from other people."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/alexis_carrel.html",
+          "text": "Alexis Carrel"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/alfredaust169797.html",
+          "text": "Public opinion is no more than this: what people think that other people think."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/alfred_austin.html",
+          "text": "Alfred Austin"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/t/tomwilson108489.html",
+          "text": "Wisdom doesn't necessarily come with age. Sometimes age just shows up all by itself."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/t/tom_wilson.html",
+          "text": "Tom Wilson"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/f/francoisde151076.html",
+          "text": "It is great folly to wish to be wise all alone."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/f/francois_de_la_rochefouca.html",
+          "text": "Francois de La Rochefoucauld"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/t/tobiassmol106009.html",
+          "text": "Some folks are wise and some are otherwise."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/t/tobias_smollett.html",
+          "text": "Tobias Smollett"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/h/hermannhes399616.html",
+          "text": "Knowledge can be communicated, but not wisdom. One can find it, live it, be fortified by it, do wonders through it, but one cannot communicate and teach it."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/h/hermann_hesse.html",
+          "text": "Hermann Hesse"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/f/florencesc130103.html",
+          "text": "Giving opens the way for receiving."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/f/florence_scovel_shinn.html",
+          "text": "Florence Scovel Shinn"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/l/lordcheste118844.html",
+          "text": "In seeking wisdom thou art wise; in imagining that thou hast attained it - thou art a fool."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/l/lord_chesterfield.html",
+          "text": "Lord Chesterfield"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/josephjoub380242.html",
+          "text": "Never cut what you can untie."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/joseph_joubert.html",
+          "text": "Joseph Joubert"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/aesop379511.html",
+          "text": "Please all, and you will please none."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/aesop.html",
+          "text": "Aesop"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/johndrock147462.html",
+          "text": "Singleness of purpose is one of the chief essentials for success in life, no matter what may be one's aim."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/john_d_rockefeller.html",
+          "text": "John D. Rockefeller"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/d/douglarson108492.html",
+          "text": "Wisdom is the quality that keeps you from getting into situations where you need it."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/d/doug_larson.html",
+          "text": "Doug Larson"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/s/sarateasda118845.html",
+          "text": "When I can look life in the eyes, grown calm and very coldly wise, life will have given me the truth, and taken in exchange - my youth."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/s/sara_teasdale.html",
+          "text": "Sara Teasdale"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/w/williampen378632.html",
+          "text": "Rarely promise, but, if lawful, constantly perform."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/w/william_penn.html",
+          "text": "William Penn"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/t/tomhopkins183078.html",
+          "text": "Repeat anything often enough and it will start to become you."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/t/tom_hopkins.html",
+          "text": "Tom Hopkins"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/jeanpaul147421.html",
+          "text": "Strong characters are brought out by change of situation, and gentle ones by permanence."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/jean_paul.html",
+          "text": "Jean Paul"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/alexanderp397860.html",
+          "text": "Tis but a part we see, and not a whole."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/alexander_pope.html",
+          "text": "Alexander Pope"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/l/lucretius153267.html",
+          "text": "The fall of dropping water wears away the Stone."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/l/lucretius.html",
+          "text": "Lucretius"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/marykayash120181.html",
+          "text": "Every silver lining has a cloud."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/mary_kay_ash.html",
+          "text": "Mary Kay Ash"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/joshbillin108498.html",
+          "text": "Learning sleeps and snores in libraries, but wisdom is everywhere, wide awake, on tiptoe."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/josh_billings.html",
+          "text": "Josh Billings"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/r/richardwha381798.html",
+          "text": "It is the neglect of timely repair that makes rebuilding necessary."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/r/richard_whately.html",
+          "text": "Richard Whately"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/aeschylus398733.html",
+          "text": "Of prosperity mortals can never have enough."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/aeschylus.html",
+          "text": "Aeschylus"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/e/edgarfiedl130300.html",
+          "text": "He who lives by the crystal ball soon learns to eat ground glass."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/e/edgar_fiedler.html",
+          "text": "Edgar Fiedler"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/alankay375551.html",
+          "text": "Perspective is worth 80 IQ points."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/alan_kay.html",
+          "text": "Alan Kay"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/s/stendhal205756.html",
+          "text": "The more one pleases everybody, the less one pleases profoundly."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/s/stendhal.html",
+          "text": "Stendhal"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/s/sidneylani176195.html",
+          "text": "If you want to be found stand where the seeker seeks."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/s/sidney_lanier.html",
+          "text": "Sidney Lanier"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/janewyman207606.html",
+          "text": "The opportunity for brotherhood presents itself every time you meet a human being."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/jane_wyman.html",
+          "text": "Jane Wyman"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/d/danielwebs108486.html",
+          "text": "Wisdom begins at the end."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/d/daniel_webster.html",
+          "text": "Daniel Webster"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/s/shinichisu407241.html",
+          "text": "What is man's ultimate direction in life? It is to look for love, truth, virtue, and beauty."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/s/shinichi_suzuki.html",
+          "text": "Shinichi Suzuki"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/d/diogenes390485.html",
+          "text": "Wise kings generally have wise counselors; and he must be a wise man himself who is capable of distinguishing one."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/d/diogenes.html",
+          "text": "Diogenes"
+        }
+      }
+    ]
+  }
+}

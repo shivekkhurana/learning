@@ -1,0 +1,2513 @@
+{
+  "name": "art",
+  "lastrunstatus": "success",
+  "version": 2,
+  "count": 250,
+  "frequency": "realtime",
+  "newdata": true,
+  "lastsuccess": "Wed Mar 12 2014 09:38:30 GMT+0000 (UTC)",
+  "results": {
+    "collection1": [
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/alberteins131274.html",
+          "text": "True art is characterized by an irresistible urge in the creative artist."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/albert_einstein.html",
+          "text": "Albert Einstein"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/v/vincentvan104644.html",
+          "text": "If you hear a voice within you say 'you cannot paint,' then by all means paint, and that voice will be silenced."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/v/vincent_van_gogh.html",
+          "text": "Vincent Van Gogh"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/abrahamlin118956.html",
+          "text": "The highest art is always the most religious, and the greatest artist is always a devout person."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/abraham_lincoln.html",
+          "text": "Abraham Lincoln"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/p/pablopicas102627.html",
+          "text": "The purpose of art is washing the dust of daily life off our souls."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/p/pablo_picasso.html",
+          "text": "Pablo Picasso"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/o/oscarwilde104130.html",
+          "text": "No great artist ever sees things as they really are. If he did, he would cease to be an artist."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/o/oscar_wilde.html",
+          "text": "Oscar Wilde"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/aristotle104151.html",
+          "text": "The aim of art is to represent not the outward appearance of things, but their inward significance."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/aristotle.html",
+          "text": "Aristotle"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/o/oscarwilde117779.html",
+          "text": "A work of art is the unique result of a unique temperament."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/o/oscar_wilde.html",
+          "text": "Oscar Wilde"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/f/friedrichn100896.html",
+          "text": "The essence of all beautiful art, all great art, is gratitude."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/f/friedrich_nietzsche.html",
+          "text": "Friedrich Nietzsche"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/w/winstonchu111320.html",
+          "text": "Without tradition, art is a flock of sheep without a shepherd. Without innovation, it is a corpse."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/w/winston_churchill.html",
+          "text": "Winston Churchill"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/o/oscarwilde122358.html",
+          "text": "Art is the most intense mode of individualism that the world has known."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/o/oscar_wilde.html",
+          "text": "Oscar Wilde"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/r/ralphwaldo108800.html",
+          "text": "Every artist was first an amateur."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/r/ralph_waldo_emerson.html",
+          "text": "Ralph Waldo Emerson"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/o/oscarwilde163190.html",
+          "text": "Life imitates art far more than art imitates Life."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/o/oscar_wilde.html",
+          "text": "Oscar Wilde"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/r/ralphwaldo132229.html",
+          "text": "In art, the hand can never execute anything higher than the heart can imagine."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/r/ralph_waldo_emerson.html",
+          "text": "Ralph Waldo Emerson"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/johnfkenn109214.html",
+          "text": "If art is to nourish the roots of our culture, society must set the artist free to follow his vision wherever it takes him."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/john_f_kennedy.html",
+          "text": "John F. Kennedy"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/t/thomasmert132241.html",
+          "text": "Art enables us to find ourselves and lose ourselves at the same time."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/t/thomas_merton.html",
+          "text": "Thomas Merton"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/f/friedrichn159176.html",
+          "text": "We have art in order not to die of the truth."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/f/friedrich_nietzsche.html",
+          "text": "Friedrich Nietzsche"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/k/khalilgibr100890.html",
+          "text": "Art is a step from what is obvious and well-known toward what is arcane and concealed."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/k/khalil_gibran.html",
+          "text": "Khalil Gibran"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/h/henrydavid109604.html",
+          "text": "This world is but a canvas to our imagination."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/h/henry_david_thoreau.html",
+          "text": "Henry David Thoreau"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/albertcamu111062.html",
+          "text": "A guilty conscience needs to confess. A work of art is a confession."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/albert_camus.html",
+          "text": "Albert Camus"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/s/scottadams104102.html",
+          "text": "Creativity is allowing yourself to make mistakes. Art is knowing which ones to keep."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/s/scott_adams.html",
+          "text": "Scott Adams"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/r/ralphwaldo161579.html",
+          "text": "Pictures must not be too picturesque."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/r/ralph_waldo_emerson.html",
+          "text": "Ralph Waldo Emerson"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/f/friedrichn109386.html",
+          "text": "Art is the proper task of life."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/f/friedrich_nietzsche.html",
+          "text": "Friedrich Nietzsche"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/g/georgebern104152.html",
+          "text": "Without art, the crudeness of reality would make the world unbearable."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/g/george_bernard_shaw.html",
+          "text": "George Bernard Shaw"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/anaisnin124748.html",
+          "text": "If you do not breathe through writing, if you do not cry out in writing, or sing in writing, then don't write, because our culture has no use for it."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/anais_nin.html",
+          "text": "Anais Nin"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/n/napoleonbo100895.html",
+          "text": "A picture is worth a thousand words."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/n/napoleon_bonaparte.html",
+          "text": "Napoleon Bonaparte"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/jameswhist382345.html",
+          "text": "An artist is not paid for his labor but for his vision."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/james_whistler.html",
+          "text": "James Whistler"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/t/twylatharp104104.html",
+          "text": "Art is the only way to run away without leaving home."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/t/twyla_tharp.html",
+          "text": "Twyla Tharp"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/s/salvadorda111636.html",
+          "text": "Drawing is the honesty of the art. There is no possibility of cheating. It is either good or bad."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/s/salvador_dali.html",
+          "text": "Salvador Dali"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/e/elberthubb104142.html",
+          "text": "Art is not a thing; it is a way."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/e/elbert_hubbard.html",
+          "text": "Elbert Hubbard"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/anseladams100072.html",
+          "text": "You don't take a photograph, you make it."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/ansel_adams.html",
+          "text": "Ansel Adams"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/albertcamu131250.html",
+          "text": "Without freedom, no art; art lives only on the restraints it imposes on itself, and dies of all others."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/albert_camus.html",
+          "text": "Albert Camus"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/h/henrywardb100771.html",
+          "text": "Every artist dips his brush in his own soul, and paints his own nature into his pictures."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/h/henry_ward_beecher.html",
+          "text": "Henry Ward Beecher"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/p/plato118809.html",
+          "text": "The beginning is the most important part of the work."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/p/plato.html",
+          "text": "Plato"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/e/elberthubb107817.html",
+          "text": "The sculptor produces the beautiful statue by chipping away such parts of the marble block as are not needed - it is a process of elimination."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/e/elbert_hubbard.html",
+          "text": "Elbert Hubbard"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/jonathansw122246.html",
+          "text": "Vision is the art of seeing what is invisible to others."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/jonathan_swift.html",
+          "text": "Jonathan Swift"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/g/georgiaok104135.html",
+          "text": "I found I could say things with color and shapes that I couldn't say any other way - things I had no words for."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/g/georgia_okeeffe.html",
+          "text": "Georgia O'Keeffe"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/g/gilbertkc104155.html",
+          "text": "Lying in bed would be an altogether perfect and supreme experience if only one had a colored pencil long enough to draw on the ceiling."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/g/gilbert_k_chesterton.html",
+          "text": "Gilbert K. Chesterton"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/h/horace152471.html",
+          "text": "A picture is a poem without words."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/h/horace.html",
+          "text": "Horace"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/e/edgardegas104119.html",
+          "text": "Painting is easy when you don't know how, but very difficult when you do."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/e/edgar_degas.html",
+          "text": "Edgar Degas"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/anatolefra151554.html",
+          "text": "In art as in love, instinct is enough."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/anatole_france.html",
+          "text": "Anatole France"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/andywarhol161580.html",
+          "text": "An artist is somebody who produces things that people don't need to have."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/andy_warhol.html",
+          "text": "Andy Warhol"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/p/pablopicas100865.html",
+          "text": "Some painters transform the sun into a yellow spot, others transform a yellow spot into the sun."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/p/pablo_picasso.html",
+          "text": "Pablo Picasso"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/p/pablopicas100864.html",
+          "text": "The artist is a receptacle for emotions that come from all over the place: from the sky, from the earth, from a scrap of paper, from a passing shape, from a spider's web."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/p/pablo_picasso.html",
+          "text": "Pablo Picasso"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/michelange104153.html",
+          "text": "A man paints with his brains and not with his hands."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/michelangelo.html",
+          "text": "Michelangelo"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/h/hedylamarr271431.html",
+          "text": "A good painting to me has always been like a friend. It keeps me company, comforts and inspires."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/h/hedy_lamarr.html",
+          "text": "Hedy Lamarr"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/g/gilbertkc161581.html",
+          "text": "Art, like morality, consists in drawing the line somewhere."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/g/gilbert_k_chesterton.html",
+          "text": "Gilbert K. Chesterton"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/johannwolf150502.html",
+          "text": "Personality is everything in art and poetry."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/johann_wolfgang_von_goeth.html",
+          "text": "Johann Wolfgang von Goethe"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/d/dalecarneg119289.html",
+          "text": "The essence of all art is to have pleasure in giving pleasure."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/d/dale_carnegie.html",
+          "text": "Dale Carnegie"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/andregide104122.html",
+          "text": "Art is a collaboration between God and the artist, and the less the artist does the better."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/andre_gide.html",
+          "text": "Andre Gide"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/johannwolf134096.html",
+          "text": "The mediator of the inexpressible is the work of art."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/johann_wolfgang_von_goeth.html",
+          "text": "Johann Wolfgang von Goethe"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/p/pablopicas104103.html",
+          "text": "Painting is just another way of keeping a diary."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/p/pablo_picasso.html",
+          "text": "Pablo Picasso"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/johannwolf161061.html",
+          "text": "In art the best is good enough."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/johann_wolfgang_von_goeth.html",
+          "text": "Johann Wolfgang von Goethe"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/ambrosebie128316.html",
+          "text": "Painting, n.: The art of protecting flat surfaces from the weather, and exposing them to the critic."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/ambrose_bierce.html",
+          "text": "Ambrose Bierce"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/c/charleshor100886.html",
+          "text": "An artist cannot fail; it is a success to be one."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/c/charles_horton_cooley.html",
+          "text": "Charles Horton Cooley"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/miguelange182398.html",
+          "text": "Every human is an artist. The dream of your life is to make beautiful art."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/miguel_angel_ruiz.html",
+          "text": "Miguel Angel Ruiz"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/f/franlebowi104124.html",
+          "text": "Very few people possess true artistic ability. It is therefore both unseemly and unproductive to irritate the situation by making an effort. If you have a burning, restless urge to write or paint, simply eat something sweet and the feeling will pass."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/f/fran_lebowitz.html",
+          "text": "Fran Lebowitz"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/s/salvadorda111639.html",
+          "text": "Painting is an infinitely minute part of my personality."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/s/salvador_dali.html",
+          "text": "Salvador Dali"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/l/luciusanna100897.html",
+          "text": "All art is but imitation of nature."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/l/lucius_annaeus_seneca.html",
+          "text": "Lucius Annaeus Seneca"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/p/paulklee152072.html",
+          "text": "One eye sees, the other feels."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/p/paul_klee.html",
+          "text": "Paul Klee"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/andywarhol108200.html",
+          "text": "I'm afraid that if you look at a thing long enough, it loses all of its meaning."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/andy_warhol.html",
+          "text": "Andy Warhol"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/w/waltwhitma146853.html",
+          "text": "The art of art, the glory of expression and the sunshine of the light of letters, is simplicity."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/w/walt_whitman.html",
+          "text": "Walt Whitman"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/michelange108740.html",
+          "text": "The true work of art is but a shadow of the divine perfection."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/michelangelo.html",
+          "text": "Michelangelo"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/h/honoredeba149918.html",
+          "text": "If we could but paint with the hand what we see with the eye."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/h/honore_de_balzac.html",
+          "text": "Honore de Balzac"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/marshallmc100402.html",
+          "text": "Ads are the cave art of the twentieth century."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/marshall_mcluhan.html",
+          "text": "Marshall McLuhan"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/w/wsomerset132232.html",
+          "text": "Every production of an artist should be the expression of an adventure of his soul."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/w/w_somerset_maugham.html",
+          "text": "W. Somerset Maugham"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/d/dorotheala141163.html",
+          "text": "Photography takes an instant out of time, altering life by holding it still."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/d/dorothea_lange.html",
+          "text": "Dorothea Lange"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/p/paulvalery102231.html",
+          "text": "An artist never really finishes his work, he merely abandons it."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/p/paul_valery.html",
+          "text": "Paul Valery"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/anseladams106035.html",
+          "text": "There is nothing worse than a sharp image of a fuzzy concept."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/ansel_adams.html",
+          "text": "Ansel Adams"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/johnruskin119947.html",
+          "text": "Art is not a study of positive reality, it is the seeking for ideal truth."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/john_ruskin.html",
+          "text": "John Ruskin"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/l/ludwigmies100227.html",
+          "text": "I don't want to be interesting. I want to be good."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/l/ludwig_mies_van_der_rohe.html",
+          "text": "Ludwig Mies van der Rohe"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/johnruskin104158.html",
+          "text": "Fine art is that in which the hand, the head, and the heart of man go together."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/john_ruskin.html",
+          "text": "John Ruskin"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/g/gilbertkc104127.html",
+          "text": "Art consists of limitation. The most beautiful part of every picture is the frame."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/g/gilbert_k_chesterton.html",
+          "text": "Gilbert K. Chesterton"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/f/francisbac118151.html",
+          "text": "Fashion is only the attempt to realize art in living forms and social intercourse."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/f/francis_bacon.html",
+          "text": "Francis Bacon"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/e/emilezola100603.html",
+          "text": "The artist is nothing without the gift, but the gift is nothing without work."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/e/emile_zola.html",
+          "text": "Emile Zola"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/g/gertrudest100157.html",
+          "text": "A writer should write with his eyes and a painter paint with his ears."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/g/gertrude_stein.html",
+          "text": "Gertrude Stein"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/ambrosebie107189.html",
+          "text": "Photograph: a picture painted by the sun without instruction in art."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/ambrose_bierce.html",
+          "text": "Ambrose Bierce"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/arthurscho125573.html",
+          "text": "Treat a work of art like a prince. Let it speak to you first."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/arthur_schopenhauer.html",
+          "text": "Arthur Schopenhauer"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/g/georgesant104141.html",
+          "text": "An artist is a dreamer consenting to dream of the actual world."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/g/george_santayana.html",
+          "text": "George Santayana"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/l/leotolstoy153946.html",
+          "text": "To say that a work of art is good, but incomprehensible to the majority of men, is the same as saying of some kind of food that it is very good but that most people can't eat it."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/l/leo_tolstoy.html",
+          "text": "Leo Tolstoy"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/anseladams110428.html",
+          "text": "Not everybody trusts paintings but people believe photographs."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/ansel_adams.html",
+          "text": "Ansel Adams"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/s/salvadorda165661.html",
+          "text": "The terrifying and edible beauty of Art Nouveau architecture."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/s/salvador_dali.html",
+          "text": "Salvador Dali"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/p/paulcezann120315.html",
+          "text": "When I judge art, I take my painting and put it next to a God made object like a tree or flower. If it clashes, it is not art."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/p/paul_cezanne.html",
+          "text": "Paul Cezanne"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/g/gustavefla119644.html",
+          "text": "Artists who seek perfection in everything are those who cannot attain it in anything."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/g/gustave_flaubert.html",
+          "text": "Gustave Flaubert"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/e/edgardvare112459.html",
+          "text": "Contrary to general belief, an artist is never ahead of his time but most people are far behind theirs."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/e/edgard_varese.html",
+          "text": "Edgard Varese"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/h/henricarti100780.html",
+          "text": "To me, photography is the simultaneous recognition, in a fraction of a second, of the significance of an event."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/h/henri_cartierbresson.html",
+          "text": "Henri Cartier-Bresson"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/alcapp391172.html",
+          "text": "Abstract art: a product of the untalented sold by the unprincipled to the utterly bewildered."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/al_capp.html",
+          "text": "Al Capp"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/f/franklloyd119520.html",
+          "text": "Art for art's sake is a philosophy of the well-fed."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/f/frank_lloyd_wright.html",
+          "text": "Frank Lloyd Wright"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/jacksonpol132242.html",
+          "text": "Every good painter paints what he is."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/jackson_pollock.html",
+          "text": "Jackson Pollock"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/h/henryakis119715.html",
+          "text": "Art is man's expression of his joy in labor."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/h/henry_a_kissinger.html",
+          "text": "Henry A. Kissinger"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/c/carrolloc318520.html",
+          "text": "Even a true artist does not always produce art."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/c/carroll_oconnor.html",
+          "text": "Carroll O'Connor"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/h/harrystru119680.html",
+          "text": "Art is parasitic on life, just as criticism is parasitic on art."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/h/harry_s_truman.html",
+          "text": "Harry S. Truman"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/h/hendrikwil100892.html",
+          "text": "The arts are an even better barometer of what is happening in our world than the stock market or the debates in congress."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/h/hendrik_willem_van_loon.html",
+          "text": "Hendrik Willem Van Loon"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/s/stephenson331419.html",
+          "text": "Art, in itself, is an attempt to bring order out of chaos."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/s/stephen_sondheim.html",
+          "text": "Stephen Sondheim"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/g/georgeedwa104148.html",
+          "text": "A great artist is always before his time or behind it."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/g/george_edward_moore.html",
+          "text": "George Edward Moore"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/andregide162355.html",
+          "text": "Art begins with resistance - at the point where resistance is overcome. No human masterpiece has ever been created without great labor."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/andre_gide.html",
+          "text": "Andre Gide"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/h/helenhayes102181.html",
+          "text": "I cry out for order and find it only in art."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/h/helen_hayes.html",
+          "text": "Helen Hayes"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/w/wsomerset142624.html",
+          "text": "The artist produces for the liberation of his soul. It is his nature to create as it is the nature of water to run down the hill."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/w/w_somerset_maugham.html",
+          "text": "W. Somerset Maugham"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/s/samuelbutl161068.html",
+          "text": "The history of art is the history of revivals."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/s/samuel_butler.html",
+          "text": "Samuel Butler"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/johnberger386439.html",
+          "text": "What makes photography a strange invention is that its primary raw materials are light and time."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/john_berger.html",
+          "text": "John Berger"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/r/robertschu104110.html",
+          "text": "To send light into the darkness of men's hearts - such is the duty of the artist."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/r/robert_schumann.html",
+          "text": "Robert Schumann"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/jacksonpol332819.html",
+          "text": "I have no fear of making changes, destroying the image, etc., because the painting has a life of its own."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/jackson_pollock.html",
+          "text": "Jackson Pollock"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/i/isaacbashe104113.html",
+          "text": "Every creator painfully experiences the chasm between his inner vision and its ultimate expression."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/i/isaac_bashevis_singer.html",
+          "text": "Isaac Bashevis Singer"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/c/carlrogers101353.html",
+          "text": "The very essence of the creative is its novelty, and hence we have no standard by which to judge it."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/c/carl_rogers.html",
+          "text": "Carl Rogers"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/w/williamhaz166339.html",
+          "text": "Rules and models destroy genius and art."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/w/william_hazlitt.html",
+          "text": "William Hazlitt"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/f/federicofe100177.html",
+          "text": "All art is autobiographical. The pearl is the oyster's autobiography."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/f/federico_fellini.html",
+          "text": "Federico Fellini"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/johnupdike104128.html",
+          "text": "What art offers is space - a certain breathing room for the spirit."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/john_updike.html",
+          "text": "John Updike"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/alexanderp164318.html",
+          "text": "So vast is art, so narrow human wit."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/alexander_pope.html",
+          "text": "Alexander Pope"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/c/claraschum314829.html",
+          "text": "My imagination can picture no fairer happiness than to continue living for art."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/c/clara_schumann.html",
+          "text": "Clara Schumann"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/l/lioneltril112300.html",
+          "text": "Immature artists imitate. Mature artists steal."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/l/lionel_trilling.html",
+          "text": "Lionel Trilling"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/michelange127407.html",
+          "text": "Trifles make perfection, and perfection is no trifle."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/michelangelo.html",
+          "text": "Michelangelo"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/marshallmc115908.html",
+          "text": "Advertising is the greatest art form of the 20th century."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/marshall_mcluhan.html",
+          "text": "Marshall McLuhan"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/f/friedrichs181766.html",
+          "text": "Art is the daughter of freedom."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/f/friedrich_schiller.html",
+          "text": "Friedrich Schiller"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/e/emforste104114.html",
+          "text": "To make us feel small in the right way is a function of art; men can only make us feel small in the wrong way."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/e/e_m_forster.html",
+          "text": "E. M. Forster"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/h/henrymille166035.html",
+          "text": "The waking mind is the least serviceable in the arts."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/h/henry_miller.html",
+          "text": "Henry Miller"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/n/novalis100858.html",
+          "text": "The artist belongs to his work, not the work to the artist."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/n/novalis.html",
+          "text": "Novalis"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/w/williamwor120834.html",
+          "text": "Pictures deface walls more often than they decorate them."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/w/william_wordsworth.html",
+          "text": "William Wordsworth"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/t/theodorado212642.html",
+          "text": "The task of art today is to bring chaos into order."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/t/theodor_adorno.html",
+          "text": "Theodor Adorno"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/jeancoctea100975.html",
+          "text": "Art produces ugly things which frequently become more beautiful with time. Fashion, on the other hand, produces beautiful things which always become ugly with time."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/jean_cocteau.html",
+          "text": "Jean Cocteau"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/g/gustavefla100178.html",
+          "text": "Of all lies, art is the least untrue."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/g/gustave_flaubert.html",
+          "text": "Gustave Flaubert"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/w/wilsonmizn120840.html",
+          "text": "Art is science made clear."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/w/wilson_mizner.html",
+          "text": "Wilson Mizner"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/d/davidhockn119306.html",
+          "text": "The moment you cheat for the sake of beauty, you know you're an artist."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/d/david_hockney.html",
+          "text": "David Hockney"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/h/henrimatis104112.html",
+          "text": "I don't paint things. I only paint the difference between things."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/h/henri_matisse.html",
+          "text": "Henri Matisse"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/f/friedrichs117778.html",
+          "text": "Art is the right hand of Nature. The latter has only given us being, the former has made us men."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/f/friedrich_schiller.html",
+          "text": "Friedrich Schiller"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/h/havelockel102253.html",
+          "text": "Every artist writes his own autobiography."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/h/havelock_ellis.html",
+          "text": "Havelock Ellis"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/i/igorstravi137813.html",
+          "text": "Lesser artists borrow, great artists steal."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/i/igor_stravinsky.html",
+          "text": "Igor Stravinsky"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/b/barbrastre163339.html",
+          "text": "I've been called many names like perfectionist, difficult and obsessive. I think it takes obsession, takes searching for the details for any artist to be good."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/b/barbra_streisand.html",
+          "text": "Barbra Streisand"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/jerzykosin308851.html",
+          "text": "The principles of true art is not to portray, but to evoke."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/jerzy_kosinski.html",
+          "text": "Jerzy Kosinski"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/f/francisfor314472.html",
+          "text": "I don't think there's any artist of any value who doesn't doubt what they're doing."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/f/francis_ford_coppola.html",
+          "text": "Francis Ford Coppola"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/t/theodorado212638.html",
+          "text": "Art is magic delivered from the lie of being truth."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/t/theodor_adorno.html",
+          "text": "Theodor Adorno"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/p/paulgaugui109850.html",
+          "text": "Art is either plagiarism or revolution."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/p/paul_gauguin.html",
+          "text": "Paul Gauguin"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/marcchagal104125.html",
+          "text": "Great art picks up where nature ends."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/marc_chagall.html",
+          "text": "Marc Chagall"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/d/dhlawren188649.html",
+          "text": "The business of art is to reveal the relation between man and his environment."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/d/d_h_lawrence.html",
+          "text": "D. H. Lawrence"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/e/emforste110333.html",
+          "text": "Works of art, in my opinion, are the only objects in the material universe to possess internal order, and that is why, though I don't believe that only art matters, I do believe in Art for Art's sake."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/e/e_m_forster.html",
+          "text": "E. M. Forster"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/alexanderc169795.html",
+          "text": "To an engineer, good enough means perfect. With an artist, there's no such thing as perfect."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/alexander_calder.html",
+          "text": "Alexander Calder"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/t/theodoredr104115.html",
+          "text": "Art is the stored honey of the human soul, gathered on wings of misery and travail."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/t/theodore_dreiser.html",
+          "text": "Theodore Dreiser"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/q/quintilian145120.html",
+          "text": "The perfection of art is to conceal art."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/q/quintilian.html",
+          "text": "Quintilian"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/r/robertmapp312626.html",
+          "text": "When I work, and in my art, I hold hands with God."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/r/robert_mapplethorpe.html",
+          "text": "Robert Mapplethorpe"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/h/henrymoore116167.html",
+          "text": "A sculptor is a person who is interested in the shape of things, a poet in words, a musician by sounds."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/h/henry_moore.html",
+          "text": "Henry Moore"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/r/robertmoth120473.html",
+          "text": "Wherever art appears, life disappears."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/r/robert_motherwell.html",
+          "text": "Robert Motherwell"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/t/tadaoando362011.html",
+          "text": "My hand is the extension of the thinking process - the creative process."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/t/tadao_ando.html",
+          "text": "Tadao Ando"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/h/henrimatis115790.html",
+          "text": "Drawing is like making an expressive gesture with the advantage of permanence."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/h/henri_matisse.html",
+          "text": "Henri Matisse"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/h/henricarti107218.html",
+          "text": "The creative act lasts but a brief moment, a lightning instant of give-and-take, just long enough for you to level the camera and to trap the fleeting prey in your little box."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/h/henri_cartierbresson.html",
+          "text": "Henri Cartier-Bresson"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/andremalra166308.html",
+          "text": "Art is a revolt against fate. All art is a revolt against man's fate."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/andre_malraux.html",
+          "text": "Andre Malraux"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/r/roylichten115381.html",
+          "text": "I like to pretend that my art has nothing to do with me."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/r/roy_lichtenstein.html",
+          "text": "Roy Lichtenstein"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/e/edwardstei117302.html",
+          "text": "Every other artist begins with a blank canvas, a piece of paper the photographer begins with the finished product."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/e/edward_steichen.html",
+          "text": "Edward Steichen"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/l/laurieande376678.html",
+          "text": "I've never really had a hobby, unless you count art, which the IRS once told me I had to declare as a hobby since I hadn't made money with it."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/l/laurie_anderson.html",
+          "text": "Laurie Anderson"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/jacksonpol332813.html",
+          "text": "My painting does not come from the easel."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/jackson_pollock.html",
+          "text": "Jackson Pollock"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/h/henrimatis100893.html",
+          "text": "Time extracts various values from a painter's work. When these values are exhausted the pictures are forgotten, and the more a picture has to give, the greater it is."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/h/henri_matisse.html",
+          "text": "Henri Matisse"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/p/paulstrand104116.html",
+          "text": "The artist's world is limitless. It can be found anywhere, far from where he lives or a few feet away. It is always on his doorstep."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/p/paul_strand.html",
+          "text": "Paul Strand"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/p/paulgetty280204.html",
+          "text": "The beauty one can find in art is one of the pitifully few real and lasting products of human endeavor."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/p/paul_getty.html",
+          "text": "Paul Getty"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/augusterod103783.html",
+          "text": "I choose a block of marble and chop off whatever I don't need."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/auguste_rodin.html",
+          "text": "Auguste Rodin"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/e/eliakazan162478.html",
+          "text": "The writer, when he is also an artist, is someone who admits what others don't dare reveal."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/e/elia_kazan.html",
+          "text": "Elia Kazan"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/johnciardi110095.html",
+          "text": "Modern art is what happens when painters stop looking at girls and persuade themselves that they have a better idea."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/john_ciardi.html",
+          "text": "John Ciardi"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/anishkapoo324839.html",
+          "text": "Artists don't make objects. Artists make mythologies."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/anish_kapoor.html",
+          "text": "Anish Kapoor"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/jerzykosin308852.html",
+          "text": "The principle of art is to pause, not bypass."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/jerzy_kosinski.html",
+          "text": "Jerzy Kosinski"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/e/eugenedela130404.html",
+          "text": "The artist who aims at perfection in everything achieves it in nothing."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/e/eugene_delacroix.html",
+          "text": "Eugene Delacroix"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/r/robertmapp312628.html",
+          "text": "To make pictures big is to make them more powerful."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/r/robert_mapplethorpe.html",
+          "text": "Robert Mapplethorpe"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/c/cyrilconno117041.html",
+          "text": "The artist one day falls through a hole in the brambles, and from that moment he is following the dark rapids of an underground river which may sometimes flow so near to the surface that the laughing picnic parties are heard above."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/c/cyril_connolly.html",
+          "text": "Cyril Connolly"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/e/ezrapound379925.html",
+          "text": "All great art is born of the metropolis."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/e/ezra_pound.html",
+          "text": "Ezra Pound"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/p/paulgetty280202.html",
+          "text": "My love of fine art increased - the more of it I saw, the more of it I wanted to see."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/p/paul_getty.html",
+          "text": "Paul Getty"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/jodiefoste299639.html",
+          "text": "I think an artist's responsibility is more complex than people realize."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/jodie_foster.html",
+          "text": "Jodie Foster"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/g/gwendolynb131781.html",
+          "text": "Art hurts. Art urges voyages - and it is easier to stay at home."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/g/gwendolyn_brooks.html",
+          "text": "Gwendolyn Brooks"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/agnesmarti177536.html",
+          "text": "When I think of art I think of beauty. Beauty is the mystery of life. It is not in the eye it is in the mind. In our minds there is awareness of perfection."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/agnes_martin.html",
+          "text": "Agnes Martin"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/jamestaylo327973.html",
+          "text": "That's the motivation of an artist - to seek attention of some kind."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/james_taylor.html",
+          "text": "James Taylor"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/jeffkoons181803.html",
+          "text": "I think about my work every minute of the day."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/jeff_koons.html",
+          "text": "Jeff Koons"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/f/franzliszt314325.html",
+          "text": "Mournful and yet grand is the destiny of the artist."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/f/franz_liszt.html",
+          "text": "Franz Liszt"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/s/sarahmclac365728.html",
+          "text": "Trying to force creativity is never good."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/s/sarah_mclachlan.html",
+          "text": "Sarah McLachlan"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/jeanrostan147821.html",
+          "text": "Beauty in art is often nothing but ugliness subdued."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/jean_rostand.html",
+          "text": "Jean Rostand"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/joanmiro173209.html",
+          "text": "The works must be conceived with fire in the soul but executed with clinical coolness."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/joan_miro.html",
+          "text": "Joan Miro"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/r/robertdela307971.html",
+          "text": "Painting is by nature a luminous language."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/r/robert_delaunay.html",
+          "text": "Robert Delaunay"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/e/edwardstei114018.html",
+          "text": "Photography is a major force in explaining man to man."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/e/edward_steichen.html",
+          "text": "Edward Steichen"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/arthureric297731.html",
+          "text": "Vitality is radiated from exceptional art and architecture."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/arthur_erickson.html",
+          "text": "Arthur Erickson"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/r/robertdela307960.html",
+          "text": "Vision is the true creative rhythm."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/r/robert_delaunay.html",
+          "text": "Robert Delaunay"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/r/roylichten317266.html",
+          "text": "Art doesn't transform. It just plain forms."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/r/roy_lichtenstein.html",
+          "text": "Roy Lichtenstein"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/r/robertraus346555.html",
+          "text": "You begin with the possibilities of the material."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/r/robert_rauschenberg.html",
+          "text": "Robert Rauschenberg"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/arthureric297698.html",
+          "text": "Rationalism is the enemy of art, though necessary as a basis for architecture."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/arthur_erickson.html",
+          "text": "Arthur Erickson"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/malcolmdec109851.html",
+          "text": "Art is nature speeded up and God slowed down."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/malcolm_de_chazal.html",
+          "text": "Malcolm de Chazal"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/l/louiskahn114813.html",
+          "text": "Every time a student walks past a really urgent, expressive piece of architecture that belongs to his college, it can help reassure him that he does have that mind, does have that soul."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/l/louis_kahn.html",
+          "text": "Louis Kahn"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/d/damienhirs207696.html",
+          "text": "In an artwork you're always looking for artistic decisions, so an ashtray is perfect. An ashtray has got life and death."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/d/damien_hirst.html",
+          "text": "Damien Hirst"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/e/ellenkey119439.html",
+          "text": "The more horrifying this world becomes, the more art becomes abstract."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/e/ellen_key.html",
+          "text": "Ellen Key"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/p/pierrebonn204933.html",
+          "text": "A painting that is well composed is half finished."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/p/pierre_bonnard.html",
+          "text": "Pierre Bonnard"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/amylowell104109.html",
+          "text": "Art is the desire of a man to express himself, to record the reactions of his personality to the world he lives in."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/amy_lowell.html",
+          "text": "Amy Lowell"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/r/robertsmit259008.html",
+          "text": "Artists themselves are not confined, but their output is."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/r/robert_smithson.html",
+          "text": "Robert Smithson"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/r/robertdela307976.html",
+          "text": "Light in Nature creates the movement of colors."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/r/robert_delaunay.html",
+          "text": "Robert Delaunay"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/r/robertdela307991.html",
+          "text": "Art in Nature is rhythmic and has a horror of constraint."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/r/robert_delaunay.html",
+          "text": "Robert Delaunay"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/o/octaviopaz131273.html",
+          "text": "Art is an invention of aesthetics, which in turn is an invention of philosophers... What we call art is a game."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/o/octavio_paz.html",
+          "text": "Octavio Paz"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/t/theodorebi307216.html",
+          "text": "No heirloom of humankind captures the past as do art and language."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/t/theodore_bikel.html",
+          "text": "Theodore Bikel"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/p/peterdevri111726.html",
+          "text": "Murals in restaurants are on a par with the food in museums."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/p/peter_de_vries.html",
+          "text": "Peter De Vries"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/k/karymullis325351.html",
+          "text": "Art is subject to arbitrary fashion."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/k/kary_mullis.html",
+          "text": "Kary Mullis"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/g/giancarlom391158.html",
+          "text": "Art is the unceasing effort to compete with the beauty of flowers - and never succeeding."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/g/gian_carlo_menotti.html",
+          "text": "Gian Carlo Menotti"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/maxeastman120191.html",
+          "text": "It is art that makes life, makes interest, makes importance and I know of no substitute whatever for the force and beauty of its process."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/max_eastman.html",
+          "text": "Max Eastman"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/p/paulgaugui120317.html",
+          "text": "The history of modern art is also the history of the progressive loss of art's audience. Art has increasingly become the concern of the artist and the bafflement of the public."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/p/paul_gauguin.html",
+          "text": "Paul Gauguin"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/h/henrymoore104120.html",
+          "text": "It is a mistake for a sculptor or a painter to speak or write very often about his job. It releases tension needed for his work."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/h/henry_moore.html",
+          "text": "Henry Moore"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/jimhodges307684.html",
+          "text": "When I make art, I think about its ability to connect with others, to bring them into the process."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/jim_hodges.html",
+          "text": "Jim Hodges"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/e/edwardstei114019.html",
+          "text": "When that shutter clicks, anything else that can be done afterward is not worth consideration."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/e/edward_steichen.html",
+          "text": "Edward Steichen"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/t/thomaswolf146998.html",
+          "text": "Culture is the arts elevated to a set of beliefs."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/t/thomas_wolfe.html",
+          "text": "Thomas Wolfe"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/arnejacobs309550.html",
+          "text": "If a building becomes architecture, then it is art."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/arne_jacobsen.html",
+          "text": "Arne Jacobsen"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/alfreddevi317455.html",
+          "text": "Art ought never to be considered except in its relations with its ideal beauty."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/alfred_de_vigny.html",
+          "text": "Alfred de Vigny"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/r/robertindi219398.html",
+          "text": "I realize that protest paintings are not exactly in vogue, but I've done many."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/r/robert_indiana.html",
+          "text": "Robert Indiana"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/r/robertindi219400.html",
+          "text": "I was the least Pop of all the Pop artists."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/r/robert_indiana.html",
+          "text": "Robert Indiana"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/alexanderc111040.html",
+          "text": "I paint with shapes."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/alexander_calder.html",
+          "text": "Alexander Calder"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/jaykay434285.html",
+          "text": "I'm not gonna give the British Government the joy of keeping taxing me. They don't tax art. And all my cars are just a collection of art."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/jay_kay.html",
+          "text": "Jay Kay"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/r/robertindi219399.html",
+          "text": "I think of my peace paintings as one long poem, with each painting being a single stanza."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/r/robert_indiana.html",
+          "text": "Robert Indiana"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/jimdine215803.html",
+          "text": "My attitude towards drawing is not necessarily about drawing. It's about making the best kind of image I can make, it's about talking as clearly as I can."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/jim_dine.html",
+          "text": "Jim Dine"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/c/cslewis105239.html",
+          "text": "Friendship is unnecessary, like philosophy, like art... It has no survival value; rather it is one of those things that give value to survival."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/c/c_s_lewis.html",
+          "text": "C. S. Lewis"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/alberteins122147.html",
+          "text": "It is the supreme art of the teacher to awaken joy in creative expression and knowledge."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/albert_einstein.html",
+          "text": "Albert Einstein"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/alberteins130891.html",
+          "text": "The most beautiful thing we can experience is the mysterious. It is the source of all true art and science."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/albert_einstein.html",
+          "text": "Albert Einstein"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/martinluth120176.html",
+          "text": "The art of acceptance is the art of making someone who has just done you a small favor wish that he might have done you a greater one."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/martin_luther_king_jr.html",
+          "text": "Martin Luther King, Jr."
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/g/grouchomar146422.html",
+          "text": "Politics is the art of looking for trouble, finding it everywhere, diagnosing it incorrectly and applying the wrong remedies."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/g/groucho_marx.html",
+          "text": "Groucho Marx"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/johnwooden446989.html",
+          "text": "Be true to yourself, help others, make each day your masterpiece, make friendship a fine art, drink deeply from good books - especially the Bible, build a shelter against a rainy day, give thanks for your blessings and pray for guidance every day."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/john_wooden.html",
+          "text": "John Wooden"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/h/havelockel106430.html",
+          "text": "All the art of living lies in a fine mingling of letting go and holding on."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/h/havelock_ellis.html",
+          "text": "Havelock Ellis"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/r/ralphwaldo136914.html",
+          "text": "Love of beauty is taste. The creation of beauty is art."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/r/ralph_waldo_emerson.html",
+          "text": "Ralph Waldo Emerson"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/aristotle165158.html",
+          "text": "Those who educate children well are more to be honored than they who produce them; for these only gave them life, those the art of living well."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/aristotle.html",
+          "text": "Aristotle"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/c/cslewis121182.html",
+          "text": "Even in literature and art, no man who bothers about originality will ever be original: whereas if you simply try to tell the truth (without caring twopence how often it has been told before) you will, nine times out of ten, become original without ever having noticed it."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/c/c_s_lewis.html",
+          "text": "C. S. Lewis"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/albertelli131212.html",
+          "text": "The art of love is largely the art of persistence."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/albert_ellis.html",
+          "text": "Albert Ellis"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/o/octaviabut170210.html",
+          "text": "Sometimes being a friend means mastering the art of timing. There is a time for silence. A time to let go and allow people to hurl themselves into their own destiny. And a time to prepare to pick up the pieces when it's all over."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/o/octavia_butler.html",
+          "text": "Octavia Butler"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/s/socrates163838.html",
+          "text": "Be slow to fall into friendship; but when thou art in, continue firm and constant."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/s/socrates.html",
+          "text": "Socrates"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/martinluth401125.html",
+          "text": "Beautiful music is the art of the prophets that can calm the agitations of the soul; it is one of the most magnificent and delightful presents God has given us."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/martin_luther.html",
+          "text": "Martin Luther"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/aristotle408592.html",
+          "text": "Excellence is an art won by training and habituation. We do not act rightly because we have virtue or excellence, but we rather have those because we have acted rightly. We are what we repeatedly do. Excellence, then, is not an act but a habit."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/aristotle.html",
+          "text": "Aristotle"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/o/oscarwilde139108.html",
+          "text": "It is through art, and through art only, that we can realise our perfection."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/o/oscar_wilde.html",
+          "text": "Oscar Wilde"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/s/suntzu383158.html",
+          "text": "The supreme art of war is to subdue the enemy without fighting."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/s/sun_tzu.html",
+          "text": "Sun Tzu"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/o/oscarwilde161961.html",
+          "text": "All art is quite useless."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/o/oscar_wilde.html",
+          "text": "Oscar Wilde"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/o/oscarwilde120293.html",
+          "text": "The moment you think you understand a great work of art, it's dead for you."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/o/oscar_wilde.html",
+          "text": "Oscar Wilde"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/w/williamsha161142.html",
+          "text": "There's no art to find the mind's construction in the face."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/w/william_shakespeare.html",
+          "text": "William Shakespeare"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/o/oscarwilde117777.html",
+          "text": "It is only an auctioneer who can equally and impartially admire all schools of art."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/o/oscar_wilde.html",
+          "text": "Oscar Wilde"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/o/oscarwilde138941.html",
+          "text": "What we have to do, what at any rate it is our duty to do, is to revive the old art of Lying."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/o/oscar_wilde.html",
+          "text": "Oscar Wilde"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/k/khalilgibr145911.html",
+          "text": "I wash my hands of those who imagine chattering to be knowledge, silence to be ignorance, and affection to be art."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/k/khalil_gibran.html",
+          "text": "Khalil Gibran"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/g/georgeedwa106521.html",
+          "text": "The hours I spend with you I look upon as sort of a perfumed garden, a dim twilight, and a fountain singing to it. You and you alone make me feel that I am alive. Other men it is said have seen angels, but I have seen thee and thou art enough."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/g/george_edward_moore.html",
+          "text": "George Edward Moore"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/d/donmarquis107414.html",
+          "text": "Procrastination is the art of keeping up with yesterday."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/d/don_marquis.html",
+          "text": "Don Marquis"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/c/confucius118202.html",
+          "text": "Speak the truth, do not yield to anger; give, if thou art asked for little; by these three steps thou wilt go near the gods."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/c/confucius.html",
+          "text": "Confucius"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/n/nelsonmand447218.html",
+          "text": "I started to make a study of the art of war and revolution and, whilst abroad, underwent a course in military training. If there was to be guerrilla warfare, I wanted to be able to stand and fight with my people and to share the hazards of war with them."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/n/nelson_mandela.html",
+          "text": "Nelson Mandela"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/v/voltaire124855.html",
+          "text": "In general, the art of government consists of taking as much money as possible from one class of citizens to give to another."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/v/voltaire.html",
+          "text": "Voltaire"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/g/georgebern125581.html",
+          "text": "A fool's brain digests philosophy into folly, science into superstition, and art into pedantry. Hence University education."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/g/george_bernard_shaw.html",
+          "text": "George Bernard Shaw"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/mayaangelo578820.html",
+          "text": "Find a beautiful piece of art. If you fall in love with Van Gogh or Matisse or John Oliver Killens, or if you fall love with the music of Coltrane, the music of Aretha Franklin, or the music of Chopin - find some beautiful art and admire it, and realize that that was created by human beings just like you, no more human, no less."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/maya_angelou.html",
+          "text": "Maya Angelou"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/d/dwightdei101562.html",
+          "text": "Leadership is the art of getting someone else to do something you want done because he wants to do it."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/d/dwight_d_eisenhower.html",
+          "text": "Dwight D. Eisenhower"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/w/williamjam108497.html",
+          "text": "The art of being wise is the art of knowing what to overlook."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/w/william_james.html",
+          "text": "William James"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/martinluth385600.html",
+          "text": "Next to the Word of God, the noble art of music is the greatest treasure in the world."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/martin_luther.html",
+          "text": "Martin Luther"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/f/friedrichn397015.html",
+          "text": "Admiration for a quality or an art can be so strong that it deters us from striving to possess it."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/f/friedrich_nietzsche.html",
+          "text": "Friedrich Nietzsche"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/f/friedrichn132179.html",
+          "text": "For art to exist, for any sort of aesthetic activity to exist, a certain physiological precondition is indispensable: intoxication."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/f/friedrich_nietzsche.html",
+          "text": "Friedrich Nietzsche"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/f/friedrichn134601.html",
+          "text": "Sleeping is no mean art: for its sake one must stay awake all day."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/f/friedrich_nietzsche.html",
+          "text": "Friedrich Nietzsche"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/b/benjaminfr117812.html",
+          "text": "The art of acting consists in keeping people from coughing."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/b/benjamin_franklin.html",
+          "text": "Benjamin Franklin"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/f/friedrichn159175.html",
+          "text": "Art raises its head where creeds relax."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/f/friedrich_nietzsche.html",
+          "text": "Friedrich Nietzsche"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/f/friedrichn397392.html",
+          "text": "When art dresses in worn-out material it is most easily recognized as art."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/f/friedrich_nietzsche.html",
+          "text": "Friedrich Nietzsche"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/f/friedrichn396469.html",
+          "text": "The bad gains respect through imitation, the good loses it especially in art."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/f/friedrich_nietzsche.html",
+          "text": "Friedrich Nietzsche"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/aristotle148500.html",
+          "text": "Homer has taught all other poets the art of telling lies skillfully."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/aristotle.html",
+          "text": "Aristotle"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/a/aristotle148495.html",
+          "text": "It is Homer who has chiefly taught other poets the art of telling lies skillfully."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/a/aristotle.html",
+          "text": "Aristotle"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/johnwgard161655.html",
+          "text": "Life is the art of drawing without an eraser."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/john_w_gardner.html",
+          "text": "John W. Gardner"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/j/jimmorriso167319.html",
+          "text": "I think in art, but especially in films, people are trying to confirm their own existences."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/j/jim_morrison.html",
+          "text": "Jim Morrison"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/f/friedrichn159168.html",
+          "text": "I do not know what the spirit of a philosopher could more wish to be than a good dancer. For the dance is his ideal, also his fine art, finally also the only kind of piety he knows, his 'divine service.'"
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/f/friedrich_nietzsche.html",
+          "text": "Friedrich Nietzsche"
+        }
+      },
+      {
+        "text": {
+          "href": "http://www.brainyquote.com/quotes/quotes/m/marcusaure106449.html",
+          "text": "The art of living is more like wrestling than dancing."
+        },
+        "author": {
+          "href": "http://www.brainyquote.com/quotes/authors/m/marcus_aurelius.html",
+          "text": "Marcus Aurelius"
+        }
+      }
+    ]
+  }
+}
