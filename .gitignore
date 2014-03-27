@@ -136,3 +136,6 @@ proguard/
 *.ipr
 *.iws
 .idea/
+
+# out.nam files
+*.nam
