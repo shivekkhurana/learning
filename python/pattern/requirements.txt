@@ -1,0 +1,4 @@
+Pattern==2.6
+argparse==1.2.1
+pony==0.4.9
+wsgiref==0.1.2
