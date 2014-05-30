@@ -48,3 +48,9 @@ class Whatsapp(object):
 				participants.append( line[2] )
 
 		return participants
+
+def main():
+	pass
+
+if __name__ == '__main__':
+	main()
