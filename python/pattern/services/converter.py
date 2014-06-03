@@ -17,7 +17,8 @@ class Whatsapp(object):
 		#feff removal hack
 		lines[0] = lines[0].split(u"\ufeff")[1]
 
-		formatted_lines = []
+		formatted_lines = [] #[ [date, time, sender, text], [date, time, sender, text], ...]
+
 		for line in lines:
 			match = self.message_pattern.match(line)
 			if match :
@@ -48,6 +49,18 @@ class Whatsapp(object):
 				participants.append( line[2] )
 
 		return participants
+
+	def save_as_csv(self, file_name="formatted.csv", delimeter="|"):
+		out_file = open(file_name, "a+")
+		for f_line in self.formatted_lines:
+			csv = ""
+			for element in f_line:
+				csv = csv+delimeter+element.encode("utf-8") # | delimeter because chat generally has commas
+			out_file.write(csv[1:]+"\n")
+
+	def __repr__(self):
+		return "Chat between %s"%(str( self.participants() ))
+
 
 def main():
 	pass
