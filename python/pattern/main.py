@@ -4,7 +4,7 @@ import services.converter
 
 def main():
 	chat_data = services.converter.Whatsapp( open("chat_logs/yatika.txt") )
-	chat_data.save_as_csv()
+	chat_data.save_as_csv(delimeter="\t")
 	
 
 
