@@ -139,3 +139,5 @@ proguard/
 
 # out.nam files
 *.nam
+
+octave-workspace
