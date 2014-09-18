@@ -23,12 +23,12 @@ function [] = scheduling ()
         0 0 0 1 0
     ];
 
-    vertices = 1:length(A);
+    vertices = 1:length(A1);
 
     %next_adj_group(A, 1)
     %meetable_group(A, 1)
 
-    run(A, vertices);    
+    run(A1, vertices);    
 
 
 
@@ -72,13 +72,14 @@ function [newA, shiftedVertices] = run (A, vertices, anchor=1)
 
 
     if sum(A(:))
-        mSet = meetable_group(A, anchor)
-        A
+        mSet = meetable_group(A, anchor);
         if mSet
 
-            %disp(vertices(mSet));
+            disp(vertices(mSet));
 
             newA = cut_vertices(A, mSet);
+            vertices
+            mSet
             shiftedVertices = setdiff(vertices, mSet);
 
             run(newA, shiftedVertices);
@@ -87,7 +88,7 @@ function [newA, shiftedVertices] = run (A, vertices, anchor=1)
         end
             
     else
-        %disp(vertices);
+        disp(vertices);
     end
 end
 
