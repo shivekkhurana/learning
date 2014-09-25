@@ -1,7 +1,7 @@
 % Scheduling %
 
 function [] = scheduling ()
-    A1 = [
+    A = [
         0 1 0 0 1 0 0 0 0 0 0;
         1 0 1 0 0 1 0 0 0 0 0;
         0 1 0 1 0 0 1 0 0 0 0;
@@ -11,24 +11,32 @@ function [] = scheduling ()
         0 0 1 0 0 0 0 1 0 0 0;
         0 0 0 1 0 0 1 0 0 0 1;
         0 0 0 0 1 0 0 0 0 1 0;
-        0 0 0 0 0 1 0 0 1 0 1;
-        0 0 0 0 0 0 0 1 0 1 0
+        0 0 0 0 0 1 0 0 1 0 0;
+        0 0 0 0 0 0 0 1 0 0 0
     ];
 
     A = [
-        0 1 1 1 0;
-        1 0 0 1 0;
+        0 1 0 1 1;
+        1 0 0 0 0;
+        0 0 0 0 0;
+        1 0 0 0 0;
+        1 0 0 0 0
+    ];
+
+    A1 = [
+        0 0 1 1 0;
+        0 0 0 1 0;
         1 0 0 0 0;
         1 1 0 0 1;
         0 0 0 1 0
     ];
 
-    vertices = 1:length(A1);
+    vertices = 1:length(A);
 
     %next_adj_group(A, 1)
     %meetable_group(A, 1)
 
-    run(A1, vertices);    
+    run(A, vertices);    
 
 
 
@@ -76,10 +84,7 @@ function [newA, shiftedVertices] = run (A, vertices, anchor=1)
         if mSet
 
             disp(vertices(mSet));
-
             newA = cut_vertices(A, mSet);
-            vertices
-            mSet
             shiftedVertices = setdiff(vertices, mSet);
 
             run(newA, shiftedVertices);
