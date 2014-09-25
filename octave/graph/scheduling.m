@@ -15,7 +15,7 @@ function [] = scheduling ()
         0 0 0 0 0 0 0 1 0 0 0
     ];
 
-    A = [
+    A1 = [
         0 1 0 1 1;
         1 0 0 0 0;
         0 0 0 0 0;
@@ -31,24 +31,66 @@ function [] = scheduling ()
         0 0 0 1 0
     ];
 
-    vertices = 1:length(A);
+    A1  = [
+        0 1 0 0 0 0 0 0;
+        1 0 1 1 0 0 0 0;
+        0 1 0 1 1 0 0 0;
+        0 1 1 0 0 0 0 0;
+        0 0 1 0 0 1 1 1;
+        0 0 0 0 1 0 1 0;
+        0 0 0 0 1 1 0 1;
+        0 0 0 0 1 0 1 0
+    ];
+    run(A, 1:length(A));
+end
 
-    %next_adj_group(A, 1)
-    %meetable_group(A, 1)
+function [aSet] = adjGroup (A, v)
+    aSet  = find(A(v, :) == 1);
+end
 
-    run(A, vertices);    
+function [mSet] = meetableSet (A, v)   
+    nonAdjacent = setdiff(1:length(A), adjGroup(A, v));
+    removedVertices = [];
 
+    for n = nonAdjacent
+        indexN = find(nonAdjacent == n);
+        for m = nonAdjacent(indexN:length(nonAdjacent))
+            if (A(n, m) == 1)
+                if ~ismember(n, removedVertices) 
+                    removedVertices(length(removedVertices)+1) = m;
+                end
+            end
+        end
+    end
 
+    mSet = setdiff(nonAdjacent, removedVertices);
+end
+
+function [newA, shiftedVertices] = run (A, vertices,  anchor=1) 
+    if sum(A(:)) > 0
+        mSet = meetableSet(A, anchor);
+        disp(vertices(mSet));
+
+        newA = cut_vertices(A, mSet);
+        shiftedVertices = setdiff(vertices, vertices(mSet));
+        run(newA, shiftedVertices);
+    else
+        disp(vertices);
+    end
 
 end
 
+
+
+% ** 
+% Utilities
+% **
+
 function [newA] = cut_vertices (A, cut_set)
-    
     for i = 1:length(cut_set)
         A = cut_vertex(A, cut_set(i));
         cut_set = cut_set .- 1;
     end
-
     newA = A;
 end
 
@@ -57,43 +99,6 @@ function [newA] = cut_vertex (A, v)
         A(v, :) = []; % row delete
         A(:, v) = []; % column delete
         newA = A;
-    end
-end
-
-function [aSet] = adj_group (A, v)
-    aSet  = find(A(v, :) == 1);
-end
-
-function [nextASet] = meetable_group (A, anchor)
-    aSet  = adj_group(A, anchor);
-
-    nextASet = [];
-    for aV=aSet
-        nextASet = [nextASet adj_group(A, aV)];
-    end
-    
-    nextASet = setdiff(nextASet, aSet);
-
-end
-
-function [newA, shiftedVertices] = run (A, vertices, anchor=1) 
-
-
-    if sum(A(:))
-        mSet = meetable_group(A, anchor);
-        if mSet
-
-            disp(vertices(mSet));
-            newA = cut_vertices(A, mSet);
-            shiftedVertices = setdiff(vertices, mSet);
-
-            run(newA, shiftedVertices);
-        else
-            run(A, vertices, anchor+1);
-        end
-            
-    else
-        disp(vertices);
     end
 end
 
