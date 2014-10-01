@@ -15,7 +15,7 @@ function [] = scheduling ()
         0 0 0 0 0 0 0 1 0 0 0
     ];
 
-    A1 = [
+    A = [
         0 1 0 1 1;
         1 0 0 0 0;
         0 0 0 0 0;
@@ -23,7 +23,7 @@ function [] = scheduling ()
         1 0 0 0 0
     ];
 
-    A1 = [
+    A = [
         0 0 1 1 0;
         0 0 0 1 0;
         1 0 0 0 0;
@@ -31,7 +31,7 @@ function [] = scheduling ()
         0 0 0 1 0
     ];
 
-    A1  = [
+    A  = [
         0 1 0 0 0 0 0 0;
         1 0 1 1 0 0 0 0;
         0 1 0 1 1 0 0 0;
@@ -41,6 +41,15 @@ function [] = scheduling ()
         0 0 0 0 1 1 0 1;
         0 0 0 0 1 0 1 0
     ];
+
+    A1 = [
+        0 1 0 0 1;
+        1 0 1 1 0;
+        0 1 0 1 1;
+        0 1 1 0 1;
+        1 0 1 1 0
+    ];
+    
     run(A, 1:length(A));
 end
 
@@ -71,7 +80,7 @@ function [newA, shiftedVertices] = run (A, vertices,  anchor=1)
         mSet = meetableSet(A, anchor);
         disp(vertices(mSet));
 
-        newA = cut_vertices(A, mSet);
+        newA = cutVertices(A, mSet);
         shiftedVertices = setdiff(vertices, vertices(mSet));
         run(newA, shiftedVertices);
     else
@@ -86,15 +95,15 @@ end
 % Utilities
 % **
 
-function [newA] = cut_vertices (A, cut_set)
+function [newA] = cutVertices (A, cut_set)
     for i = 1:length(cut_set)
-        A = cut_vertex(A, cut_set(i));
+        A = cutVertex(A, cut_set(i));
         cut_set = cut_set .- 1;
     end
     newA = A;
 end
 
-function [newA] = cut_vertex (A, v)
+function [newA] = cutVertex (A, v)
     if (length(A) > 0)
         A(v, :) = []; % row delete
         A(:, v) = []; % column delete
