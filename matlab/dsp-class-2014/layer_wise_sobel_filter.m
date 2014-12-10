@@ -1,3 +1,11 @@
+%% Layer Wise Sobel Filter
+% Here the soble filter is applied to each layer (rgb) individually 
+% and the output is displayed. 
+%
+% In the end, all these filters are combined.
+
+
+%% Code
 clear all;
 bear = imread('C:\Users\Shivek Khurana\Desktop\bhalu.jpg');
 
