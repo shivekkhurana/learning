@@ -1,5 +1,6 @@
 function pt = RecursivePascal(n) 
     % The first two rows are constant
+    tic ();
     pt(1, 1) = 1;
     pt(2, 1:2) = [1 1]; 
     for r = 3:n
@@ -13,4 +14,5 @@ function pt = RecursivePascal(n)
         % The last element of every row is always 1
         pt(r, r) = 1;
     end
+    toc ()
 end
