@@ -1,0 +1,3 @@
+Generater Tricks for System Programmers
+David Beazily
+http://www.dabeaz.com/generators-uk/GeneratorsUK.pdf
