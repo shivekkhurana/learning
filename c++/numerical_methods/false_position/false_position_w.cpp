@@ -61,7 +61,7 @@ std::vector<float> guess(std::vector<float> coefficients, float interval=10, flo
 
 int main(int argc, char* argv[]) {
     int i, degree, n_terms;
-    float error, mid_point, a, b;
+    float error, root, a, b, va, vb;
     
     std::vector<float> coefficients;
     std::vector<float> range;
@@ -69,6 +69,11 @@ int main(int argc, char* argv[]) {
     n_terms = argc - 1;
     degree = argc - 2;
     error = pow(10, -3);
+
+    if (argc <= 1) {
+        printf("No equation entered.\n");
+        return 0;
+    }
 
     // take out coefficients from argv
     printf("Equation : ");
@@ -83,28 +88,33 @@ int main(int argc, char* argv[]) {
     printf("\n");
     printf("Degree : %d\n", degree);
 
-    printf("Start Bisection\n");
-    printf("Value at 0 = %0.2f\n",value(coefficients, 0));
+    printf("Start False Position\n");
+    //http://mathforcollege.com/nm/mws/gen/03nle/mws_gen_nle_txt_falseposition.pdf
+    //printf("Value at 0 = %0.2f\n",value(coefficients, 0));
     
     range = guess(coefficients);
     while (true) {
         a = range.at(0);
+        va = value(coefficients, a);
         b = range.at(1);
+        vb = value(coefficients, b);
 
-        mid_point = (b+a)/2;
-        printf("mid point : %0.2f, value at mid point : %0.2f\n", mid_point, value(coefficients, mid_point));
-        if (root_in_range(coefficients, a, mid_point)){
-            range.at(1) = mid_point;
-            printf("New range %0.2f to %0.2f\n", a, mid_point);
+        root = (b*va - a*vb)/(va - vb);
+
+        printf("Predicted root : %0.2f, value at predicted root : %0.2f\n", root, value(coefficients, root));
+       
+        if (root_in_range(coefficients, a, root)){
+            range.at(1) = root;
+            printf("New range %0.2f to %0.2f\n", a, root);
         }
         else {
-            range.at(0) = mid_point;
-            printf("New range %0.2f to %0.2f\n", mid_point, b);
+            range.at(0) = root;
+            printf("New range %0.2f to %0.2f\n", root, b);
         }
 
-        if (value(coefficients, mid_point) <= error && value(coefficients, mid_point) >= 0) break;
+        if (value(coefficients, root) <= error && value(coefficients, root) >= 0) break;
     }
 
-    printf("Root is : %0.2f\n", mid_point);
+    printf("Root is : %0.2f\n", root);
     return 0;   
 }
