@@ -1,30 +1,21 @@
 # /usr/bin/python3
 
 import asyncio
+import functools
 import urllib.request
 
-
-global google
-
 @asyncio.coroutine
-def getRes(url):
-    global google
-    google = yield from urllib.request.urlopen(url)
-    print(google)
-
-
-@asyncio.coroutine
-def countdown(n):
-    while n >= 0:
-        yield n
-        n -= 1
-
+def get_info(url):
+    #res = yield from (line for line in urllib.request.urlopen(url).info())
+    res = urllib.request.urlopen(url).info()
+    print(res)
+    return res
 
 def main():
     event_loop = asyncio.get_event_loop()
-    getRes('http://google.com')
-    #countdown_gen = countdown(5)
-
+    print("Get info called")
+    mj_info = event_loop.call_soon(functools.partial(get_info, "http://musejam.com"))
+    print("After get info")
     try:
         event_loop.run_forever()
     except KeyboardInterrupt as e:
