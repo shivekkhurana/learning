@@ -1,24 +1,13 @@
-CC := g++ # This is the main compiler
-# CC := clang --analyze # and comment out the linker last line for sanity
-SRCDIR := src
-BUILDDIR := build
-TARGET := bin/runner
- 
-SRCEXT := cpp
-SOURCES := $(shell find $(SRCDIR) -type f -name *.$(SRCEXT))
-OBJECTS := $(patsubst $(SRCDIR)/%,$(BUILDDIR)/%,$(SOURCES:.$(SRCEXT)=.o))
-CFLAGS := -g # -Wall
-LIB := -pthread -lmongoclient -L lib -lboost_thread-mt -lboost_filesystem-mt -lboost_system-mt
-INC := -I include
+all : bisection false_position
 
-$(TARGET): $(OBJECTS)
-	@echo " Linking..."
-	@echo " $(CC) $^ -o $(TARGET) $(LIB)"; $(CC) $^ -o $(TARGET) $(LIB)
+bisection : Polynomial.o bisection.cpp
+	g++ bisection.cpp Polynomial.o -o bisection
 
-$(BUILDDIR)/%.o: $(SRCDIR)/%.$(SRCEXT)
-	@mkdir -p $(BUILDDIR)
-	@echo " $(CC) $(CFLAGS) $(INC) -c -o $@ $<"; $(CC) $(CFLAGS) $(INC) -c -o $@ $<
+false_position : Polynomial.o false_position.cpp
+	g++ false_position.cpp Polynomial.o -o false_position
 
-clean:
-	@echo " Cleaning..."; 
-	@echo " $(RM) -r $(BUILDDIR) $(TARGET)"; $(RM) -r $(BUILDDIR) $(TARGET)
+Polynomial.o : Polynomial.cpp
+	g++ -c Polynomial.cpp
+
+clean : 
+	rm -rf *.o bisection false_position
