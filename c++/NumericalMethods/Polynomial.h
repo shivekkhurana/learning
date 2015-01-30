@@ -14,6 +14,7 @@ class Polynomial
         float value(float at_point);
         std::vector<float> guess_root_range(float interval=10, float base=-5);
         bool root_in_range(float lower, float upper);
+        Polynomial derivative();
 };
 
 #endif

@@ -82,3 +82,11 @@ std::vector<float> Polynomial::guess_root_range(float interval/*=10*/, float bas
 bool Polynomial::root_in_range(float lower, float upper) {
     return this->value(lower)*this->value(upper) < 0;
 }
+
+Polynomial Polynomial::derivative() {
+    std::vector<float> derivative;
+    for (int i = 0; i < this->n_terms-1; i++) {
+        derivative.push_back(this->coeffs.at(i)*(this->degree-i));
+    }
+    return Polynomial(derivative);
+}
