@@ -20,14 +20,40 @@ Polynomial::Polynomial(std::vector<float> coeffs) {
     this->degree  = this->n_terms - 1;
 }
 
+std::vector<float> Polynomial::get_coeffs() {
+    return this->coeffs;
+}
+
+int Polynomial::get_n_terms() {
+    return this->n_terms;
+}
+
+int Polynomial::get_degree() {
+    return this->degree;
+}
+
 void Polynomial::display() {
     int i;
+    float c;
 
-    printf("Equation : ");
     for (i = 0; i < this->n_terms; i++) 
     {
-        printf("%0.2fx^%d", this->coeffs.at(i), this->degree - i);
-        if (i < n_terms - 1) printf(" + "); // add a plus symbol
+        if (this->coeffs.at(i) != 0)
+        {   
+            if (this->coeffs.at(i) != 1) {
+                printf("%0.2f", this->coeffs.at(i));
+            }
+            if (this->degree - i != 0)
+            {
+                printf("x^%d", this->degree - i);
+            }
+            if (i < n_terms - 1 && this->coeffs.at(i) > 0) {
+                printf(" + ");
+            } 
+            else {
+                printf(" ");
+            }
+        }
     }
     printf("\n");
 }

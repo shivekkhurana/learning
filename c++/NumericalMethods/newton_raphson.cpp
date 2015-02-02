@@ -12,25 +12,25 @@ using namespace std;
 
 class NewtonRaphson
 {
-    private:
-        Polynomial polynomial;
-        Polynomial polynomial_;
-    public:
-        NewtonRaphson(Polynomial p) {
-            this->polynomial = p;
-            this->polynomial_ = p.derivative();
-        }
+private:
+    Polynomial polynomial;
+    Polynomial polynomial_;
+public:
+    NewtonRaphson(Polynomial p) {
+        this->polynomial = p;
+        this->polynomial_ = p.derivative();
+    }
 
-        float root(float error=0.001) {
-            std::vector<float> range = this->polynomial.guess_root_range();
-            float root = range.at(1);
-            while(true) {
-                printf("Root = %0.2f, value = %0.5f\n", root, this->polynomial.value(root));
-                root = root - this->polynomial.value(root)/this->polynomial_.value(root);
-                if (this->polynomial.value(root) <= error && this->polynomial.value(root) >= 0) break;
-            }
-            return root;
-        }    
+    float root(float error=0.001) {
+        std::vector<float> range = this->polynomial.guess_root_range();
+        float root = range.at(1);
+        while(true) {
+            printf("Root = %0.2f, value = %0.5f\n", root, this->polynomial.value(root));
+            root = root - this->polynomial.value(root)/this->polynomial_.value(root);
+            if (this->polynomial.value(root) <= error && this->polynomial.value(root) >= 0) break;
+        }
+        return root;
+    }    
 };
 
 
