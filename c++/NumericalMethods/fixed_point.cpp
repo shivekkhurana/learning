@@ -1,3 +1,5 @@
+// Roots by Fixed Point Method
+
 #include <cmath>
 #include <cstdio>
 #include <cstdlib>
@@ -100,14 +102,14 @@ int main(int argc, char* argv[]) {
     p.display();
     fpf.display();
 
-    printf("value of p at 0 = %0.4f\n", p.value(0));
-    printf("value of p at 1 = %0.4f\n", p.value(1));
-    printf("value of fpf at 0 = %0.4f\n", fpf.value(0));
-    printf("value of fpf at 1 = %0.4f\n", fpf.value(1));
+    // printf("value of p at 0 = %0.4f\n", p.value(0));
+    // printf("value of p at 1 = %0.4f\n", p.value(1));
+    // printf("value of fpf at 0 = %0.4f\n", fpf.value(0));
+    // printf("value of fpf at 1 = %0.4f\n", fpf.value(1));
 
-    //FixedPoint f = FixedPoint(p);
+    FixedPoint f = FixedPoint(p);
 
-    //printf("Root is %0.3f\n", f.root());
+    printf("Root is %0.3f\n", f.root());
 
     return 0;
 }

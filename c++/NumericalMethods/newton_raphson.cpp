@@ -1,3 +1,5 @@
+// Roots by Newton Raphson Method
+
 #include <cmath>
 #include <cstdio>
 #include <cstdlib>

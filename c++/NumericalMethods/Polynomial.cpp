@@ -1,3 +1,5 @@
+// Class to hold Polynomial
+
 #include <cmath>
 #include <cstdio>
 #include <cstdlib>

@@ -31,7 +31,7 @@ def download_all(url, out_folder="tumblr_crawled_data"):
 			except OSError as e:
 				os.mkdir(out_folder)
 
-urls = ['http://call-0f-duty.tumblr.com/page/']
+urls = ['http://floveorgastic.tumblr.com/page/', 'http://call-0f-duty.tumblr.com/page/']
 pages = list(range(1,135));
 
 def main():
@@ -41,8 +41,9 @@ def main():
 			print u
 			try:
 				download_all(u)
-			except IOError:
-				continue
+			except IOError, e:
+				print e
+                break
 
 if __name__ == '__main__':
 	main()
