@@ -9,7 +9,7 @@ Usage:
 """
 
 import sys
-# import tkinter
+import tkinter
 
 
 class Person(object):
@@ -89,32 +89,32 @@ def things():
     )
 
 
-# class Gui(object):
-#     def __init__(self):
-#         object.__init__(self)
-#         self.window = tkinter.Tk()
-#         self.people_inside_label = tkinter.Label(
-#             self.window,
-#             text=", ".join(list(person.name + " - " + str(person.age) for person in people()))
-#         )
-#         self.people_inside_label.pack(side=tkinter.TOP, fill=tkinter.X)
-#
-#         self.queries = tkinter.Entry(self.window, width=80)
-#         self.queries.pack(side=tkinter.TOP, fill=tkinter.X)
-#
-#         self.submit = tkinter.Button(self.window, text="Submit", command=self.process)
-#         self.submit.pack(side=tkinter.RIGHT)
-#
-#         self.output = tkinter.Label(self.window, text="")
-#         self.output.pack(side=tkinter.LEFT)
-#
-#     def show(self):
-#         self.window.mainloop()
-#
-#     def process(self):
-#         queries = self.queries.get()
-#         going_out = [person.name for person in people() if person.name in queries]
-#         self.output.config(text=str(list(what_when(going_out))))
+class Gui(object):
+    def __init__(self):
+        object.__init__(self)
+        self.window = tkinter.Tk()
+        self.people_inside_label = tkinter.Label(
+            self.window,
+            text=", ".join(list(person.name + " - " + str(person.age) for person in people()))
+        )
+        self.people_inside_label.pack(side=tkinter.TOP, fill=tkinter.X)
+
+        self.queries = tkinter.Entry(self.window, width=80)
+        self.queries.pack(side=tkinter.TOP, fill=tkinter.X)
+
+        self.submit = tkinter.Button(self.window, text="Submit", command=self.process)
+        self.submit.pack(side=tkinter.RIGHT)
+
+        self.output = tkinter.Label(self.window, text="")
+        self.output.pack(side=tkinter.LEFT)
+
+    def show(self):
+        self.window.mainloop()
+
+    def process(self):
+        queries = self.queries.get()
+        going_out = [person.name for person in people() if person.name in queries]
+        self.output.config(text=str(list(what_when(going_out))))
 
 
 def what_when(going_out):
@@ -126,9 +126,9 @@ def what_when(going_out):
 
 
 def main(goes_out):
-    # Gui()
     for todo in what_when(goes_out):
         print(todo)
+
 if __name__ == "__main__":
     if len(sys.argv) == 1:
         print(__doc__)
@@ -138,11 +138,7 @@ if __name__ == "__main__":
             print(p)
 
     elif sys.argv[1] == '-g':
-        pass
-        # Gui().show()
+        Gui().show()
 
     elif sys.argv[1][0:2] == '-p':
         main([arg for arg in sys.argv[1][3:].split(',')])
-
-
-
