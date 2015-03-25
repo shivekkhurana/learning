@@ -7,13 +7,10 @@ var converter = new Showdown.converter();
 
 var Comment = React.createClass({
   render: function() {
-    var rawCommentMarkup = converter.makeHtml(this.props.children.toString()); 
-    console.log(rawCommentMarkup);
     return (
       <div className="comment">
-        <h2 className="author"> {this.props.author} </h2>
-        <span className="rawComment"> {this.props.children} </span>
-        <span dangerouslySetInnerHtml={{__html: "s"}} />
+        <h2 className="author"> {this.props.author} </h2> 
+        <span dangerouslySetInnerHTML={{__html: converter.makeHtml(this.props.children.toString())}} />
       </div>
     );
   }
@@ -37,27 +34,56 @@ var CommentList = React.createClass({
 });
 
 var CommentForm = React.createClass({
+  handleSubmit: function() {
+    
+  }, 
   render: function() {
     return (
-      <div class="commentForm">
-        Comment form 
-      </div>
+      <form className="commentForm" onSubmit={this.handleSubmit}>
+        <label for="full_name">Full Name</label>
+        <input type="text" id="full_name" placeholder="Your full name" />
+
+        <label for="date_of_birth">Date of Birth</label>
+        <input type="date" id="date_of_birth" />
+
+        <input type="submit" value="submit" />
+      </form>
     );
   }
 });
 
 var CommentBox = React.createClass({
+  getInitialState: function() {
+    return {data: []};
+  },
+  componentDidMount: function() {
+    var component = this;
+    $.ajax({
+        url: this.props.url,
+        dataType:  'json'
+      })
+      .done(function(data, status, xhr) {
+        component.setState({data:data});
+      })
+      .fail(function(xhr, status, error) {
+        console.log(error);
+      })
+    ;
+  },
   render: function() {
     return (
       <div className="commentBox">
         <h1>Comments</h1>
-        <CommentList data={this.props.data} />
+        <CommentList data={this.state.data} />
+        
+        <h1>Add a new comment</h1>
+        <CommentForm />
       </div>
     );
   },
 });
 
 React.render(
-  <CommentBox data={data}/>,
+  <CommentBox url="MOCK_DATA.json"/>,
   document.getElementById('content')
 );
