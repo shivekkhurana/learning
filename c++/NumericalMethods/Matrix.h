@@ -3,28 +3,34 @@
 
 class Matrix {
 
-protected:
-    std::vector< std::vector<double> > matrix;
+private:
+    std::vector< std::vector<double> > raw_matrix;
     int rows, columns;
 
 public:
     Matrix();
-    Matrix(int rows, double with=0);
-    Matrix(int rows, int columns, double with=0);
-    double at(int i, int j);
-    void display();
+    Matrix(int rows, double fill=0);
+    Matrix(int rows, int columns, double fill=0);
+    Matrix(const Matrix& rhs);
     
-    // static Matrix<T> ones(int n);
-    // Matrix<T> operator+(const& Matrix<T> rhs);
-    // Matrix<T> operator+=(const& Matrix<T> rhs);    
-    // Matrix<T> operator-();
-    // Matrix<T> operator-=();  
-    // Matrix<T> operator*();
-    // Matrix<T> operator*=();
-    // Matrix<T> Transpose();
-    // Matrix<T> GaussElimination();
-    // std::vector<Matrix<T>> LUDecomposition();
-    // Matrix<T> Inverse();
+    double& operator()(const int& i, const int& j);
+    const double& operator()(const int& i, const int& j) const;
+    int get_rows() const;
+    int get_columns() const;
+    
+    void display();
+
+    double determinant();
+    // Matrix transpose();
+    // Matrix Inverse();
+
+    Matrix& operator=(const Matrix& rhs);
+    Matrix operator+(const Matrix& rhs);
+    // Matrix& operator+=(const Matrix& rhs);    
+    Matrix operator-(const Matrix& rhs);
+    // Matrix& operator-=(const Matrix& rhs);  
+    Matrix operator*(const Matrix& rhs);
+    // Matrix operator*=();
 };
 
 #endif
