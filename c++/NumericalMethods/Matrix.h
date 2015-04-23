@@ -15,6 +15,7 @@ public:
     
     int get_rows() const;
     int get_columns() const;
+    void scan();
     void display();
     double determinant();
     // Matrix transpose();

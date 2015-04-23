@@ -55,6 +55,15 @@ int Matrix::get_columns() const{
     return this->raw_matrix[0].size();
 }
 
+void Matrix::scan() {
+    for (int i = 0; i < this->get_rows(); i++) {
+        for (int j = 0; j < this->get_columns(); j++) {
+            printf("Enter value for row %d column %d : ", i, j);
+            printf("\n");
+        }
+    }
+}
+
 void Matrix::display() {
     int rows = this->get_rows();
     int columns = this->get_columns();
@@ -65,11 +74,10 @@ void Matrix::display() {
     }
 
     for (int i = 0; i < rows; i++){
-        std::cout << "|  ";
         for (int j = 0; j < columns; j++) {
             std::cout << this->raw_matrix[i][j] << "  ";
         }
-        std::cout << "|\n";
+        std::cout << "\n";
     }
     std::cout << "\n";
 }

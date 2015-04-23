@@ -1,0 +1,3 @@
+nltk==3.0.2
+textblob==0.9.0
+textblob-aptagger==0.2.0

@@ -18,6 +18,9 @@ chebyshev : Polynomial.o chebyshev.cpp
 newton_raphson_complex : newton_raphson_complex.cpp
 	g++ newton_raphson_complex.cpp -o newton_raphson_complex
 
+rk_method : rk_method.cpp Matrix.o
+	g++ rk_method.cpp Matrix.o -o rk_method
+
 test : Matrix.o test.cpp
 	g++ Matrix.o test.cpp -o test
 
@@ -29,4 +32,4 @@ Matrix.o : Matrix.cpp
 	g++ -c Matrix.cpp
 
 clean : 
-	rm -rf *.o bisection false_position newton_raphson fixed_point chebyshev newton_raphson_complex
+	rm -rf *.o bisection false_position newton_raphson fixed_point chebyshev newton_raphson_complex rk_method
