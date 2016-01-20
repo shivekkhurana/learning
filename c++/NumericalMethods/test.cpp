@@ -6,12 +6,18 @@
 
 int main(int argc, char const *argv[])
 {
-    Matrix m(5, 2, 2);
-    Matrix n(2, 1, 4);
-    printf("Before Assignment\n");
+    Matrix m(2, 1.8);
+    Matrix n(2, 4.0);
+    // printf("Before Assignment\n");
     m.display();
-    printf("After Assignment\n");
-    //l.display();
+    n.display();
+    m(1,1) = 5;
+    m.display();
+    Matrix l;
+    m*=n;
+    m.display();
+    Matrix j(5);
+    j.scan();
 
     return 0;
 }

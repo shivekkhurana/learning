@@ -40,26 +40,46 @@ Matrix::Matrix(const Matrix& rhs) {
  */
 
 int Matrix::get_rows() const{
+    if (this->raw_matrix.empty()) {
+        printf("Cannot get row count for an empty matrix\n");
+        throw std::exception();
+    }
     return this->raw_matrix.size();
 }
 
-int Matrix::get_columns() const{
-    printf("get rows called, returning : %f\n", this->raw_matrix[1].size()); 
-    return this->raw_matrix[1].size();
+int Matrix::get_columns() const{ 
+    if (this->raw_matrix[0].empty()) {
+        printf("Cannot get row count for an empty matrix\n");
+        throw std::exception();
+    }
+    return this->raw_matrix[0].size();
+}
+
+void Matrix::scan() {
+    for (int i = 0; i < this->get_rows(); i++) {
+        for (int j = 0; j < this->get_columns(); j++) {
+            printf("Enter value for row %d column %d : ", i, j);
+            printf("\n");
+        }
+    }
 }
 
 void Matrix::display() {
-    if (this->get_rows() <= 0 && this->get_columns() <= 0) {
+    int rows = this->get_rows();
+    int columns = this->get_columns();
+
+    if (rows <= 0 && columns <= 0) {
         printf("Cannot display empty matrix\n");
         throw std::exception();
     }
 
-    for (int i = 0; i < this->get_rows(); i++){
-        for (int j = 0; j < this->get_columns(); j++) {
+    for (int i = 0; i < rows; i++){
+        for (int j = 0; j < columns; j++) {
             std::cout << this->raw_matrix[i][j] << "  ";
         }
         std::cout << "\n";
     }
+    std::cout << "\n";
 }
 
 double Matrix::determinant() {
@@ -97,17 +117,25 @@ Matrix& Matrix::operator=(const Matrix& rhs) {
 }
 
 Matrix Matrix::operator+(const Matrix& rhs) {
-    if (this->get_rows() != rhs.get_rows() && this->get_columns() != rhs.get_columns()) {
+    int rows = this->get_rows();
+    int columns = this->get_columns();
+
+    if (!(rows == rhs.get_rows() && columns == rhs.get_columns())) {
         printf("Matrix dimensions do not agree.\n");
         throw std::exception();
     }
 
-    for (int i = 0; i < this->get_rows(); i++) {
-        for (int j = 0; j < this->get_columns(); j++) {
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < columns; j++) {
             this->raw_matrix[i][j] += rhs(i, j);
         }
     }
 
+    return *this;
+}
+
+Matrix& Matrix::operator+=(const Matrix& rhs) {
+    *this = *this + rhs;
     return *this;
 }
 
@@ -126,6 +154,10 @@ Matrix Matrix::operator-(const Matrix& rhs) {
     return *this;
 }
 
+Matrix& Matrix::operator-=(const Matrix& rhs) {
+    *this = *this - rhs;
+    return *this;
+}
 
 Matrix Matrix::operator*(const Matrix& rhs) {
     if (this->get_columns() != rhs.get_rows()) {
@@ -146,4 +178,9 @@ Matrix Matrix::operator*(const Matrix& rhs) {
     }
 
     return result;
+}
+
+Matrix& Matrix::operator*=(const Matrix& rhs) {
+    *this = *this * rhs;
+    return *this;
 }

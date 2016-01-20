@@ -13,24 +13,23 @@ public:
     Matrix(int rows, int columns, double fill=0);
     Matrix(const Matrix& rhs);
     
-    double& operator()(const int& i, const int& j);
-    const double& operator()(const int& i, const int& j) const;
     int get_rows() const;
     int get_columns() const;
-    
+    void scan();
     void display();
-
     double determinant();
     // Matrix transpose();
-    // Matrix Inverse();
+    // Matrix inverse();
 
+    double& operator()(const int& i, const int& j);
+    const double& operator()(const int& i, const int& j) const;
     Matrix& operator=(const Matrix& rhs);
     Matrix operator+(const Matrix& rhs);
-    // Matrix& operator+=(const Matrix& rhs);    
+    Matrix& operator+=(const Matrix& rhs);    
     Matrix operator-(const Matrix& rhs);
-    // Matrix& operator-=(const Matrix& rhs);  
+    Matrix& operator-=(const Matrix& rhs);  
     Matrix operator*(const Matrix& rhs);
-    // Matrix operator*=();
+    Matrix& operator*=(const Matrix& rhs);
 };
 
 #endif
