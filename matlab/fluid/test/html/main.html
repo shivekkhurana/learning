@@ -1,0 +1,319 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>main</title><meta name="generator" content="MATLAB 8.1"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2016-01-15"><meta name="DC.source" content="main.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img { margin-bottom:0px; } 
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, tt, code { font-size:12px; }
+pre { margin:0px 0px 20px; }
+pre.error { color:red; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><h2>Contents</h2><div><ul><li><a href="#2">User constraints</a></li><li><a href="#4">Constants</a></li><li><a href="#5">Computation of Kij</a></li><li><a href="#6">Now let's assemble Kij</a></li><li><a href="#7">Getting the RHS Temperature Matrix</a></li><li><a href="#8">Assembling the RHS</a></li><li><a href="#10">Helper Functions</a></li></ul></div><pre class="codeinput"><span class="keyword">function</span> [] = main()
+</pre><h2>User constraints<a name="2"></a></h2><pre class="codeinput">    num_elements = input(<span class="string">'Number of elemements : '</span>);
+    order = input(<span class="string">'Order of each element : '</span>);
+
+    boundary_u0 = input(<span class="string">'Boundary value u0 : '</span>);
+    boundary_uL = input(<span class="string">'Boundary value uL : '</span>);
+
+    run(num_elements, order, boundary_u0, boundary_uL);
+</pre><pre class="codeoutput">Error using input
+Cannot call INPUT from EVALC.
+
+Error in main (line 6)
+    num_elements = input('Number of elemements : ');
+</pre><pre class="codeinput"><span class="keyword">end</span>
+
+<span class="keyword">function</span> [] = run(num_elements, order, boundary_u0, boundary_uL)
+</pre><h2>Constants<a name="4"></a></h2><pre class="codeinput">    kappa = 385;
+    beta = 25;
+    T0 = 100;
+    Tinf = 20; <span class="comment">%Temp. at infinity</span>
+    P = .012; <span class="comment">%Pressure constant</span>
+    A = 0.000005; <span class="comment">%Area of cross section</span>
+    start = 0;
+    L = 0.1;
+</pre><h2>Computation of Kij<a name="5"></a></h2><pre class="codeinput">    <span class="comment">% Zaye using lagrange</span>
+    zaye = lagrange(order, start, L);
+    disp(<span class="string">'The computed zaye function is : '</span>);
+    disp(zaye);
+    syms <span class="string">T</span>;
+    <span class="keyword">for</span> i=1:order+1
+        <span class="keyword">for</span> j=1:order+1
+            K(i, j) = int(kappa*A*diff(zaye(1, i))*diff(zaye(1, j)) + beta*A*(T-T0), start, L/num_elements);
+        <span class="keyword">end</span>
+    <span class="keyword">end</span>
+    disp(<span class="string">'The Kij matrix is : '</span>);
+    disp(K);
+</pre><h2>Now let's assemble Kij<a name="6"></a></h2><pre class="codeinput">    assembeledMatrix = zeros(num_elements+1);
+    <span class="keyword">for</span> i=1:num_elements
+        assembeledMatrix(i, i) = assembeledMatrix(i, i) + K(1, 1);
+        assembeledMatrix(i, i+1) = assembeledMatrix(i, i+1) + K(1, 2);
+        assembeledMatrix(i+1, i) = assembeledMatrix(i+1, i) + K(2, 1);
+        assembeledMatrix(i+1, i+1) = assembeledMatrix(i+1, i+1) + K(2, 2);
+    <span class="keyword">end</span>
+    disp(<span class="string">'The assembeled matrix is : '</span>);
+    disp(assembeledMatrix);
+</pre><h2>Getting the RHS Temperature Matrix<a name="7"></a></h2><pre class="codeinput">    RHSFunction=@(x,k)(beta*P*(x - T0));
+    F = zeros(num_elements+1, 1);
+
+    <span class="keyword">for</span> i=1:num_elements
+        F(i, 1) = RHSFunction(i, order); <span class="comment">%TODO : Something here</span>
+    <span class="keyword">end</span>
+</pre><h2>Assembling the RHS<a name="8"></a></h2><pre class="codeinput">    assembeledF = zeros(num_elements+1, 1);
+    <span class="keyword">for</span> i=1:num_elements
+        assembeledF(i, 1) = assembeledF(i, 1) + F(i, 1);
+        assembeledF(i+1, 1) = assembeledF(i+1, 1) + F(i+1, 1);
+    <span class="keyword">end</span>
+
+    disp(<span class="string">'The assembeled F is : '</span>);
+    disp(assembeledF);
+
+    disp(<span class="string">'The inverse of assembeled matrix is : '</span>);
+    disp(inv(assembeledMatrix));
+
+    <span class="comment">% Imposing boundary conditions</span>
+
+    disp(<span class="string">'The U matrix is'</span>);
+    U = inv(assembeledMatrix)*F;
+    disp(U);
+</pre><pre class="codeinput"><span class="keyword">end</span> <span class="comment">%end main</span>
+</pre><h2>Helper Functions<a name="10"></a></h2><pre class="codeinput"><span class="comment">% Gauss Quadrature</span>
+<span class="keyword">function</span> [ S ] = gaussQuadrature(Integ,start,last,order)
+
+    syms <span class="string">t</span> <span class="string">x</span>
+
+    c1=(start+last)/2;
+    c2=(last-start)/2;
+
+    S=0;
+    <span class="keyword">if</span> order==1
+         w(1)=0;
+         W(1)=2;
+         s=matlabFunction(c2*subs(Integ,x,c1+c2*t));
+    <span class="keyword">elseif</span> order==2
+         w(1)= -1/sqrt(3);w(2)= 1/sqrt(3);
+         W(1)=1;W(2)=1;
+         subs(Integ,x,c1+c2*t);
+         s=matlabFunction(c2*subs(Integ,x,c1+c2*t));
+    <span class="keyword">elseif</span> order==3
+         w(1)=5/9; w(2)=8/9; w(3)=5/9;
+         W(1)=-sqrt(3/5);W(2)=0;W(3)=sqrt(3/5);
+    <span class="keyword">end</span>
+
+    <span class="keyword">for</span> i=1:order
+        S=S+W(i)*s(w(i));
+    <span class="keyword">end</span>
+<span class="keyword">end</span>
+
+
+<span class="comment">% Lagrange</span>
+<span class="keyword">function</span> [ sig ] = lagrange(n,start,he)
+    P=1;
+    syms <span class="string">x</span>;
+    <span class="keyword">for</span> i=start+1:n+1
+        <span class="keyword">for</span> j=start+1:n+1
+            <span class="keyword">if</span> (j-1)~=(i-1)
+            P=P*(x-(j-1)*he/n)/((i-1)*he/n -(j-1)*he/n);
+            <span class="keyword">end</span>
+        <span class="keyword">end</span>
+        sig(i)=P;
+        P=1;
+    <span class="keyword">end</span>
+<span class="keyword">end</span>
+</pre><p class="footer"><br><a href="http://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2013a</a><br></p></div><!--
+##### SOURCE BEGIN #####
+function [] = main()
+    
+
+    %% User constraints
+
+    num_elements = input('Number of elemements : ');
+    order = input('Order of each element : ');
+
+    boundary_u0 = input('Boundary value u0 : ');
+    boundary_uL = input('Boundary value uL : ');
+    
+    run(num_elements, order, boundary_u0, boundary_uL);
+
+end
+
+function [] = run(num_elements, order, boundary_u0, boundary_uL)
+    %% Constants
+
+    kappa = 385;
+    beta = 25;
+    T0 = 100;
+    Tinf = 20; %Temp. at infinity
+    P = .012; %Pressure constant
+    A = 0.000005; %Area of cross section
+    start = 0;
+    L = 0.1;
+    
+    %% Computation of Kij
+
+    % Zaye using lagrange
+    zaye = lagrange(order, start, L);
+    disp('The computed zaye function is : ');
+    disp(zaye);
+    syms T;
+    for i=1:order+1
+        for j=1:order+1
+            K(i, j) = int(kappa*A*diff(zaye(1, i))*diff(zaye(1, j)) + beta*A*(T-T0), start, L/num_elements);
+        end
+    end
+    disp('The Kij matrix is : ');
+    disp(K);
+    
+    %% Now let's assemble Kij
+    assembeledMatrix = zeros(num_elements+1);
+    for i=1:num_elements
+        assembeledMatrix(i, i) = assembeledMatrix(i, i) + K(1, 1);
+        assembeledMatrix(i, i+1) = assembeledMatrix(i, i+1) + K(1, 2);
+        assembeledMatrix(i+1, i) = assembeledMatrix(i+1, i) + K(2, 1);
+        assembeledMatrix(i+1, i+1) = assembeledMatrix(i+1, i+1) + K(2, 2);
+    end
+    disp('The assembeled matrix is : ');
+    disp(assembeledMatrix);
+
+    %% Getting the RHS Temperature Matrix
+    RHSFunction=@(x,k)(beta*P*(x - T0));
+    F = zeros(num_elements+1, 1);
+    
+    for i=1:num_elements
+        F(i, 1) = RHSFunction(i, order); %TODO : Something here
+    end
+    
+    %% Assembling the RHS
+    
+    assembeledF = zeros(num_elements+1, 1);
+    for i=1:num_elements
+        assembeledF(i, 1) = assembeledF(i, 1) + F(i, 1);
+        assembeledF(i+1, 1) = assembeledF(i+1, 1) + F(i+1, 1);
+    end
+    
+    disp('The assembeled F is : ');
+    disp(assembeledF);
+    
+    disp('The inverse of assembeled matrix is : ');
+    disp(inv(assembeledMatrix));
+    
+    % Imposing boundary conditions
+    
+    disp('The U matrix is');
+    U = inv(assembeledMatrix)*F;
+    disp(U);
+    
+end %end main
+
+%% Helper Functions
+
+% Gauss Quadrature
+function [ S ] = gaussQuadrature(Integ,start,last,order)
+
+    syms t x
+
+    c1=(start+last)/2;
+    c2=(last-start)/2;
+
+    S=0;
+    if order==1
+         w(1)=0;
+         W(1)=2;
+         s=matlabFunction(c2*subs(Integ,x,c1+c2*t));
+    elseif order==2
+         w(1)= -1/sqrt(3);w(2)= 1/sqrt(3);
+         W(1)=1;W(2)=1;
+         subs(Integ,x,c1+c2*t);
+         s=matlabFunction(c2*subs(Integ,x,c1+c2*t));
+    elseif order==3
+         w(1)=5/9; w(2)=8/9; w(3)=5/9;
+         W(1)=-sqrt(3/5);W(2)=0;W(3)=sqrt(3/5);
+    end
+
+    for i=1:order 
+        S=S+W(i)*s(w(i));
+    end
+end
+
+
+% Lagrange
+function [ sig ] = lagrange(n,start,he)
+    P=1;    
+    syms x;
+    for i=start+1:n+1
+        for j=start+1:n+1
+            if (j-1)~=(i-1)
+            P=P*(x-(j-1)*he/n)/((i-1)*he/n -(j-1)*he/n);
+            end
+        end
+        sig(i)=P;
+        P=1;
+    end 
+end
+
+
+
+
+
+
+
+
+##### SOURCE END #####
+--></body></html>
