@@ -4,18 +4,12 @@ function [ value ] = numerical_integration2D(f, x_lower, x_upper, y_lower, y_upp
     
     syms x y;
     f(x, y) = matlabFunction(f);  
+    x_order = length(sym2poly(f(x, 1))) - 1;
+    y_order = length(sym2poly(f(1, y))) - 1;
 
-    try
-        x_order = length(sym2poly(f(x, 1))) - 1;
-        y_order = length(sym2poly(f(1, y))) - 1;
-
-        order = max(x_order, y_order);
-    catch
-        order = 3;
-    end
-
+    order = max(x_order, y_order);
     num_gauss_points = ceil((order+1)/2);
-        
+    
     c1 = (x_lower+x_upper)/2;
     c2 = (x_upper-x_lower)/2;
     

@@ -1,8 +1,5 @@
-function [ value ] = numerical_integration2D(f, x_lower, x_upper, y_lower, y_upper)
-    
-    disp('Staring numerical integration in 2D');
-    
-    syms x y;
+function [value] = numerical_integration2D(f, x_lower, x_upper, y_lower, y_upper)
+	syms x y;
     f(x, y) = matlabFunction(f);  
 
     try
@@ -22,6 +19,7 @@ function [ value ] = numerical_integration2D(f, x_lower, x_upper, y_lower, y_upp
     syms t z;
     x_trans(t) = c1 + c2*t;
     
+
     c3 = (y_lower+y_upper)/2;
     c4 = (y_upper-y_lower)/2;
     
@@ -59,4 +57,3 @@ function [ value ] = numerical_integration2D(f, x_lower, x_upper, y_lower, y_upp
     end
     value = double(value);
 end
-

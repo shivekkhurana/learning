@@ -1,9 +1,9 @@
-function [ a ] = assembly(k, connectivity)
+function [ a ] = assembly(ki, connectivity)
     elements = size(connectivity, 1);
     fprintf('Connecting %d elements\n', elements);
     
-    kRows = size(k, 1);
-    kCols = size(k, 2);
+    kRows = size(ki, 1);
+    kCols = size(ki, 2);
     
     if (kCols > 1)
         % Assembly of K
@@ -15,7 +15,7 @@ function [ a ] = assembly(k, connectivity)
                     rowIndex = connectivity(e, i);
                     colIndex = connectivity(e, j);
 
-                    a(rowIndex, colIndex) = a(rowIndex, colIndex) + k(i, j);
+                    a(rowIndex, colIndex) = a(rowIndex, colIndex) + ki(i, j, e);
                 end
             end
         end
@@ -25,7 +25,7 @@ function [ a ] = assembly(k, connectivity)
         
         for e=1:elements
             for i=1:kRows
-                a(connectivity(e, i)) = a(connectivity(e, i)) + k(i);
+                a(connectivity(e, i)) = a(connectivity(e, i)) + ki(i, 1, e);
             end
         end
     end
