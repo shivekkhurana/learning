@@ -13,8 +13,8 @@ clear all; clc; close all;
 
 
 %% Inputs
-numElementsX = 4; %input('Enter number of quadilaterals along x-direction : ');
-numElementsY = 4; %input('Enter number of quadilaterals along y-direction : ');
+numElementsX = 6; %input('Enter number of quadilaterals along x-direction : ');
+numElementsY = 6; %input('Enter number of quadilaterals along y-direction : ');
 numElements = numElementsX*numElementsY;
 numNodesX = numElementsX + 1;
 numNodesY = numElementsY + 1;
@@ -111,9 +111,15 @@ riverNodes = find(coordinatesVector(:, 1) == riverXCoord(coordinatesVector(:, 2)
 U(riverNodes) = 2000;
 fprintf('done\n');
 
+% We know something about source too
+% Get source pump enclosing nodes
+
 fprintf('Computing boundary conditions on secondary variable Q ... ');
 Q = zeros(numNodes, 1);
 Q(riverNodes) = NaN;
+
+% sample of boundary condition U = 30 when x = 2
+% Q(coordinatesVector(:, 1) == 2) = 30;
 fprintf('done\n');
 
 fprintf('Applying boundary conditions ... ');
